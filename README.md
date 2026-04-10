@@ -150,7 +150,7 @@ Trabajamos para desarrollar una solución tecnológica integral basada en Intern
 <table>
   <tr>
     <th>
-      <img src="img/Enrique.png" width="800px">
+      <img src="img/Enrique.png" width="500px">
     </th>
     <td valign="top">
       <p><b>Jose Enrique Vargas Javier</b></p>
