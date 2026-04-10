@@ -14,8 +14,7 @@
 </p>
 
 <p align="center">
-    <strong>Startup: </strong><br>
-    <strong>Producto: </strong>
+    <strong>Startup: CryoGuard </strong><br>
 </p>
 
 <div style="text-align:center;">
@@ -42,8 +41,8 @@
             <td></td>
         </tr>
          <tr>
-            <td></td>
-            <td></td>
+            <td>Vargas Javier, Jose Enrique</td>
+            <td>U20221F693</td>
          </tr>
     </table>
 </div>
@@ -151,7 +150,7 @@ Trabajamos para desarrollar una solución tecnológica integral basada en Intern
 <table>
   <tr>
     <th>
-      <img src="img/.jpg" width="800px">
+      <img src="img/Enrique.png" width="800px">
     </th>
     <td valign="top">
       <p><b>Jose Enrique Vargas Javier</b></p>
