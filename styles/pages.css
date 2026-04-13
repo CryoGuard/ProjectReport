@@ -1,0 +1,37 @@
+/* Cover */
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cover > p {
+  text-align: center;
+}
+.cover > img {
+  height: 4.5cm;
+  width: 4.5cm;
+}
+.cover > table {
+  text-align: center;
+  width: 80%;
+}
+
+/* Collaboration Insights */
+
+.insights > table > tr > tr + td {
+  border-top: 0px solid;
+}
+
+/* Students Profile */
+
+.students-profile > tr > th {
+  width: 200px;
+}
+
+/* Content Table [index] */
+
+.content-table a {
+  text-decoration: none;
+  color: black;
+  flex-shrink: 0;
+}
