@@ -918,4 +918,34 @@ _Imagen (N°7). Elaboración propia. Realizado en UXPressia_
 
 ## 2.5. Ubiquitous Language
 
+El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto CryoGuard. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no técnicos) compartan una comprensión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
+
+| Término | Descripción |
+| --- | --- |
+| Contenedor Inteligente | Caja o unidad de transporte equipada con sensores, actuadores y sistema de control para monitorear y proteger productos biomédicos durante el traslado. |
+| Sensor | Dispositivo físico que mide variables ambientales como temperatura, humedad, vibración, ubicación GPS y estado de apertura del contenedor. |
+| Variable Crítica | Parámetro ambiental monitoreado (temperatura, humedad, vibración, ubicación, apertura) cuyo incumplimiento puede afectar la calidad del producto transportado. |
+| Rango Permitido | Valores mínimo y máximo definidos por el usuario para cada variable crítica, dentro de los cuales el producto se considera seguro. |
+| Flag | Indicador o marca generada por el sistema cuando una variable crítica sale del rango permitido, activando alertas y acciones automáticas. |
+| Edge Computing | Procesamiento de datos realizado directamente en el dispositivo (en el borde) sin depender de conectividad a internet, permitiendo análisis y respuesta en tiempo real. |
+| Controlador Central | Unidad de procesamiento principal del dispositivo CryoGuard que recibe datos de sensores, ejecuta reglas de evaluación y activa actuadores. |
+| Actuador | Componente físico que ejecuta una acción automática, como activar enfriamiento (Peltier), bloquear acceso (servo), encender LEDs o activar buzzer. |
+| Peltier | Módulo termoeléctrico utilizado para enfriamiento activo del contenedor cuando la temperatura supera el rango permitido, complementado con disipador y ventilador. |
+| Servo | Mecanismo que bloquea físicamente la apertura del contenedor cuando se detecta una condición crítica o apertura no autorizada. |
+| LED | Indicador visual luminoso (generalmente rojo, amarillo o verde) que alerta al usuario sobre el estado del sistema o condiciones críticas. |
+| Buzzer | Alerta sonora que se activa automáticamente cuando se detecta una condición crítica, llamando la atención del operador. |
+| Botón Físico | Mecanismo de control manual en el dispositivo que permite al usuario autorizado realizar override, desbloqueo, pruebas de alertas o reset del sistema. |
+| Override | Acción manual realizada por personal autorizado para anular un flag crítico, desbloquear el contenedor o desactivar alertas cuando la condición ya fue controlada. |
+| Almacenamiento Local | Memoria interna o tarjeta SD donde se guardan todos los datos de sensores y eventos durante el transporte, garantizando operación offline en zonas sin conectividad. |
+| Sincronización | Proceso de transferencia de datos almacenados localmente hacia la nube cuando se detecta disponibilidad de conexión a internet. |
+| Dashboards | Interfaz web centralizada que visualiza mapa de envíos, flags activos, logs históricos, gestión de usuarios y rutas, y modo manual remoto. |
+| Aplicación Móvil (App) | Interfaz para dispositivos móviles que permite recibir alertas en tiempo real, confirmar flags y ejecutar override manual limitado según rol del usuario. |
+| Pantalla Local | Display físico en el contenedor inteligente que muestra estado inmediato: temperatura actual, flag activo, acción recomendada y estado de LEDs/Buzzer. |
+| Geolocalización | Ubicación geográfica del contenedor obtenida mediante GPS, utilizada para monitoreo de ruta y detección de salidas de geocerca. |
+| Flag Crítico | Flag de máxima prioridad que indica una condición potencialmente dañina para los productos, activando todas las alertas y bloqueo automático del contenedor. |
+| Flag Preventivo | Flag de prioridad media que advierte sobre una condición cercana al límite permitido, permitiendo acción correctiva antes de que se vuelva crítica. |
+| ONG (Usuario Humanitario) | Perfil de usuario perteneciente a organizaciones no gubernamentales, con necesidades específicas de reportes para donantes y trazabilidad en zonas de difícil acceso. |
+| Reporte de Trazabilidad | Documento generado automáticamente que resume las condiciones del envío, flags activados, acciones tomadas y estado final de los productos. |
+| MVP (Producto Mínimo Viable) | Versión inicial de CryoGuard con funcionalidades mínimas (monitoreo de temperatura, alertas LED/buzzer, almacenamiento local) para validar hipótesis clave con usuarios reales en entornos controlados. |
+
 </div>
