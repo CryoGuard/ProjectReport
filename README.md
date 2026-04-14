@@ -737,7 +737,77 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 
 **Segmento 1: Centros de salud rurales o urbanos**
 
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>...</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>x</td>
+    <th>Distrito</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ..
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="h">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         xx
+    </td>
+  </tr>
+</table>
+
 **Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>...</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>x</td>
+    <th>Distrito</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        ..
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="h">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         xx
+    </td>
+  </tr>
+</table>
 
 ### 2.2.3. Análisis de entrevistas
 
