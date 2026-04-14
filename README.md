@@ -890,8 +890,15 @@ _Imagen (N°5). Elaboración propia. Realizado en UXPressia_
 ### 2.3.4. Empathy Mapping
 
 **Segmento 1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-2/Empathy Mapping1.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°6). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+<img src="assets/Chapter-2/Empathy Mapping2.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°7). Elaboración propia. Realizado en UXPressia_
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 </div>
 
