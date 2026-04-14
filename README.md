@@ -877,12 +877,12 @@ _Imagen (N°3). Elaboración propia. Realizado en UXPressia_
 ### 2.3.3. User Journey Mapping
 
 **Segmento 1: Centros de salud rurales o urbanos**
-<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
+<img src="assets/Chapter-2/Customer journey map 1.png" alt="User persona - segmento 2" width="600"/>
 
 _Imagen (N°4). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: ONGs y gestores de logística sanitaria)**
-<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
+<img src="assets/Chapter-2/Customer journey map 2.png" alt="User persona - segmento 2" width="600"/>
 
 _Imagen (N°5). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
