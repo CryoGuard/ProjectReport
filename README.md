@@ -455,7 +455,7 @@ Sabremos que la solución es efectiva y el modelo de negocio es viable cuando, t
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="img/ux.png" width="800px">
+<img src="img/ux.JPG" width="800px">
 
 ## 1.3. Segmentos objetivo
 
