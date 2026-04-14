@@ -772,7 +772,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
 </table>
 
-**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+**Segmento 2: ONGs y gestores de logística sanitaria**
 
 <table border="1">
   <tr>
@@ -813,7 +813,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 
 **Segmento 1: Centros de salud rurales o urbanos**
 
-**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+**Segmento 2: ONGs y gestores de logística sanitaria**
 
 </div>
 
@@ -823,27 +823,69 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 
 ## 2.3. Needfinding
 
-**Segmento 1: Centros de salud rurales o urbanos**
-
-**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
 
 ### 2.3.1. User Personas
 
 **Segmento 1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-2/Luis Mendoza.png" alt="User persona - segmento 1" width="600"/>
 
-**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
+
+**Segmento 2: ONGs y gestores de logística sanitaria**
+<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.2. User Task Matrix
 
 **Segmento 1: Centros de salud rurales o urbanos**
 
-**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+| Tarea del usuario | Frecuencia | Importancia |
+| --- | --- | --- |
+| Monitorear temperatura del contenedor durante el transporte | Alta | Alta |
+| Verificar humedad dentro del rango permitido | Media | Alta |
+| Detectar vibraciones o impactos que puedan dañar los productos | Media | Media |
+| Conocer ubicación GPS del transporte en tiempo real | Alta | Alta |
+| Recibir alertas cuando se abre el contenedor sin autorización | Baja | Alta |
+| Activar respuesta ante condición crítica (alerta visual/sonora) | Baja | Alta |
+| Revisar historial de condiciones al finalizar el trayecto | Media | Media |
+| Generar reporte de trazabilidad para auditoría | Baja | Alta |
+| Configurar rangos permitidos de temperatura y humedad | Baja | Media |
+| Sincronizar datos con la nube cuando hay conectividad | Media | Media |
+| Almacenar datos localmente durante trayectos sin internet | Alta | Alta |
+| Capacitar personal nuevo en uso del dispositivo | Baja | Alta |
+
+**Segmento 2: ONGs y gestores de logística sanitaria**
+
+| Tarea del usuario | Frecuencia | Importancia |
+| --- | --- | --- |
+| Supervisar múltiples envíos simultáneos en dashboard centralizado | Alta | Alta |
+| Identificar envíos con condiciones críticas en tiempo real | Alta | Alta |
+| Visualizar ubicación geográfica de todos los contenedores activos | Alta | Alta |
+| Recibir notificaciones remotas ante incidentes en cualquier envío | Media | Alta |
+| Consolidar reportes de trazabilidad para donantes internacionales | Media | Alta |
+| Analizar datos históricos para identificar patrones de falla en rutas | Media | Media |
+| Planificar rutas óptimas basadas en datos de incidentes previos | Media | Media |
+| Integrar datos de CryoGuard con sistemas existentes (SIGA, plataformas gubernamentales) | Baja | Alta |
+| Validar que socios locales estén usando correctamente los dispositivos | Media | Alta |
+| Generar evidencia documentada para auditorías externas | Baja | Alta |
+| Evaluar costo-beneficio de la solución para futuros proyectos | Baja | Media |
+| Capacitar a equipos locales en terreno sobre uso del dispositivo | Media | Alta |
 
 ### 2.3.3. User Journey Mapping
 
 **Segmento 1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
 
-**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+_Imagen (N°4). Elaboración propia. Realizado en UXPressia_
+
+**Segmento 2: ONGs y gestores de logística sanitaria)**
+<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°5). Elaboración propia. Realizado en UXPressia_
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.4. Empathy Mapping
 
