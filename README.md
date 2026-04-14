@@ -217,17 +217,17 @@ ABET – EAC - Student Outcome 4
 
 <h6> Nombre del Startup: CryoGuard </h6>
 
-CryoGuard es una plataforma de logística predictiva diseñada para erradicar las pérdidas en la cadena de frío de productos biomédicos y vacunas. Mientras que las soluciones estándar se limitan a reportar daños cuando ya es tarde, CryoGuard combina sensores de alta precisión con Edge Computing para auditar variables críticas (temperatura, vibración, aperturas) y predecir desviaciones térmicas antes de que comprometan el producto.
+CryoGuard es una plataforma de logística predictiva diseñada para reducir significativamente las pérdidas en la cadena de frío de productos biomédicos y vacunas. Mientras que las soluciones estándar se limitan a reportar daños cuando ya es tarde, CryoGuard combina sensores de alta precisión con Edge Computing para auditar variables críticas (temperatura, vibración, aperturas) y predecir desviaciones térmicas antes de que comprometan el producto.
 
-Diseñado para rutas complejas, el hardware cuenta con una autonomía energética de hasta 45 días y capacidad de almacenamiento 100% offline para más de 50,000 registros, garantizando que la trazabilidad nunca se pierda en zonas sin cobertura. Al recuperar la conectividad, el sistema sincroniza la data automáticamente. Nuestra solución permite a centros de salud y operadores logísticos transformar su cadena de frío de reactiva a proactiva, asegurando el cumplimiento normativo y salvando inventarios críticos.
+Diseñado para rutas complejas, el hardware cuenta con una autonomía energética extendida para trayectos prolongados y capacidad de almacenamiento offline para más de 50,000 registros, minimizando la pérdida de trazabilidad incluso en entornos sin conectividad en zonas sin cobertura. Al recuperar la conectividad, el sistema sincroniza la data automáticamente. Nuestra solución permite a centros de salud y operadores logísticos transformar su cadena de frío de reactiva a proactiva, asegurando el cumplimiento normativo y salvando inventarios críticos.
 
 ###### **Visión**
 
-Visualizamos una logística sanitaria de 'cero pérdidas' en América Latina. Nuestra visión es que la tecnología predictiva de CryoGuard se convierta en el estándar que garantice la integridad del 100% de las vacunas y tratamientos críticos. Transformaremos un sistema vulnerable en una red infalible y totalmente auditable, asegurando que cada suministro llegue viable a su destino, sin importar los desafíos geográficos o la falta de conectividad.
+Visualizamos una logística sanitaria de 'mínimas pérdidas' en América Latina. Nuestra visión es que la tecnología predictiva de CryoGuard se convierta en el estándar que garantice la integridad de los productos transportados y tratamientos críticos. Transformaremos un sistema vulnerable en una red altamente confiable y totalmente auditable, asegurando que cada suministro llegue viable a su destino, sin importar los desafíos geográficos o la falta de conectividad.
 
 ###### **Misión**
 
-Nuestra misión es blindar la cadena de frío del sector salud transformando datos en acciones preventivas. Proveemos a operadores logísticos y centros médicos trazabilidad 100% auditable y analítica predictiva para erradicar las mermas por fluctuaciones térmicas, garantizar el estricto cumplimiento normativo y asegurar la calidad clínica de cada envío.
+Nuestra misión es blindar la cadena de frío del sector salud transformando datos en acciones preventivas. Proveemos a operadores logísticos y centros médicos trazabilidad altamente auditable y analítica predictiva para erradicar las mermas por fluctuaciones térmicas, garantizar el estricto cumplimiento normativo y asegurar la calidad clínica de cada envío.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -284,25 +284,25 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
 
 ###### **Descripción General de la Solución**
 
-CryoGuard es una plataforma de inteligencia operativa que transforma el transporte de productos médicos en un proceso predictivo y 100% auditable. En lugar de simplemente registrar datos, nuestro sistema procesa variables críticas (temperatura, aperturas, geolocalización) directamente en el dispositivo (Edge Computing) para anticipar rupturas en la cadena de frío antes de que ocurran.
+CryoGuard es una plataforma de inteligencia operativa que transforma el transporte de productos médicos en un proceso predictivo y altamente auditable. En lugar de simplemente registrar datos, nuestro sistema procesa variables críticas (temperatura, aperturas, geolocalización) directamente en el dispositivo (Edge Computing) para detectar tendencias de riesgo térmico antes de que se materialice una falla.
 
-Al detectar un riesgo inminente, CryoGuard detona protocolos de rescate en tiempo real (como alertas predictivas a los conductores y notificaciones de emergencia al centro de control) permitiendo decisiones operativas inmediatas que previenen la pérdida del lote. Diseñada para operar ininterrumpidamente, la solución garantiza una trazabilidad inmutable incluso en rutas sin cobertura celular, asegurando a operadores logísticos y centros de salud un cumplimiento normativo estricto y la viabilidad garantizada de sus envíos.
+Al detectar un riesgo inminente, CryoGuard detona protocolos de rescate en tiempo real (como alertas predictivas a los conductores y notificaciones de emergencia al centro de control) permitiendo decisiones operativas inmediatas que previenen la pérdida del lote. Diseñada para operar ininterrumpidamente, la solución garantiza una trazabilidad continua y verificable incluso en rutas sin cobertura celular, asegurando a operadores logísticos y centros de salud un cumplimiento normativo estricto y la mayor probabilidad de conservar la viabilidad de los envíos.
 
 ###### **Características Clave de la Solución**
 
-- **Inteligencia Predictiva Offline (Edge Computing):** Análisis de riesgos térmicos procesados directamente en el dispositivo, sin depender de la nube.
+- **Inteligencia Predictiva Offline (Edge Computing):** Análisis de riesgos térmicos procesados directamente en el dispositivo, sin depender de la nube, mediante evaluación de umbrales dinámicos y análisis de tendencias en series temporales (variación de temperatura en el tiempo).
   
 Problema que resuelve: Evita que la carga se pierda al atravesar zonas sin cobertura celular. Al detectar un riesgo, el dispositivo no espera a tener internet; toma la decisión inmediata de detonar protocolos de rescate locales (como alertar al chofer) antes de que el daño sea irreversible.
 
-- **Trazabilidad Inmutable:** Almacenamiento redundante y encriptado en memoria física que registra cada segundo del historial del viaje.
+- **Trazabilidad:** Almacenamiento redundante y encriptado en memoria física que registra cada segundo del historial del viaje.
 
-Problema que resuelve: Elimina los "puntos ciegos" de auditoría. Garantiza a las autoridades sanitarias y laboratorios un cumplimiento normativo del 100%, asegurando que la data histórica del producto no se pierda jamás, incluso si el vehículo sufre un apagón total de comunicaciones.
+Problema que resuelve: Elimina los "puntos ciegos" de auditoría. Garantiza a las autoridades sanitarias y laboratorios un alto nivel de cumplimiento normativo, asegurando que la data histórica del producto se preserve incluso ante fallos de conectividad, incluso si el vehículo sufre un apagón total de comunicaciones.
 
 - **Auditoría Ambiental Integral:** Monitoreo cruzado de temperatura, humedad y vibraciones físicas excesivas (baches severos, caídas).
   
-Previene el rechazo de lotes no solo por estrés térmico, sino por estrés mecánico. Identifica si la mala manipulación del transportista causó micro-roturas en los viales, permitiendo deslindar responsabilidades económicas de manera exacta.
+Previene el rechazo de lotes no solo por estrés térmico, sino por estrés mecánico. Identifica si la mala manipulación del transportista antes de que se materialice una ruptura de la cadena de frío, permitiendo deslindar responsabilidades económicas de manera exacta.
 
-- **Geolocalización Cruzada con Tiempos Térmicos** Monitoreo GPS y geocercas sincronizadas con la capacidad de retención de frío del empaque.
+- **Geolocalización Cruzada con Tiempos Térmicos** Monitoreo GPS y geocercas sincronizadas con la capacidad de retención de frío del empaque modelada en función del tipo de empaque térmico y condiciones ambientales.
 
 Detecta desvíos, paradas no autorizadas o tráfico pesado que amenazan el límite de tiempo del empaque térmico. Esto permite a la central logística redireccionar la carga a un puerto seguro cercano antes de que el hielo seco o gel refrigerante se agote.
 
@@ -312,15 +312,17 @@ Empodera al chofer para tomar acciones correctivas inmediatas (ej. revisar el ci
 
 ###### **Beneficios de la Solución**
 
-- **Intervención Preventiva:** Gracias al procesamiento en el borde (Edge Computing), el sistema alerta sobre tendencias de riesgo térmico horas antes de que se rompa la cadena de frío, permitiendo la intervención física del transportista o el desvío de la ruta para salvar el lote antes de que ocurra el daño.
+- **Intervención Preventiva:** Gracias al procesamiento en el borde (Edge Computing), el sistema alerta sobre tendencias de riesgo térmico con anticipación suficiente para intervención operativa de que se rompa la cadena de frío, permitiendo la intervención física del transportista o el desvío de la ruta para salvar el lote antes de que ocurra el daño.
   
-- **Cumplimiento Normativo 100% Auditable:** El almacenamiento local inmutable garantiza una bitácora forense de cada viaje. Esto permite a laboratorios y centros de salud demostrar ante las autoridades regulatorias que la viabilidad del medicamento jamás fue comprometida, eliminando el riesgo de demandas o rechazo de lotes por falta de evidencia.
+- **Cumplimiento Normativo:** El almacenamiento local resistente a pérdida de datos y con integridad verificable garantiza una bitácora forense de cada viaje. Esto permite a laboratorios y centros de salud demostrar ante las autoridades regulatorias que no se evidencian desviaciones críticas en las condiciones del transporte, eliminando el riesgo de demandas o rechazo de lotes por falta de evidencia.
 
 - **Visibilidad Logística:** Al combinar almacenamiento offline con sincronización en la nube, el sistema asegura la recuperación total de la trazabilidad. Las centrales logísticas eliminan el estrés de perder de vista sus activos críticos al atravesar zonas rurales o geográficamente complejas.
 
 - **Inteligencia Comercial y Optimización de Procesos:** La plataforma transforma el monitoreo crudo en datos estructurados listos para procesos de Business Intelligence. Esto permite a los gerentes logísticos analizar patrones históricos, evaluar objetivamente el rendimiento de sus transportistas y tomar decisiones estratégicas basadas en evidencia dura para optimizar sus redes de distribución.
 
 ###### **Tecnología y Arquitectura**
+
+El dispositivo está diseñado para operar con baterías de bajo consumo, optimizando la frecuencia de muestreo y transmisión para maximizar la autonomía durante trayectos prolongados.
 
 La arquitectura de CryoGuard está estructurada en un modelo de tres capas para garantizar un flujo de datos continuo, una latencia mínima en emergencias y una alta disponibilidad de la información:
 
@@ -369,7 +371,7 @@ El quiebre de la cadena de frío ocurre por fallos en los sistemas de refrigerac
 
 ###### **How much? (¿Cuánto?)**
 
-El impacto financiero y sanitario es masivo. Según datos de la Organización Mundial de la Salud (OMS), hasta el 50% de las vacunas a nivel mundial pueden perderse debido a fallas logísticas y de control de temperatura. A nivel financiero, estudios de inteligencia comercial (como IQVIA) estiman que la industria biofarmacéutica pierde más de $35,000 millones de dólares anuales por fallas en la cadena de frío, sin contar los costos ocultos de logística inversa para desechar los materiales biopeligrosos dañados.
+El impacto financiero y sanitario es masivo. Según datos de la Organización Mundial de la Salud (OMS), hasta el 50% de las vacunas en contextos con infraestructura limitada a nivel mundial pueden perderse debido a fallas logísticas y de control de temperatura. A nivel financiero, estudios de inteligencia comercial (como IQVIA) estiman que la industria biofarmacéutica pierde más de $35,000 millones de dólares anuales por fallas en la cadena de frío, sin contar los costos ocultos de logística inversa para desechar los materiales biopeligrosos dañados.
 
 ### 1.2.2. Lean UX Process
 
@@ -399,9 +401,9 @@ Declaración Lean UX: > "Al supervisar múltiples rutas, el administrador sufre 
 
 - **Business Outcomes**
 
-Hipótesis de Reducción de Mermas: Creemos que al transicionar de un monitoreo reactivo a uno predictivo, nuestros clientes reducirán sus pérdidas económicas por descarte de medicamentos en al menos un 40%.
+Hipótesis de Reducción de Mermas: Creemos que al transicionar de un monitoreo reactivo a uno predictivo, nuestros clientes reducirán sus pérdidas económicas por descarte de medicamentos en al menos con un objetivo inicial de reducción del 30–40%.
 
-Hipótesis de Retención/Ventas: Creemos que al garantizar un 100% de trazabilidad auditable (cero puntos ciegos), los operadores logísticos podrán ganar más licitaciones con el Estado o grandes farmacéuticas.
+Hipótesis de Retención/Ventas: Creemos que al garantizar una trazabilidad completa en condiciones operativas normales auditable (cero puntos ciegos), los operadores logísticos podrán ganar más licitaciones con el Estado o grandes farmacéuticas.
 
 - **Users**
 
@@ -413,7 +415,7 @@ Administrador Logístico (Central): Supervisando simultáneamente decenas de uni
 
 Intervención Temprana: Si proporcionamos predicciones de riesgo térmico en la plataforma web, entonces el administrador logístico podrá desviar la unidad al centro de salud más cercano antes de que la cadena de frío se rompa.
 
-Seguridad Forense: Si entregamos un reporte automatizado inmutable al finalizar el viaje, entonces el personal de la clínica receptora firmará la conformidad del lote en segundos, sin temor a responsabilidades legales.
+Seguridad Forense: Si entregamos un reporte automatizado resistente a pérdida de datos y con integridad verificable al finalizar el viaje, entonces el personal de la clínica receptora firmará la conformidad del lote en segundos, sin temor a responsabilidades legales.
 
 - **Feature Assumptions**
 
@@ -437,19 +439,19 @@ Fatiga de Alarmas: Asumimos que si enviamos notificaciones a la central por cada
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que al dotar a los operadores de transporte médico con herramientas de Edge Computing y alertas predictivas en cabina, lograremos que intervengan proactivamente antes de que ocurra una ruptura térmica, asegurando la viabilidad del 100% de los tratamientos críticos durante su trayecto.
+Creemos que al dotar a los operadores de transporte médico con herramientas de Edge Computing y alertas predictivas en cabina, lograremos que intervengan proactivamente antes de que ocurra una ruptura térmica, incrementando la probabilidad de mantener la viabilidad de los tratamientos críticos durante su trayecto.
 
 Sabremos que la solución es efectiva y el modelo de negocio es viable cuando, tras los primeros pilotos, comprobemos empíricamente que:
 
 - Tasa de Intervención Temprana: El operador atiende y reacciona a las alertas físicas (LED/Buzzer) en la cabina en un tiempo menor a 15 minutos, evitando la exposición prolongada del producto.
 
-- Reducción de Mermas: Logramos una reducción mínima del 40% en la tasa de rechazo de lotes o pérdida total de inventario atribuible a fluctuaciones térmicas en las rutas monitoreadas.
+- Reducción de Mermas: Logramos un objetivo inicial de reducción del 30–40%, en la tasa de rechazo de lotes o pérdida total de inventario atribuible a fluctuaciones térmicas en las rutas monitoreadas.
 
 - Integridad de la Trazabilidad: Alcanzamos un 99.9% de recuperación de datos históricos al finalizar los viajes, demostrando que el almacenamiento offline elimina los puntos ciegos causados por las zonas sin cobertura celular.
 
-- Eficiencia en el Centro de Control: Disminuimos en un 70% el volumen de falsas alarmas o notificaciones irrelevantes recibidas por el administrador, demostrando que el triaje de alertas funciona correctamente.
+- Eficiencia en el Centro de Control: Disminuimos en una reducción significativa el volumen de falsas alarmas o notificaciones irrelevantes recibidas por el administrador, demostrando que el triaje de alertas funciona correctamente.
 
-- Cumplimiento Normativo: El 100% de los viajes completados generan automáticamente un reporte forense inmutable aceptado por los centros de salud receptores sin disputas legales.
+- Cumplimiento Normativo: La mayoría de los viajes completados generan automáticamente un reporte forense resistente a pérdida de datos y con integridad verificable aceptado por los centros de salud receptores sin disputas legales.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -465,7 +467,7 @@ Nos dirigimos a las entidades administrativas (privadas o públicas) encargadas 
 
 - Capacidad Económica: Presupuestos institucionales (financiación estatal en el sector público o corporativa en el privado). Su disposición de pago se justifica al comparar el costo de la plataforma CryoGuard frente al alto costo de desechar lotes de vacunas por fallas en sus propios traslados internos.
 
-- Nivel Tecnológico: Altamente asimétrico. En la central urbana (donde están los administradores) cuentan con conectividad estable y personal capaz de usar dashboards web. Sin embargo, en los puntos de destino (rurales) el personal médico carece de formación técnica y la conectividad es nula. Por ello, requieren que el dispositivo sea 100% autónomo y no requiera configuraciones complejas por parte del usuario final.
+- Nivel Tecnológico: Altamente asimétrico. En la central urbana (donde están los administradores) cuentan con conectividad estable y personal capaz de usar dashboards web. Sin embargo, en los puntos de destino (rurales) el personal médico carece de formación técnica y la conectividad es nula. Por ello, requieren que el dispositivo sea autónomo y no requiera configuraciones complejas por parte del usuario final.
 
 ###### ONGs y Gestores de Logística Sanitaria Humanitaria
 
@@ -473,7 +475,7 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
 
 - Tamaño: Operaciones de alcance regional, nacional o internacional que movilizan altos volúmenes de tratamientos médicos críticos durante campañas de salud o respuestas a emergencias.
 
-- Capacidad Económica: Sus presupuestos provienen de fondos de cooperación internacional, donaciones o subvenciones. Son muy estrictos con el gasto, pero tienen la obligación legal y moral de garantizar a sus donantes que el 100% de la ayuda llega en estado óptimo, lo que hace viable la inversión en trazabilidad.
+- Capacidad Económica: Sus presupuestos provienen de fondos de cooperación internacional, donaciones o subvenciones. Son muy estrictos con el gasto, pero tienen la obligación legal y moral de garantizar a sus donantes que la ayuda llega en estado óptimo, lo que hace viable la inversión en trazabilidad.
 
 - Nivel Tecnológico: Acostumbrados a operar en condiciones de infraestructura extrema. Necesitan tecnología de despliegue rápido. Sus centrales requieren datos precisos y reportes automatizados para justificar el uso de fondos, mientras que sus operadores en campo dependen de las alertas físicas del dispositivo y del almacenamiento offline debido a la falta total de red celular en sus misiones.
 
