@@ -324,17 +324,17 @@ Empodera al chofer para tomar acciones correctivas inmediatas (ej. revisar el ci
 
 La arquitectura de CryoGuard está estructurada en un modelo de tres capas para garantizar un flujo de datos continuo, una latencia mínima en emergencias y una alta disponibilidad de la información:
 
-1. **Capa Física y Procesamiento**
+- **Capa Física y Procesamiento**
 El hardware está compuesto por un microcontrolador de bajo consumo integrado con un arreglo de sensores (temperatura, humedad, acelerómetro y magnético de apertura). Aquí reside nuestro motor de Edge Computing: en lugar de ser un simple transmisor, el dispositivo ejecuta localmente algoritmos de evaluación de umbrales.
 
 Las decisiones que toma: Si las variables superan los límites configurados, el sistema no espera a tener internet; detona acciones autónomas inmediatas, como activar alarmas físicas (buzzer y LEDs) para el transportista y registrar el evento crítico en su memoria interna no volátil. Esto asegura una auditoría forense ininterrumpida incluso en zonas sin cobertura celular.
 
-1. **Capa de Red y Backend**
+- **Capa de Red y Backend**
 Actúa como el motor de ingesta y orquestación de datos. Cuando el dispositivo detecta una red disponible (vía módulo celular o protocolos IoT), empaqueta el historial almacenado offline y lo transmite de forma segura hacia nuestra infraestructura en la nube.
 
 El flujo de datos: El backend recibe la telemetría cruda, valida la integridad de los paquetes y procesa la información en bases de datos relacionales y de series temporales. Un motor de reglas en la nube clasifica la severidad de los eventos y se encarga de disparar webhooks o correos electrónicos de emergencia a los centros de control logístico.
 
-3. **Capa de Aplicación e Inteligencia Comercial**
+- **Capa de Aplicación e Inteligencia Comercial**
 Es la interfaz donde los datos estructurados se transforman en estrategia operativa. A través de aplicaciones web y móviles, los clientes acceden a la plataforma para interactuar con la información.
 
 El impacto visual: Los operadores logísticos visualizan dashboards dinámicos que muestran el estado de la flota en tiempo real, rastreo por geolocalización y el estatus térmico de cada contenedor. El sistema incluye herramientas de análisis de datos para generar reportes de cumplimiento normativo y métricas de rendimiento, permitiendo a los gerentes optimizar rutas y evaluar la eficiencia de su red de distribución basándose en datos concretos.
@@ -375,7 +375,7 @@ El impacto financiero y sanitario es masivo. Según datos de la Organización Mu
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-1. **Usuario (Operador en ruta)**
+- **Usuario (Operador en ruta)**
 
 El evento: Falla técnica del camión o estrés térmico en pleno tránsito.
 
@@ -385,7 +385,7 @@ La consecuencia: Entrega de medicamentos inservibles.
 
 Declaración Lean UX: > "Durante una caída de temperatura o impacto físico en ruta, el operador carece de alertas inmediatas en cabina, lo que le impide accionar protocolos de rescate a tiempo y resulta en la entrega de medicamentos irreversiblemente dañados."
 
-2. **Administrador (Gerente Logístico o de Salud)**
+- **Administrador (Gerente Logístico o de Salud)**
 
 El evento: Gestión simultánea de múltiples envíos en zonas de conectividad variable.
 
@@ -441,15 +441,15 @@ Creemos que al dotar a los operadores de transporte médico con herramientas de 
 
 Sabremos que la solución es efectiva y el modelo de negocio es viable cuando, tras los primeros pilotos, comprobemos empíricamente que:
 
-Tasa de Intervención Temprana: El operador atiende y reacciona a las alertas físicas (LED/Buzzer) en la cabina en un tiempo menor a 15 minutos, evitando la exposición prolongada del producto.
+- Tasa de Intervención Temprana: El operador atiende y reacciona a las alertas físicas (LED/Buzzer) en la cabina en un tiempo menor a 15 minutos, evitando la exposición prolongada del producto.
 
-Reducción de Mermas: Logramos una reducción mínima del 40% en la tasa de rechazo de lotes o pérdida total de inventario atribuible a fluctuaciones térmicas en las rutas monitoreadas.
+- Reducción de Mermas: Logramos una reducción mínima del 40% en la tasa de rechazo de lotes o pérdida total de inventario atribuible a fluctuaciones térmicas en las rutas monitoreadas.
 
-Integridad de la Trazabilidad: Alcanzamos un 99.9% de recuperación de datos históricos al finalizar los viajes, demostrando que el almacenamiento offline elimina los puntos ciegos causados por las zonas sin cobertura celular.
+- Integridad de la Trazabilidad: Alcanzamos un 99.9% de recuperación de datos históricos al finalizar los viajes, demostrando que el almacenamiento offline elimina los puntos ciegos causados por las zonas sin cobertura celular.
 
-Eficiencia en el Centro de Control: Disminuimos en un 70% el volumen de falsas alarmas o notificaciones irrelevantes recibidas por el administrador, demostrando que el triaje de alertas funciona correctamente.
+- Eficiencia en el Centro de Control: Disminuimos en un 70% el volumen de falsas alarmas o notificaciones irrelevantes recibidas por el administrador, demostrando que el triaje de alertas funciona correctamente.
 
-Cumplimiento Normativo: El 100% de los viajes completados generan automáticamente un reporte forense inmutable aceptado por los centros de salud receptores sin disputas legales.
+- Cumplimiento Normativo: El 100% de los viajes completados generan automáticamente un reporte forense inmutable aceptado por los centros de salud receptores sin disputas legales.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -461,21 +461,21 @@ Cumplimiento Normativo: El 100% de los viajes completados generan automáticamen
 
 Nos dirigimos a las entidades administrativas (privadas o públicas) encargadas de abastecer y gestionar clínicas, hospitales y postas médicas, garantizando que el inventario farmacéutico llegue viable desde la central hasta el punto de atención final.
 
-Tamaño: Redes de salud medianas a grandes, que administran desde 10 hasta decenas de puntos de atención distribuidos en distintas geografías y que realizan despachos de medicamentos recurrentes.
+- Tamaño: Redes de salud medianas a grandes, que administran desde 10 hasta decenas de puntos de atención distribuidos en distintas geografías y que realizan despachos de medicamentos recurrentes.
 
-Capacidad Económica: Presupuestos institucionales (financiación estatal en el sector público o corporativa en el privado). Su disposición de pago se justifica al comparar el costo de la plataforma CryoGuard frente al alto costo de desechar lotes de vacunas por fallas en sus propios traslados internos.
+- Capacidad Económica: Presupuestos institucionales (financiación estatal en el sector público o corporativa en el privado). Su disposición de pago se justifica al comparar el costo de la plataforma CryoGuard frente al alto costo de desechar lotes de vacunas por fallas en sus propios traslados internos.
 
-Nivel Tecnológico: Altamente asimétrico. En la central urbana (donde están los administradores) cuentan con conectividad estable y personal capaz de usar dashboards web. Sin embargo, en los puntos de destino (rurales) el personal médico carece de formación técnica y la conectividad es nula. Por ello, requieren que el dispositivo sea 100% autónomo y no requiera configuraciones complejas por parte del usuario final.
+- Nivel Tecnológico: Altamente asimétrico. En la central urbana (donde están los administradores) cuentan con conectividad estable y personal capaz de usar dashboards web. Sin embargo, en los puntos de destino (rurales) el personal médico carece de formación técnica y la conectividad es nula. Por ello, requieren que el dispositivo sea 100% autónomo y no requiera configuraciones complejas por parte del usuario final.
 
 ###### ONGs y Gestores de Logística Sanitaria Humanitaria
 
 Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de campañas de salud, distribución de ayuda médica y programas de inmunización en zonas vulnerables o de difícil acceso.
 
-Tamaño: Operaciones de alcance regional, nacional o internacional que movilizan altos volúmenes de tratamientos médicos críticos durante campañas de salud o respuestas a emergencias.
+- Tamaño: Operaciones de alcance regional, nacional o internacional que movilizan altos volúmenes de tratamientos médicos críticos durante campañas de salud o respuestas a emergencias.
 
-Capacidad Económica: Sus presupuestos provienen de fondos de cooperación internacional, donaciones o subvenciones. Son muy estrictos con el gasto, pero tienen la obligación legal y moral de garantizar a sus donantes que el 100% de la ayuda llega en estado óptimo, lo que hace viable la inversión en trazabilidad.
+- Capacidad Económica: Sus presupuestos provienen de fondos de cooperación internacional, donaciones o subvenciones. Son muy estrictos con el gasto, pero tienen la obligación legal y moral de garantizar a sus donantes que el 100% de la ayuda llega en estado óptimo, lo que hace viable la inversión en trazabilidad.
 
-Nivel Tecnológico: Acostumbrados a operar en condiciones de infraestructura extrema. Necesitan tecnología de despliegue rápido. Sus centrales requieren datos precisos y reportes automatizados para justificar el uso de fondos, mientras que sus operadores en campo dependen de las alertas físicas del dispositivo y del almacenamiento offline debido a la falta total de red celular en sus misiones.
+- Nivel Tecnológico: Acostumbrados a operar en condiciones de infraestructura extrema. Necesitan tecnología de despliegue rápido. Sus centrales requieren datos precisos y reportes automatizados para justificar el uso de fondos, mientras que sus operadores en campo dependen de las alertas físicas del dispositivo y del almacenamiento offline debido a la falta total de red celular en sus misiones.
 
 </div>
 
