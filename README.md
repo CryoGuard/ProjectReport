@@ -479,7 +479,7 @@ CryoGuard también está orientado a organizaciones y entidades responsables de 
   </tr>
   <tr>
     <th></th>
-    <th>CryoGuard <img src="./assets/Chapter-2/stock.jpeg"></th>
+    <th>CryoGuard <img src="./assets/Chapter-2/Logo de CryoGuard.png"></th>
     <th>Sensitech (Carrier) <img src="./assets/Chapter-2/logo1.png"></th>
     <th>ELPRO-BUCHS AG<img src="./assets/Chapter-2/logo2.png"></th>
     <th>Controlant Ehf <img src="./assets/Chapter-2/logo3.png"></th>
