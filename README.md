@@ -949,3 +949,9 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 | MVP (Producto Mínimo Viable) | Versión inicial de CryoGuard con funcionalidades mínimas (monitoreo de temperatura, alertas LED/buzzer, almacenamiento local) para validar hipótesis clave con usuarios reales en entornos controlados. |
 
 </div>
+
+
+
+
+
+
