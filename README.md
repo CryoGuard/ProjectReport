@@ -1831,9 +1831,16 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 El siguiente mapa de impacto conecta el objetivo de negocio con actores, impactos deseados y entregables del producto.
 
 **Segmento #1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-3/Impact map CryoGuard (1).png" alt="Impact Mapping - segmento 1" width="600"/>
+
+_Imagen (N°8). Elaboración propia. Realizado en UXPressia_
 
 **Segmento #2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+<img src="assets/Chapter-3/Impact map CryoGuard (2).png" alt="Impact Mapping - segmento 2" width="600"/>
 
+_Imagen (N°9). Elaboración propia. Realizado en UXPressia_
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+  
 ## 3.3. Product Backlog
 
 Backlog inicial priorizado para la implementación incremental de CryoGuard.
