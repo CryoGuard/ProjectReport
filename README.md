@@ -1845,4 +1845,47 @@ _Imagen (N°9). Elaboración propia. Realizado en UXPressia_
 
 Backlog inicial priorizado para la implementación incremental de CryoGuard.
 
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Prioridad</th>
+    <th>User Story ID</th>
+    <th>Título</th>
+    <th>Story Points</th>
+  </tr>
+  <tr><td>1</td><td>US01</td><td>Monitorear temperatura en tiempo real</td><td>5</td></tr>
+  <tr><td>2</td><td>US04</td><td>Geolocalizar contenedor en tiempo real</td><td>5</td></tr>
+  <tr><td>3</td><td>US05</td><td>Activar enfriamiento automático (Peltier)</td><td>5</td></tr>
+  <tr><td>4</td><td>US07</td><td>Recibir alerta visual mediante LED</td><td>5</td></tr>
+  <tr><td>5</td><td>US08</td><td>Recibir alerta sonora mediante Buzzer</td><td>5</td></tr>
+  <tr><td>6</td><td>US15</td><td>Almacenar datos localmente durante transporte offline</td><td>5</td></tr>
+  <tr><td>7</td><td>TS01</td><td>API Sincronización de datos desde dispositivo IoT</td><td>5</td></tr>
+  <tr><td>8</td><td>TS05</td><td>Implementar lectura de sensores (temp, humedad, vibración, GPS, apertura)</td><td>5</td></tr>
+  <tr><td>9</td><td>TS06</td><td>Implementar reglas de edge computing para generación de flags</td><td>5</td></tr>
+  <tr><td>10</td><td>TS07</td><td>Implementar control de actuadores (Peltier, Servo, LED, Buzzer)</td><td>5</td></tr>
+  <tr><td>11</td><td>US02</td><td>Monitorear humedad del contenedor</td><td>4</td></tr>
+  <tr><td>12</td><td>US10</td><td>Detectar apertura no autorizada del contenedor</td><td>4</td></tr>
+  <tr><td>13</td><td>US11</td><td>Visualizar dashboard con mapa de envíos activos</td><td>4</td></tr>
+  <tr><td>14</td><td>US13</td><td>Recibir notificaciones push en app móvil</td><td>4</td></tr>
+  <tr><td>15</td><td>US16</td><td>Sincronizar datos con la nube automáticamente</td><td>4</td></tr>
+  <tr><td>16</td><td>US20</td><td>Configurar rangos permitidos por tipo de producto</td><td>4</td></tr>
+  <tr><td>17</td><td>TS02</td><td>API Gestión de flags y alertas</td><td>4</td></tr>
+  <tr><td>18</td><td>TS03</td><td>API Gestión de usuarios y roles</td><td>4</td></tr>
+  <tr><td>19</td><td>TS09</td><td>Implementar dashboard con mapa interactivo de envíos activos</td><td>4</td></tr>
+  <tr><td>20</td><td>TS12</td><td>Implementar autenticación y pantalla de inicio en app móvil</td><td>4</td></tr>
+  <tr><td>21</td><td>US03</td><td>Detectar vibraciones o impactos</td><td>3</td></tr>
+  <tr><td>22</td><td>US06</td><td>Bloquear apertura del contenedor (Servo)</td><td>3</td></tr>
+  <tr><td>23</td><td>US09</td><td>Detectar salida de geocerca</td><td>3</td></tr>
+  <tr><td>24</td><td>US12</td><td>Consultar logs históricos de envíos</td><td>3</td></tr>
+  <tr><td>25</td><td>US17</td><td>Generar reporte de trazabilidad para donantes</td><td>3</td></tr>
+  <tr><td>26</td><td>US18</td><td>Ejecutar override manual mediante botón físico</td><td>3</td></tr>
+  <tr><td>27</td><td>TS04</td><td>API Generación de reportes de trazabilidad</td><td>3</td></tr>
+  <tr><td>28</td><td>TS08</td><td>Implementar botones físicos para override y control manual</td><td>3</td></tr>
+  <tr><td>29</td><td>TS10</td><td>Implementar tabla de logs históricos con filtros y exportación</td><td>3</td></tr>
+  <tr><td>30</td><td>TS13</td><td>Implementar recepción de notificaciones push</td><td>3</td></tr>
+  <tr><td>31</td><td>US14</td><td>Gestionar usuarios y roles desde dashboard</td><td>2</td></tr>
+  <tr><td>32</td><td>US19</td><td>Ejecutar override remoto desde app o web</td><td>2</td></tr>
+  <tr><td>33</td><td>TS11</td><td>Implementar panel de administración de usuarios y roles</td><td>2</td></tr>
+  <tr><td>34</td><td>TS14</td><td>Implementar override remoto desde app móvil</td><td>2</td></tr>
+</table>
+
 </div>
