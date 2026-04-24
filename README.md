@@ -122,7 +122,7 @@ Su elaboración se realizó de forma iterativa, definiendo las responsabilidades
 #### **Bounded Context: IAM**
 
 <p align="center">
-  <img src="assets/Chapter-4/contextCanvases6.jpg" width="650"/>
+  <img src="assets/Chapter-4/contextCanvases7.jpg" width="650"/>
 </p>
 
 ### 4.1.2 Context Mapping.
