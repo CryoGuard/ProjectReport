@@ -742,16 +742,16 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>...</td>
+    <td>Gabriel</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>x</td>
+    <td>24</td>
     <th>Distrito</th>
-    <td></td>
+    <td>Surco</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="img/SEG1_1.JPG" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         ..
     </td>
@@ -759,7 +759,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="h">
+      <a href="https://drive.google.com/file/d/18YGJLRUubp6IUsQ-dSzeeukcKNFLEuBg/view?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -767,10 +767,14 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         xx
+         5:20 min
     </td>
   </tr>
 </table>
+
+**Resumen de la entrevista**
+
+El entrevistado señala que el principal desafío es la falta de monitoreo en tiempo real, lo que impide actuar ante cambios de temperatura. Además, la conectividad limitada y los retrasos dificultan mantener la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas y evite pérdidas.
 
 **Segmento 2: ONGs y gestores de logística sanitaria**
 
@@ -779,16 +783,16 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>...</td>
+    <td>Isabel</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>x</td>
+    <td>27</td>
     <th>Distrito</th>
-    <td></td>
+    <td>Miraflores</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="img/SEG2_1.JPG" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         ..
     </td>
@@ -796,7 +800,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="h">
+      <a href="https://drive.google.com/file/d/1xWDeuagEcSr8o8BPUqwS3ZJFU_zf5NOd/view?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -804,12 +808,17 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         xx
+         6:37 min
     </td>
   </tr>
 </table>
 
+**Resumen de la entrevista**
+
+El entrevistado señala que el principal problema es la falta de monitoreo en tiempo real, ya que la trazabilidad se basa en registros manuales y dataloggers revisados al final. Además, la conectividad limitada y los riesgos en transbordos y retrasos dificultan el control de la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas, trazabilidad completa y reduzca pérdidas.
+
 ### 2.2.3. Análisis de entrevistas
+En base a la recopilación de datos obtenida mediante las entrevistas, se ha realizado el siguiente análisis cualitativo y cuantitativo. Los hallazgos estadísticos sobre sus comportamientos, herramientas actuales, dolores (pains) y necesidades (gains) servirán como fundamento directo para la construcción de los arquetipos (User Personas).
 
 **Segmento 1: Centros de salud rurales o urbanos**
 
