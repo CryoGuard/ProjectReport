@@ -205,8 +205,8 @@ ABET – EAC - Student Outcome 4
         <p><b>TB1: </b> </p>
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
-        <p><b>Apellidos y Nombres</b></p>
-        <p><b>AV1: </b> </p>
+        <p><b>Arias Segil, Marllely Anahi</b></p>
+        <p><b>AV1: </b>Al diseñar la arquitectura y los modelos como el EventStorming o el Context Mapping, traté de asegurar que el sistema sea confiable, que permita monitoreo en tiempo real y que reduzca errores humanos. También consideré aspectos como la disponibilidad, la precisión de los datos y la capacidad de funcionar incluso sin conexión.</p>
         <p><b>TB1: </b> </p>
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
@@ -289,11 +289,16 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
   </tr>
   <tr>
     <th>
-      <img src="img/.png" width="800px">
+      <img src="img/marlle.png" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Marllely Anahi Arias Segil</b></p>
+      <p>Hola, mi nombre es Marllely Arias Segil. Soy estudiante 
+      de Ingeniería de Software en la Universidad Peruana de 
+      Ciencias Aplicadas (UPC), una persona empática, 
+      responsable y comprometida con mi crecimiento 
+      profesional. Me gusta trabajar en equipo y siempre busco 
+      dar lo mejor de mí en cada proyecto. </p>
     </td>
   </tr>
 </table>
