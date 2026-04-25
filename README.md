@@ -751,9 +751,9 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>Surco</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="img/SEG1_1.JPG" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="img/SEG1_1.JPG" alt="Captura de la entrevista" width="250"></th>
     <td colspan="3">
-        ..
+        El entrevistado señala que el principal desafío es la falta de monitoreo en tiempo real, lo que impide actuar ante cambios de temperatura. Además, la conectividad limitada y los retrasos dificultan mantener la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas y evite pérdidas.
     </td>
   </tr>
   <tr>
@@ -772,10 +772,6 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
 </table>
 
-**Resumen de la entrevista**
-
-El entrevistado señala que el principal desafío es la falta de monitoreo en tiempo real, lo que impide actuar ante cambios de temperatura. Además, la conectividad limitada y los retrasos dificultan mantener la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas y evite pérdidas.
-
 **Segmento 2: ONGs y gestores de logística sanitaria**
 
 <table border="1">
@@ -792,9 +788,9 @@ El entrevistado señala que el principal desafío es la falta de monitoreo en ti
     <td>Miraflores</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="img/SEG2_1.JPG" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="img/SEG2_1.JPG" alt="Captura de la entrevista" width="250"></th>
     <td colspan="3">
-        ..
+        La entrevistada señala que el principal problema es la falta de monitoreo en tiempo real, ya que la trazabilidad se basa en registros manuales y dataloggers revisados al final. Además, la conectividad limitada y los riesgos en transbordos y retrasos dificultan el control de la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas, trazabilidad completa y reduzca pérdidas.
     </td>
   </tr>
   <tr>
@@ -812,10 +808,6 @@ El entrevistado señala que el principal desafío es la falta de monitoreo en ti
     </td>
   </tr>
 </table>
-
-**Resumen de la entrevista**
-
-El entrevistado señala que el principal problema es la falta de monitoreo en tiempo real, ya que la trazabilidad se basa en registros manuales y dataloggers revisados al final. Además, la conectividad limitada y los riesgos en transbordos y retrasos dificultan el control de la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas, trazabilidad completa y reduzca pérdidas.
 
 ### 2.2.3. Análisis de entrevistas
 En base a la recopilación de datos obtenida mediante las entrevistas, se ha realizado el siguiente análisis cualitativo y cuantitativo. Los hallazgos estadísticos sobre sus comportamientos, herramientas actuales, dolores (pains) y necesidades (gains) servirán como fundamento directo para la construcción de los arquetipos (User Personas).
