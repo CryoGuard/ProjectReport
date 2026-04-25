@@ -772,6 +772,41 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
 </table>
 
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Jocelyn</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/entrevista2.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      La entrevistada comenta que el monitoreo de temperatura se realiza mayormente de forma manual con termómetros digitales. Indica que uno de los principales retos es mantener la temperatura estable durante todo el traslado, especialmente en viajes largos o con altas temperaturas. Señala que han ocurrido pérdidas porque los problemas se detectan recién al final, cuando ya no se puede actuar. A partir de esto, se identifica que el principal problema es la falta de monitoreo en tiempo real, lo que limita la capacidad de reacción y genera pérdidas evitables. Además, destaca la importancia de contar con alertas inmediatas y una solución tecnológica que sea fácil de usar, funcione sin internet y automatice los reportes.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/1skLWn8ivYLy6wcLDn1SCJ-1x6XAePs4K/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         6:26 min
+    </td>
+  </tr>
+</table>
+
 **Segmento 2: ONGs y gestores de logística sanitaria**
 
 <table border="1">
