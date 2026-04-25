@@ -809,6 +809,41 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
 </table>
 
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Godelino</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>38</td>
+    <th>Distrito</th>
+    <td>La Victoria</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/godelino.png" alt="Captura de la entrevista" width="250"></th>
+    <td colspan="3">
+        El entrevistado señala que el principal problema es la falta de visibilidad en tiempo real, ya que dependen de registros físicos revisados solo al llegar a destino. Identifica dos puntos críticos de riesgo: el traslado (lluvia, sol, calor del motor) y los centros de salud rurales donde el personal tiene múltiples funciones. Además, la conectividad limitada en zonas alejadas y la ausencia de vista centralizada dificultan el control de la cadena de frío.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/12WSxbUw6aKvV3PrSbK8Tdv1vnpI1AXZA/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         10:57 min
+    </td>
+  </tr>
+</table>
+
 ### 2.2.3. Análisis de entrevistas
 En base a la recopilación de datos obtenida mediante las entrevistas, se ha realizado el siguiente análisis cualitativo y cuantitativo. Los hallazgos estadísticos sobre sus comportamientos, herramientas actuales, dolores (pains) y necesidades (gains) servirán como fundamento directo para la construcción de los arquetipos (User Personas).
 
