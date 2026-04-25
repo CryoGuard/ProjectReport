@@ -22,7 +22,7 @@
     </tr>
     <tr>
       <td>Hallasi Saravia, Miguel</td>
-      <td></td>
+      <td>U202312391</td>
     </tr>
     <tr>
       <td>Miranda Ayasta, Rogger Faryd</td>
@@ -283,8 +283,8 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
       <img src="img/.jpg" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Miguel Angel Hallasi</b></p>
+      <p>Estudiante del séptimo ciclo, motivado por el aprendizaje continuo y la adquisición de nuevas experiencias en desarrollo móvil, diseño de interfaces y trabajo colaborativo.</p>
     </td>
   </tr>
   <tr>
