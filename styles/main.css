@@ -34,6 +34,11 @@ table {
   line-height: 1.2;
 }
 
+/* Extra spacing when two tables are consecutive (e.g., Technical Stories). */
+table + table {
+  margin-top: 14pt;
+}
+
 /*
   Chrome/Puppeteer can drop oversized tables during PDF export when
   page-break-inside is forced to avoid. Let these tables split across pages.

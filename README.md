@@ -1,4 +1,4 @@
-<div class="cover" align="center">
+﻿<div class="cover" align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/><br>
   <p><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
   <p>
@@ -1171,12 +1171,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Monitorear temperatura en tiempo real	</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1185,7 +1183,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero monitorear la temperatura del contenedor en tiempo real durante todo el trayecto, para asegurar que las vacunas y medicamentos se mantengan dentro del rango permitido.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1208,9 +1205,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US02 -->
-
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
@@ -1224,12 +1219,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Monitorear humedad del contenedor</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1238,7 +1231,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero monitorear los niveles de humedad dentro del contenedor, para evitar que la humedad excesiva dane los productos biomedicos sensibles.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1261,7 +1253,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US03 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1276,12 +1267,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Media</td>
     <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Detectar vibraciones o impactos</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1290,7 +1279,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero detectar vibraciones o impactos anormales durante el traslado, para identificar si los productos han sufrido golpes que puedan comprometer su integridad.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1313,9 +1301,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <div class="page"/>
-
 <!-- US04 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1330,12 +1316,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Geolocalizar contenedor en tiempo real</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1344,7 +1328,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero conocer la ubicacion GPS del contenedor en tiempo real, para monitorear que el transporte siga la ruta planificada.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1367,7 +1350,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US05 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1382,12 +1364,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Activar enfriamiento automatico (Peltier)</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1396,7 +1376,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero que el sistema active automaticamente el enfriamiento (Peltier) cuando la temperatura supere el rango permitido, para proteger los productos sin intervencion manual.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1419,7 +1398,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US06 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1434,12 +1412,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Media</td>
     <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Bloquear apertura del contenedor (Servo)</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1448,7 +1424,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como administrador, quiero que el sistema bloquee automaticamente la apertura del contenedor cuando se detecte una condicion critica, para evitar que se acceda a productos en estado vulnerable.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1471,9 +1446,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <div class="page"/>
-
 <!-- US07 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1488,12 +1461,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP02 - Alertas y Notificaciones</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Recibir alerta visual mediante LED</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1502,7 +1473,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero recibir alertas visuales mediante LEDs de colores, para identificar rapidamente el estado del contenedor sin necesidad de mirar una pantalla.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1525,7 +1495,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US08 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1540,12 +1509,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP02 - Alertas y Notificaciones</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Recibir alerta sonora mediante Buzzer</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1554,7 +1521,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero recibir alertas sonoras cuando se detecte una condicion critica, para actuar inmediatamente incluso si no estoy mirando el contenedor.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1577,7 +1543,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US09 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1592,12 +1557,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP02 - Alertas y Notificaciones</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Detectar salida de geocerca</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1606,7 +1569,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero recibir una alerta cuando el contenedor salga de la ruta o geocerca definida, para identificar desviaciones no planificadas.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1629,9 +1591,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <div class="page"/>
-
 <!-- US10 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1646,12 +1606,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP02 - Alertas y Notificaciones</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Detectar apertura no autorizada del contenedor</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1660,7 +1618,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero recibir una alerta cuando el contenedor se abra sin autorizacion, para identificar posibles manipulaciones indebidas de los productos.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1683,7 +1640,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US11 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1698,12 +1654,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP03 - Dashboard Web y Aplicacion Movil</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Visualizar dashboard con mapa de envios activos</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1712,7 +1666,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero visualizar un dashboard web con un mapa que muestre todos los envios activos, para supervisar su ubicacion y estado de manera centralizada.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1735,7 +1688,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US12 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1750,12 +1702,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP03 - Dashboard Web y Aplicacion Movil</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Consultar logs historicos de envios</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1764,7 +1714,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero consultar los logs historicos de envios anteriores, para analizar incidentes pasados y mejorar rutas futuras.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1787,9 +1736,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <div class="page"/>
-
 <!-- US13 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1804,12 +1751,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP03 - Dashboard Web y Aplicacion Movil</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Recibir notificaciones push en app movil</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1818,7 +1763,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero recibir notificaciones push en mi aplicacion movil cuando se detecte una condicion critica, para actuar rapidamente incluso si no estoy cerca del contenedor.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1841,7 +1785,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US14 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1856,12 +1799,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Media</td>
     <td>EP03 - Dashboard Web y Aplicacion Movil</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Gestionar usuarios y roles desde dashboard</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1870,7 +1811,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como administrador, quiero gestionar usuarios y asignar roles desde el dashboard web, para controlar quien tiene acceso a que funcionalidades del sistema.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1893,7 +1833,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US15 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1908,12 +1847,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP04 - Almacenamiento y Sincronizacion de Datos</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Almacenar datos localmente durante transporte offline</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1922,7 +1859,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador de transporte, quiero que el sistema almacene todos los datos de sensores localmente cuando no hay conexion a internet, para no perder informacion durante trayectos en zonas sin cobertura.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1945,9 +1881,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <div class="page"/>
-
 <!-- US16 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -1962,12 +1896,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP04 - Almacenamiento y Sincronizacion de Datos</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Sincronizar datos con la nube automaticamente</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -1976,7 +1908,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero que los datos almacenados localmente se sincronicen automaticamente con la nube cuando haya conectividad disponible, para tener trazabilidad completa y respaldo de la informacion.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1999,7 +1930,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US17 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -2014,12 +1944,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP04 - Almacenamiento y Sincronizacion de Datos</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Generar reporte de trazabilidad para donantes</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -2028,7 +1956,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como administrador de ONG, quiero generar un reporte de trazabilidad completo de un envio o proyecto, para presentar evidencia a donantes internacionales sobre el uso adecuado de los recursos.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -2051,7 +1978,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US18 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -2066,12 +1992,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Media</td>
     <td>EP05 - Gestion de Usuarios y Roles</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Ejecutar override manual mediante boton fisico</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -2080,7 +2004,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como operador autorizado, quiero ejecutar override manual mediante botones fisicos en el contenedor, para desbloquear la caja o silenciar alertas en situaciones de emergencia cuando no tengo acceso a la app.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -2103,9 +2026,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <div class="page"/>
-
 <!-- US19 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -2120,12 +2041,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Media</td>
     <td>EP05 - Gestion de Usuarios y Roles</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Ejecutar override remoto desde app o web</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -2134,7 +2053,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como supervisor de logistica, quiero ejecutar override remoto desde la app o web, para autorizar el desbloqueo del contenedor a distancia sin necesidad de que el operador este fisicamente presente.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -2157,7 +2075,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 <!-- US20 -->
 <table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
@@ -2172,12 +2089,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP05 - Gestion de Usuarios y Roles</td>
   </tr>
-
   <tr>
     <th>Title</th>
     <td colspan="3">Configurar rangos permitidos por tipo de producto</td>
   </tr>
-
   <tr>
     <th colspan="4">Description</th>
   </tr>
@@ -2186,7 +2101,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       Como administrador, quiero configurar los rangos permitidos de temperatura, humedad y vibracion segun el tipo de producto (vacunas, insulina, sangre), para que el sistema evalue correctamente las condiciones segun los requerimientos especificos de cada producto.
     </td>
   </tr>
-
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -2209,7 +2123,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 ## **Technical Stories**
 En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, supervisar el sistema, generar reportes, entre otros.
 
@@ -3475,6 +3388,7 @@ El bounded context Seguridad / Roles se encarga de la identidad, autenticación,
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram
 
 ![db-security](./assets/Chapter-4/seguridad_roles_db.png)
+
 
 
 
