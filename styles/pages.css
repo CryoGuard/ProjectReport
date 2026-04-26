@@ -39,13 +39,34 @@
 /* Chapter Layouts */
 
 .chap1,
-.chap2 {
+.chap2,
+.chap3 {
   page-break-inside: auto;
 }
 
 .chap1 > h1,
-.chap2 > h1 {
+.chap2 > h1,
+.chap3 > h1 {
   margin-top: 0;
+}
+
+.chap3 h2,
+.chap3 h3,
+.chap3 h4 {
+  page-break-after: avoid;
+  break-after: avoid-page;
+}
+
+.chap3 table,
+.chap3 tr,
+.chap3 img {
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+}
+
+.chap3 ul,
+.chap3 ol {
+  margin: 6pt 0 6pt 18pt;
 }
 
 /* Chapter 2: keep structure stable when exporting to PDF */
