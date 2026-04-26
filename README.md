@@ -903,17 +903,17 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>Delba</td>
+    <td>Lic. Kelly Aliaga </td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>38</td>
+    <td>37</td>
     <th>Distrito</th>
     <td> centro de salud en huancayo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
-    <td colspan="3">
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg1 2.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">  
       La entrevistada, trabajadora de un centro de salud encargada del manejo de vacunas y cadena de frío, explicó que el transporte se realiza manteniendo una temperatura entre 2 y 8 °C mediante termos porta vacunas, paquetes fríos, termómetros y dispositivos como dataloggers para monitorear la temperatura. Señala que el mayor reto está en el transporte hacia zonas frías o rurales, donde los paquetes tardan más en descongelarse y se requiere una mejor preparación previa. Indica que no ha tenido pérdidas importantes por ruptura de cadena de frío, pero considera fundamental recibir alertas en tiempo real cuando la temperatura sale del rango permitido para activar el plan de contingencia, como trasladar las vacunas a otro contenedor seguro. Además, destaca que una solución tecnológica de monitoreo ayudaría a mejorar la seguridad, el control y la conservación adecuada de las vacunas durante todo el proceso.
     </td>
   </tr>
@@ -1004,6 +1004,43 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     </td>
   </tr>
 </table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Marcel Hernández.</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>La Victoria</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg 2 3.png" alt="Captura de la entrevista" width="250"></th>
+    <td colspan="3">
+        El entrevistado, practicante en el área de logística de una ONG, señala que actualmente el monitoreo de la cadena de frío se realiza mediante dataloggers y registros manuales, lo que limita la visibilidad en tiempo real de los envíos. Identifica como puntos de mayor riesgo las transferencias entre transportes, almacenes intermedios, aduanas y la última milla en zonas rurales, donde la infraestructura y conectividad son limitadas. Destaca que muchas veces solo se detectan problemas al final del traslado, generando pérdidas estimadas entre 5 % y 15 %. Considera fundamental una solución tecnológica simple, de bajo costo y con capacidad offline, que permita alertas en tiempo real, reportes automáticos, trazabilidad verificable e integración con sistemas internos para mejorar el control y reducir pérdidas.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://youtu.be/op5v62QFrMc">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         6:11 min
+    </td>
+  </tr>
+</table>
+
+
 
 ### 2.2.3. Análisis de entrevistas
 En base a la recopilación de datos obtenida mediante las entrevistas, se ha realizado el siguiente análisis cualitativo y cuantitativo. Los hallazgos estadísticos sobre sus comportamientos, herramientas actuales, dolores (pains) y necesidades (gains) servirán como fundamento directo para la construcción de los arquetipos (User Personas).
