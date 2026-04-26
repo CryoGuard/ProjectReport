@@ -106,6 +106,8 @@ Abril 2026
   <br>
 
   <h6> Evidencias AV1 </h6>
+<img src="img/" alt="User persona - segmento 1" width="600"/>
+
 
   <h6> Evidencias TB1 </h6>
   <h6> Evidencias AV2 </h6>
