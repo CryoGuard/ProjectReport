@@ -807,6 +807,41 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   </tr>
 </table>
 
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Delba</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>38</td>
+    <th>Distrito</th>
+    <td> centro de salud en huancayo</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      La entrevistada, trabajadora de un centro de salud encargada del manejo de vacunas y cadena de frío, explicó que el transporte se realiza manteniendo una temperatura entre 2 y 8 °C mediante termos porta vacunas, paquetes fríos, termómetros y dispositivos como dataloggers para monitorear la temperatura. Señala que el mayor reto está en el transporte hacia zonas frías o rurales, donde los paquetes tardan más en descongelarse y se requiere una mejor preparación previa. Indica que no ha tenido pérdidas importantes por ruptura de cadena de frío, pero considera fundamental recibir alertas en tiempo real cuando la temperatura sale del rango permitido para activar el plan de contingencia, como trasladar las vacunas a otro contenedor seguro. Además, destaca que una solución tecnológica de monitoreo ayudaría a mejorar la seguridad, el control y la conservación adecuada de las vacunas durante todo el proceso.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/drive/folders/1iQFGaorB6bw4b1EpuBW3llKa8cVtb8wm?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         5:32 min
+    </td>
+  </tr>
+</table>
+
 **Segmento 2: ONGs y gestores de logística sanitaria**
 
 <table border="1">
