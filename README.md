@@ -57,9 +57,9 @@ Abril 2026
   </tr>
   <tr>
     <th>AV1</th>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>25/4/2026</td>
+    <td>Todos</td>
+    <td>Se desarrollo los primeros avances del trabajo</td>
   </tr>
     <tr>
     <th>TB1</th>
@@ -91,11 +91,11 @@ Abril 2026
   <table>
     <tr>
       <td>Link del repositorio del informe</td>
-      <td></td>
+      <td>https://github.com/CryoGuard/ProjectReport/tree/main</td>
     </tr>
       <tr>
       <td>Link de los repositorios de la organización</td>
-      <td></td>
+      <td>https://github.com/CryoGuard</td>
     </tr>
       <tr>
       <td>Link del Event Storming</td>
@@ -106,6 +106,7 @@ Abril 2026
   <br>
 
   <h6> Evidencias AV1 </h6>
+
   <h6> Evidencias TB1 </h6>
   <h6> Evidencias AV2 </h6>
   <h6> Evidencias TB2 </h6>
@@ -147,8 +148,8 @@ Abril 2026
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-          - [Centros de salud rurales o urbanos:](#centros-de-salud-rurales-o-urbanos)
-          - [ONGs y gestores de logística sanitaria:](#ongs-y-gestores-de-logística-sanitaria)
+          - [Redes de Centros de Salud (Urbanos y Rurales)](#redes-de-centros-de-salud-urbanos-y-rurales)
+          - [ONGs y Gestores de Logística Sanitaria Humanitaria](#ongs-y-gestores-de-logística-sanitaria-humanitaria)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -201,7 +202,7 @@ ABET – EAC - Student Outcome 4
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
         <p><b>Sanchez Rios, Camila</b></p>
-        <p><b>AV1: </b> </p>
+        <p><b>AV1: </b>Para esta entrega colabore en la realizacion de los capitulos Capítulo II: Requirements Elicitation & Analysis y Capítulo III: Requirements Specification. Del mismo modo, de elaborar la presentacion para darle un enfoque visual al proyecto.  </p>
         <p><b>TB1: </b> </p>
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
@@ -210,7 +211,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TB1: </b> </p>
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
-        <p><b>Apellidos y Nombres</b></p>
+        <p><b>Hallasi Saravia, Miguel</b></p>
         <p><b>AV1: </b> </p>
         <p><b>TB1: </b> </p>
         <p><b>AV2: </b> </p>
@@ -280,7 +281,7 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
   </tr>
   <tr>
     <th>
-      <img src="img/.jpg" width="800px">
+      <img src="img/miguel.png" width="800px">
     </th>
     <td valign="top">
       <p><b>Miguel Angel Hallasi</b></p>
@@ -521,7 +522,7 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
   </tr>
   <tr>
     <th></th>
-    <th>CryoGuard <img src="./assets/Chapter-2/stock.jpeg"></th>
+    <th>CryoGuard <img src="./assets/Chapter-2/Logo de CryoGuard_ tecnología de monitoreo.png"></th>
     <th>Sensitech (Carrier) <img src="./assets/Chapter-2/logo1.png"></th>
     <th>ELPRO-BUCHS AG<img src="./assets/Chapter-2/logo2.png"></th>
     <th>Controlant Ehf <img src="./assets/Chapter-2/logo3.png"></th>
