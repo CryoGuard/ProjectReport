@@ -919,7 +919,11 @@ En base a la recopilación de datos obtenida mediante las entrevistas, se ha rea
 
 **Segmento 1: Centros de salud rurales o urbanos**
 
+Las tres entrevistas coinciden en que el principal problema es la falta de monitoreo en tiempo real de la temperatura durante el transporte de vacunas, lo que dificulta actuar de forma inmediata ante una posible ruptura de la cadena de frío. Aunque se utilizan termómetros digitales, dataloggers y controles manuales, muchas veces la verificación se realiza al final del traslado, cuando ya no es posible corregir el problema. También se identifican dificultades en zonas rurales por la conectividad limitada, los largos desplazamientos y las condiciones climáticas. Como punto fuerte, todos resaltan la necesidad de una solución tecnológica simple, confiable, con alertas inmediatas, capacidad offline y mejor trazabilidad para prevenir pérdidas y mejorar la seguridad de las vacunas.
+
 **Segmento 2: ONGs y gestores de logística sanitaria**
+
+En este segmento, las entrevistas muestran que el mayor reto está en la falta de visibilidad completa y control en tiempo real de la cadena de frío, ya que gran parte del seguimiento depende de registros manuales o revisiones posteriores. Los riesgos aumentan durante el transporte, especialmente por factores climáticos, transbordos y la carga operativa del personal en centros rurales. Además, la limitada conectividad dificulta el monitoreo constante y la toma de decisiones rápidas. Como punto fuerte, ambos entrevistados destacan la necesidad de una plataforma centralizada, confiable y con funcionamiento offline que permita trazabilidad completa, alertas inmediatas y una mejor gestión logística para reducir pérdidas y optimizar recursos.
 
 </div>
 
