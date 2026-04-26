@@ -1,0 +1,70 @@
+/* Cover */
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cover > p {
+  text-align: center;
+}
+.cover > img {
+  height: 4.5cm;
+  width: 4.5cm;
+}
+.cover > table {
+  text-align: center;
+  width: 80%;
+}
+
+/* Collaboration Insights */
+
+.insights > table > tr > tr + td {
+  border-top: 0px solid;
+}
+
+/* Students Profile */
+
+.students-profile > tr > th {
+  width: 200px;
+}
+
+/* Content Table [index] */
+
+.content-table a {
+  text-decoration: none;
+  color: black;
+  flex-shrink: 0;
+}
+
+/* Chapter Layouts */
+
+.chap1,
+.chap2 {
+  page-break-inside: auto;
+}
+
+.chap1 > h1,
+.chap2 > h1 {
+  margin-top: 0;
+}
+
+/* Chapter 2: keep structure stable when exporting to PDF */
+
+.chap2 h2,
+.chap2 h3,
+.chap2 h4 {
+  page-break-after: avoid;
+  break-after: avoid-page;
+}
+
+.chap2 table,
+.chap2 tr,
+.chap2 img {
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+}
+
+.chap2 ul,
+.chap2 ol {
+  margin: 6pt 0 6pt 18pt;
+}
