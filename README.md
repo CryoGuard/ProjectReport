@@ -2123,7 +2123,9 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
+
 ## **Technical Stories**
+
 En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, supervisar el sistema, generar reportes, entre otros.
 
 <!-- TS01 -->
