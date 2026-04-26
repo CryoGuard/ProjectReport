@@ -843,11 +843,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>Surco</td>
   </tr>
   <tr>
-<<<<<<< HEAD
-    <th>Captura de la entrevista: <img src="img/SEG1_1.png" alt="Captura de la entrevista" width="250"></th>
-=======
     <th>Captura de la entrevista: <img src="img/SEG1_1.JPG" alt="Captura de la entrevista" width="250"></th>
->>>>>>> 75780652c24d9eb8784a38ed914480151acd1860
     <td colspan="3">
         El entrevistado señala que el principal desafío es la falta de monitoreo en tiempo real, lo que impide actuar ante cambios de temperatura. Además, la conectividad limitada y los retrasos dificultan mantener la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas y evite pérdidas.
     </td>
@@ -1163,7 +1159,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
 
 <!-- US01 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1216,7 +1212,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 
 <!-- US02 -->
 
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1268,7 +1264,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US03 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1319,8 +1315,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+<div class="page"/>
+
 <!-- US04 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1372,7 +1370,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US05 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1424,7 +1422,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US06 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1475,8 +1473,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+<div class="page"/>
+
 <!-- US07 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1528,7 +1528,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US08 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1580,7 +1580,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US09 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1631,8 +1631,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+<div class="page"/>
+
 <!-- US10 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1684,7 +1686,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US11 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1736,7 +1738,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US12 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1787,8 +1789,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+<div class="page"/>
+
 <!-- US13 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1840,7 +1844,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US14 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1892,7 +1896,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US15 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1943,8 +1947,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+<div class="page"/>
+
 <!-- US16 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1996,7 +2002,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US17 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2048,7 +2054,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US18 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2099,8 +2105,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+<div class="page"/>
+
 <!-- US19 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2152,7 +2160,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US20 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-bottom:18px; page-break-inside: avoid;">
   <tr>
     <th>Story ID</th>
     <th>User</th>
