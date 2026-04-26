@@ -634,11 +634,10 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
     <td>Venta directa con equipos de expertos en Europa y América del Norte, partners de integración certificados.</td>
     <td>Distribución global a través de alianza con Vodafone Business IoT (570 redes en 180+ países).</td>
   </tr>
-
-<tr>
+  <tr>
     <th colspan="5"><b>Análisis SWOT</b></th>
   </tr>
-<tr>
+  <tr>
     <td><b>Fortalezas</b></td>
     <td>- Procesamiento edge computing para operación offline total<br>- Monitoreo de 5+ variables (temp, humedad, vibración, GPS, apertura)<br>- Alertas multisensoriales (LED, buzzer, notificaciones)<br>- Almacenamiento local en tarjeta SD<br>- Diseñado específicamente para entornos con conectividad limitada<br>- Bajo costo relativo vs soluciones enterprise</td><td>- Respaldo de Carrier (NYSE:CARR) con recursos significativos<br>- Portafolio integral post-adquisición de Berlinger<br>- Presencia global establecida por 30+ años<br>- Soluciones para farmacéutica, ensayos clínicos y salud global<br>- Reconocimiento de marca en el sector </td> <td>- Alta precisión y confiabilidad documentada<br>- Cumplimiento 100% GxP y 21 CFR Part 11<br>- Tecnología 4G LTE y NB-IoT de última generación<br>- Servicios completos de validación y calibración<br>- Historial comprobado en la industria </td> <td>- Tasa de éxito en entregas >99% (vs 65% industria)<br>- Red global de conectividad con Vodafone (570 redes)<br>- Reducción documentada de 53kg CO2e por caja<br>- Prevención de 16,700 toneladas CO2e en 2022<br>- Dispositivos reutilizables</td>
   </tr>
