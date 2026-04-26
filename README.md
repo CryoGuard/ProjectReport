@@ -521,7 +521,7 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
   </tr>
   <tr>
     <th></th>
-    <th>CryoGuard <img src="./assets/Chapter-2/stock.jpeg"></th>
+    <th>CryoGuard <img src="./assets/Chapter-2/Logo de CryoGuard.png"></th>
     <th>Sensitech (Carrier) <img src="./assets/Chapter-2/logo1.png"></th>
     <th>ELPRO-BUCHS AG<img src="./assets/Chapter-2/logo2.png"></th>
     <th>Controlant Ehf <img src="./assets/Chapter-2/logo3.png"></th>
@@ -784,24 +784,24 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>...</td>
+    <td>Gabriel</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>x</td>
+    <td>24</td>
     <th>Distrito</th>
-    <td></td>
+    <td>Surco</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="img/SEG1_1.JPG" alt="Captura de la entrevista" width="250"></th>
     <td colspan="3">
-        ..
+        El entrevistado señala que el principal desafío es la falta de monitoreo en tiempo real, lo que impide actuar ante cambios de temperatura. Además, la conectividad limitada y los retrasos dificultan mantener la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas y evite pérdidas.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="h">
+      <a href="https://drive.google.com/file/d/18YGJLRUubp6IUsQ-dSzeeukcKNFLEuBg/view?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -809,7 +809,77 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         xx
+         5:20 min
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Jocelyn</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/entrevista2.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      La entrevistada comenta que el monitoreo de temperatura se realiza mayormente de forma manual con termómetros digitales. Indica que uno de los principales retos es mantener la temperatura estable durante todo el traslado, especialmente en viajes largos o con altas temperaturas. Señala que han ocurrido pérdidas porque los problemas se detectan recién al final, cuando ya no se puede actuar. A partir de esto, se identifica que el principal problema es la falta de monitoreo en tiempo real, lo que limita la capacidad de reacción y genera pérdidas evitables. Además, destaca la importancia de contar con alertas inmediatas y una solución tecnológica que sea fácil de usar, funcione sin internet y automatice los reportes.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/1skLWn8ivYLy6wcLDn1SCJ-1x6XAePs4K/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         6:26 min
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Delba</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>38</td>
+    <th>Distrito</th>
+    <td> centro de salud en huancayo</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      La entrevistada, trabajadora de un centro de salud encargada del manejo de vacunas y cadena de frío, explicó que el transporte se realiza manteniendo una temperatura entre 2 y 8 °C mediante termos porta vacunas, paquetes fríos, termómetros y dispositivos como dataloggers para monitorear la temperatura. Señala que el mayor reto está en el transporte hacia zonas frías o rurales, donde los paquetes tardan más en descongelarse y se requiere una mejor preparación previa. Indica que no ha tenido pérdidas importantes por ruptura de cadena de frío, pero considera fundamental recibir alertas en tiempo real cuando la temperatura sale del rango permitido para activar el plan de contingencia, como trasladar las vacunas a otro contenedor seguro. Además, destaca que una solución tecnológica de monitoreo ayudaría a mejorar la seguridad, el control y la conservación adecuada de las vacunas durante todo el proceso.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/drive/folders/1iQFGaorB6bw4b1EpuBW3llKa8cVtb8wm?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         5:32 min
     </td>
   </tr>
 </table>
@@ -821,24 +891,24 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>...</td>
+    <td>Isabel</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>x</td>
+    <td>27</td>
     <th>Distrito</th>
-    <td></td>
+    <td>Miraflores</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="img/SEG2_1.JPG" alt="Captura de la entrevista" width="250"></th>
     <td colspan="3">
-        ..
+        La entrevistada señala que el principal problema es la falta de monitoreo en tiempo real, ya que la trazabilidad se basa en registros manuales y dataloggers revisados al final. Además, la conectividad limitada y los riesgos en transbordos y retrasos dificultan el control de la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas, trazabilidad completa y reduzca pérdidas.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="h">
+      <a href="https://drive.google.com/file/d/1xWDeuagEcSr8o8BPUqwS3ZJFU_zf5NOd/view?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -846,16 +916,56 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         xx
+         6:37 min
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Godelino</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>38</td>
+    <th>Distrito</th>
+    <td>La Victoria</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/godelino.png" alt="Captura de la entrevista" width="250"></th>
+    <td colspan="3">
+        El entrevistado señala que el principal problema es la falta de visibilidad en tiempo real, ya que dependen de registros físicos revisados solo al llegar a destino. Identifica dos puntos críticos de riesgo: el traslado (lluvia, sol, calor del motor) y los centros de salud rurales donde el personal tiene múltiples funciones. Además, la conectividad limitada en zonas alejadas y la ausencia de vista centralizada dificultan el control de la cadena de frío.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/12WSxbUw6aKvV3PrSbK8Tdv1vnpI1AXZA/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         10:57 min
     </td>
   </tr>
 </table>
 
 ### 2.2.3. Análisis de entrevistas
+En base a la recopilación de datos obtenida mediante las entrevistas, se ha realizado el siguiente análisis cualitativo y cuantitativo. Los hallazgos estadísticos sobre sus comportamientos, herramientas actuales, dolores (pains) y necesidades (gains) servirán como fundamento directo para la construcción de los arquetipos (User Personas).
 
 **Segmento 1: Centros de salud rurales o urbanos**
 
+Las tres entrevistas coinciden en que el principal problema es la falta de monitoreo en tiempo real de la temperatura durante el transporte de vacunas, lo que dificulta actuar de forma inmediata ante una posible ruptura de la cadena de frío. Aunque se utilizan termómetros digitales, dataloggers y controles manuales, muchas veces la verificación se realiza al final del traslado, cuando ya no es posible corregir el problema. También se identifican dificultades en zonas rurales por la conectividad limitada, los largos desplazamientos y las condiciones climáticas. Como punto fuerte, todos resaltan la necesidad de una solución tecnológica simple, confiable, con alertas inmediatas, capacidad offline y mejor trazabilidad para prevenir pérdidas y mejorar la seguridad de las vacunas.
+
 **Segmento 2: ONGs y gestores de logística sanitaria**
+
+En este segmento, las entrevistas muestran que el mayor reto está en la falta de visibilidad completa y control en tiempo real de la cadena de frío, ya que gran parte del seguimiento depende de registros manuales o revisiones posteriores. Los riesgos aumentan durante el transporte, especialmente por factores climáticos, transbordos y la carga operativa del personal en centros rurales. Además, la limitada conectividad dificulta el monitoreo constante y la toma de decisiones rápidas. Como punto fuerte, ambos entrevistados destacan la necesidad de una plataforma centralizada, confiable y con funcionamiento offline que permita trazabilidad completa, alertas inmediatas y una mejor gestión logística para reducir pérdidas y optimizar recursos.
 
 </div>
 
@@ -991,3 +1101,9 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 | MVP (Producto Mínimo Viable) | Versión inicial de CryoGuard con funcionalidades mínimas (monitoreo de temperatura, alertas LED/buzzer, almacenamiento local) para validar hipótesis clave con usuarios reales en entornos controlados. |
 
 </div>
+
+
+
+
+
+
