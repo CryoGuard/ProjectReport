@@ -41,129 +41,135 @@
 Abril 2026
 </div>
 
-## 3.1. User Stories
+<div class="page"/>
 
-Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
+<div>
 
-<!-- US01 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US01</td>
-    <td>Operador de transporte</td>
-    <td>Alta</td>
-    <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
-  </tr>
+# Registro de Versiones del Informe
 
+<br>
+<table>
   <tr>
-    <th>Title</th>
-    <td colspan="3">Monitorear temperatura en tiempo real	</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero monitorear la temperatura del contenedor en tiempo real durante todo el trayecto, para asegurar que las vacunas y medicamentos se mantengan dentro del rango permitido.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción</th>
   </tr>
   <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Temperatura dentro del rango permitido</strong></p>
-      <ul>
-        <li>Dado que el sensor de temperatura registra valores dentro del rango configurado,</li>
-        <li>Cuando el sistema procesa los datos,</li>
-        <li>Entonces el LED se mantiene en color verde</li>
-        <li>Y no se activan alertas sonoras.</li>
-      </ul>
-        <p><strong>Escenario 02: Temperatura fuera del rango permitido</strong></p>
-      <ul>
-        <li>Dado que el sensor de temperatura registra valores fuera del rango configurado,</li>
-        <li>Cuando el sistema detecta la desviación,</li>
-        <li>Entonces se activa LED rojo y buzzer</li>
-        <li>Y se genera un flag crítico en el sistema.</li>
-      </ul>
-    </td>
+    <th>AV1</th>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <th>TB1</th>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <th>AV2</th>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <th>TB2</th>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
+</div>
 
-<!-- US02 -->
+<div class="page"/>
 
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US02</td>
-    <td>Operador de transporte</td>
-    <td>Alta</td>
-    <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
-  </tr>
+<div class="insights">
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Monitorear humedad del contenedor</td>
-  </tr>
+# Project Report Collaboration Insights
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero monitorear los niveles de humedad dentro del contenedor, para evitar que la humedad excesiva dane los productos biomedicos sensibles.
-    </td>
-  </tr>
+  <table>
+    <tr>
+      <td>Link del repositorio del informe</td>
+      <td></td>
+    </tr>
+      <tr>
+      <td>Link de los repositorios de la organización</td>
+      <td></td>
+    </tr>
+      <tr>
+      <td>Link del Event Storming</td>
+      <td></td>
+    </tr>
+  </table>
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Humedad dentro del rango permitido</strong></p>
-      <ul>
-        <li>Dado que el sensor de humedad registra valores dentro del rango configurado (30%-70%),</li>
-        <li>Cuando el sistema procesa los datos,</li>
-        <li>Entonces no se genera ninguna alerta relacionada con humedad,</li>
-        <li>Y el sistema mantiene el estado normal del envio.</li>
-      </ul>
-      <p><strong>Escenario 02: Humedad fuera del rango permitido</strong></p>
-      <ul>
-        <li>Dado que el sensor de humedad registra valores por debajo o por encima del rango,</li>
-        <li>Cuando el sistema detecta la desviacion,</li>
-        <li>Entonces se activa un flag preventivo,</li>
-        <li>Y se envia una notificacion a la app del supervisor.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+  <br>
 
-<!-- US03 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US03</td>
-    <td>Operador de transporte</td>
-    <td>Media</td>
-    <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
-  </tr>
+  <h6> Evidencias AV1 </h6>
+  <h6> Evidencias TB1 </h6>
+  <h6> Evidencias AV2 </h6>
+  <h6> Evidencias TB2 </h6>
+
+</div>
+
+<div class="page"/>
+
+<div class="content-table">
+
+# Contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+          - [**Visión**](#visión)
+          - [**Misión**](#misión)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+          - [**Descripción General de la Solución**](#descripción-general-de-la-solución)
+          - [**Características Clave de la Solución**](#características-clave-de-la-solución)
+          - [**Beneficios de la Solución**](#beneficios-de-la-solución)
+          - [**Tecnología y Arquitectura**](#tecnología-y-arquitectura)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+          - [**What? (¿Qué?)**](#what-qué)
+          - [**When? (¿Cuándo?)**](#when-cuándo)
+          - [**Where? (¿Dónde?)**](#where-dónde)
+          - [**Who? (¿Quién?)**](#who-quién)
+          - [**Why? (¿Por qué?)**](#why-por-qué)
+          - [**How? (¿Cómo?)**](#how-cómo)
+          - [**How much? (¿Cuánto?)**](#how-much-cuánto)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+          - [Centros de salud rurales o urbanos:](#centros-de-salud-rurales-o-urbanos)
+          - [ONGs y gestores de logística sanitaria:](#ongs-y-gestores-de-logística-sanitaria)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [Estrategias generales de posicionamiento](#estrategias-generales-de-posicionamiento)
+      - [Estrategias ofensivas frente a competidores](#estrategias-ofensivas-frente-a-competidores)
+      - [Estrategias defensivas](#estrategias-defensivas)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+
+</div>
+
 <div class="page"/>
 
 <div class="Student-Outcome">
@@ -243,39 +249,36 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table class="students-profile">
   <tr>
-    <th>Title</th>
-    <td colspan="3">Detectar vibraciones o impactos</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero detectar vibraciones o impactos anormales durante el traslado, para identificar si los productos han sufrido golpes que puedan comprometer su integridad.
+    <th>
+      <img src="img/Enrique.png" width="200px">
+    </th>
+    <td valign="top">
+      <p><b>Jose Enrique Vargas Javier</b></p>
+      <p>Me considero una persona proactiva, responsable y orientada a la mejora continua. Decidí optar por esta carrera porque siempre me ha motivado comprender cómo funcionan los sistemas y, sobre todo, cómo protegerlos frente a amenazas cada vez más sofisticadas.</p>
     </td>
   </tr>
-
   <tr>
-    <th colspan="4">Acceptance Criteria</th>
+    <th>
+      <img src="https://files.catbox.moe/uo7qnb.webp" width="200px">
+    </th>
+    <td valign="top">
+      <p><b>Miranda Ayasta, Rogger Faryd</b></p>
+      <p>Soy estudiante de Ingeniería de Software, actualmente curso el 6.º ciclo de la carrera.
+      A lo largo de mi formación he aprendido diversos lenguajes de programación, como C++, Python, JavaScript, HTML y CSS Me destaco por mi responsabilidad, mis habilidades para el trabajo en equipo y mi motivación constante por seguir aprendiendo.</p>
+    </td>
   </tr>
   <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Vibracion dentro del umbral normal</strong></p>
-      <ul>
-        <li>Dado que el sensor de vibracion registra valores dentro del umbral normal,</li>
-        <li>Cuando el sistema evalua los datos,</li>
-        <li>Entonces no se genera ningun flag,</li>
-        <li>Y el envio continua sin incidentes de impacto.</li>
-      </ul>
-      <p><strong>Escenario 02: Vibracion que supera el umbral permitido</strong></p>
-      <ul>
-        <li>Dado que el sensor de vibracion registra un impacto o vibracion excesiva,</li>
-        <li>Cuando el sistema detecta la anomalia,</li>
-        <li>Entonces se registra el evento con timestamp,</li>
-        <li>Y se anade al log de incidentes del envio.</li>
-      </ul>
+    <th>
+      <img src="img/fotocam.png" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Camila Sanchez Rios</b></p>
+      <p>Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el octavo ciclo. Me gusta escuchar música y leer en los ratos libres y aprender más sobre la carrera.</p>
+    </td>
+  </tr>
+  <tr>
     <th>
       <img src="img/.jpg" width="800px">
     </th>
@@ -300,20 +303,6 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
   </tr>
 </table>
 
-<!-- US04 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US04</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
-  </tr>
 ## 1.2. Solution Profile
 
 ###### **Descripción General de la Solución**
@@ -524,281 +513,280 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 
+<table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th>Title</th>
-    <td colspan="3">Geolocalizar contenedor en tiempo real</td>
+    <th colspan="5">
+      <b>Objetivo del análisis:</b> Identificar el posicionamiento competitivo de CryoGuard en el mercado de soluciones IoT para monitoreo de cadena de frío en el transporte de medicamentos y productos biomédicos sensibles, entendiendo las ventajas diferenciales y oportunidades de mejora frente a competidores reales del sector. 
+    </th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>CryoGuard <img src="./assets/Chapter-2/Logo de CryoGuard.png"></th>
+    <th>Sensitech (Carrier) <img src="./assets/Chapter-2/logo1.png"></th>
+    <th>ELPRO-BUCHS AG<img src="./assets/Chapter-2/logo2.png"></th>
+    <th>Controlant Ehf <img src="./assets/Chapter-2/logo3.png"></th>
+  </tr>
+  <tr>
+    <th colspan="5"><b>PERFIL</b></th>
+  </tr>
+  <tr>
+    <td><b>Overview</b></td>
+    <td>Startup tecnológica enfocada en monitoreo IoT para cadena de frío en transporte de vacunas y medicamentos sensibles. Solución integra sensores IoT, procesamiento edge computing y sincronización cloud, diseñada para operar en entornos con conectividad limitada.</td>
+    <td>Líder mundial en visibilidad de cadena de suministro, parte de Carrier Global Corporation. Adquirió el negocio de Monitoring Solutions de Berlinger & Co. AG en agosto de 2024, expandiendo su portafolio en ciencias de la vida y salud global.</td>
+    <td>Empresa suiza fundada en 1986, especializada en monitoreo para industrias reguladas (farmacéutica, biotecnología). Ofrece soluciones GxP-compliant incluyendo LIBERO (monitoreo en tiempo real 4G/NB-IoT), ECOLOG-PRO y elproCLOUD.</td>
+    <td>Empresa islandesa fundada en 2007, especializada en transformación digital de la cadena de suministro farmacéutica. Sus dispositivos Saga (data loggers reutilizables con conectividad IoT) han logrado tasas de entrega exitosa >99% en clientes farmacéuticos.</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja competitiva</b></td>
+    <td>Procesamiento edge computing para operación offline completa; monitoreo de múltiples variables (temp, humedad, vibración, GPS, apertura); alertas multisensoriales (LED, buzzer, notificaciones); diseño específico para entornos con conectividad limitada en regiones en desarrollo.</td>
+    <td>Portafolio integral de monitoreo convencional y en tiempo real; respaldo de Carrier (NYSE:CARR); presencia global con ~85 empleados dedicados del negocio de Berlinger; soluciones para farmacéutica, ensayos clínicos y salud global.</td>
+    <td>Alta precisión y confiabilidad validada; cumplimiento 100% GxP; software validado 21 CFR Part 11; soluciones que utilizan redes 4G LTE y NB-IoT; servicios de consultoría, instalación y calibración. </td>
+    <td>Tasa de éxito en entregas >99% (vs industria con ~35% de pérdida histórica); reducción de 53kg CO2e por caja de medicamentos; red de conectividad global a través de Vodafone Business IoT (570 redes en 180+ países); dispositivos reutilizables.</td>
+  </tr>
+  <tr>
+    <th colspan="5"><b>PERFIL DE MARKETING</b></th>
+  </tr>
+  <tr>
+    <td><b>Mercado objetivo</b></td>
+    <td>Centros de salud rurales y urbanos, ONGs humanitarias, operadores logísticos de productos médicos</td>
+    <td>Empresas farmacéuticas globales, distribuidores, organizaciones de salud global (UNICEF, OMS), logística de ensayos clínicos.</td>
+    <td>Industria farmacéutica, biotecnología, hospitales de alta complejidad, centros de investigación clínica, farmacias.</td>
+    <td>Empresas farmacéuticas y de logística que buscan cero desperdicio en cadena de suministro. Clientes incluyen grandes farmacéuticas globales.</td>
+  </tr>
+  <tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>Marketing digital B2B/B2G, alianzas con ONGs y ministerios de salud, participación en conferencias de logística sanitaria, modelo freemium para adopción inicial.</td>
+    <td>Venta directa a través de fuerza de ventas global, adquisiciones estratégicas (Berlinger), marketing de confianza y trayectoria de 30+ años.</td>
+    <td>Presencia en ferias sectoriales (Expopharm 2025), marketing técnico especializado, venta directa con equipos de expertos, servicios de consultoría GxP.</td>
+    <td>Alianzas estratégicas (Vodafone Business IoT), marketing de sostenibilidad y reducción de huella de carbono, casos de éxito con métricas cuantificables.</td>
+  </tr>
+  <tr>
+    <th colspan="5"><b>PERFIL DE PRODUCTO</b></th>
+  </tr>
+  <tr>
+    <td><b>Productos & Servicios</b></td>
+    <td>Dispositivo IoT con sensores de temperatura, humedad, vibración, GPS, sensor de apertura; alertas LED/buzzer/notificaciones; dashboard web, app móvil, almacenamiento local SD, sincronización cloud.</td>
+    <td>TempTale Geo-X (monitoreo temperatura + GPS en tiempo real), Berlinger solutions (monitoreo convencional y en tiempo real), software y analytics.</td>
+    <td>LIBERO Gx (monitoreo 4G/NB-IoT en tiempo real), LIBERO Cx (PDF loggers para aplicaciones life science), ECOLOG-PRO (monitoreo ambiental inalámbrico), elproCLOUD. </td>
+    <td>Saga devices (data loggers reutilizables con conectividad IoT), plataforma central de gestión, dashboard para monitoreo de temperatura, ubicación y exposición a luz.</td>
+  </tr>
+  <tr>
+    <td><b>Precios & Costos</b></td>
+    <td>Modelo freemium (monitoreo básico limitado) con planes premium escalables por volumen de dispositivos, funcionalidades de analytics y almacenamiento cloud.</td>
+    <td>Modelo enterprise con contratos anuales; precios no públicos (solución premium para grandes farmacéuticas).</td>
+    <td>Alto costo inicial por hardware y software de validación; precios enterprise con contratos anuales y servicios profesionales adicionales.</td>
+    <td>Modelo basado en dispositivos reutilizables + suscripción; inversión inicial significativa pero con ROI por reducción de pérdidas.</td>
+  </tr>
+  <tr>
+    <td><b>Canales de distribución</b></td>
+    <td>Venta directa B2B/B2G, distribuidores especializados en logística sanitaria, marketplaces de tecnología para salud, alianzas con ONGs.</td>
+    <td>Red global de distribución (Carrier), fuerza de ventas directa en América del Norte, Europa y Asia.</td>
+    <td>Venta directa con equipos de expertos en Europa y América del Norte, partners de integración certificados.</td>
+    <td>Distribución global a través de alianza con Vodafone Business IoT (570 redes en 180+ países).</td>
   </tr>
 
-  <tr>
-    <th colspan="4">Description</th>
+<tr>
+    <th colspan="5"><b>Análisis SWOT</b></th>
+  </tr>
+<tr>
+    <td><b>Fortalezas</b></td>
+    <td>- Procesamiento edge computing para operación offline total<br>- Monitoreo de 5+ variables (temp, humedad, vibración, GPS, apertura)<br>- Alertas multisensoriales (LED, buzzer, notificaciones)<br>- Almacenamiento local en tarjeta SD<br>- Diseñado específicamente para entornos con conectividad limitada<br>- Bajo costo relativo vs soluciones enterprise</td><td>- Respaldo de Carrier (NYSE:CARR) con recursos significativos<br>- Portafolio integral post-adquisición de Berlinger<br>- Presencia global establecida por 30+ años<br>- Soluciones para farmacéutica, ensayos clínicos y salud global<br>- Reconocimiento de marca en el sector </td> <td>- Alta precisión y confiabilidad documentada<br>- Cumplimiento 100% GxP y 21 CFR Part 11<br>- Tecnología 4G LTE y NB-IoT de última generación<br>- Servicios completos de validación y calibración<br>- Historial comprobado en la industria </td> <td>- Tasa de éxito en entregas >99% (vs 65% industria)<br>- Red global de conectividad con Vodafone (570 redes)<br>- Reducción documentada de 53kg CO2e por caja<br>- Prevención de 16,700 toneladas CO2e en 2022<br>- Dispositivos reutilizables</td>
   </tr>
   <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero conocer la ubicacion GPS del contenedor en tiempo real, para monitorear que el transporte siga la ruta planificada.
-    </td>
+    <td><b>Debilidades</b></td>
+    <td>- Marca nueva sin trayectoria comprobada en sector salud<br>- Falta de certificaciones regulatorias (FDA, OMS, ISO 13485) en etapa inicial<br>- Ecosistema limitado vs competidores establecidos<br>- Recursos limitados para ventas y marketing global<br>- Dependencia de alianzas para escalar rápidamente</td> <td>- Modelo de negocio tradicional vs startups ágiles<br>- Posible rigidez burocrática por ser parte de Carrier<br>- Costos elevados para clientes pequeños<br>- Curva de aprendizaje de integración post-adquisición </td> <td>- Alto costo inicial de hardware y software<br>- Requiere infraestructura técnica para implementación<br>- Curva de aprendizaje pronunciada para personal no técnico<br>- Dependencia de conectividad celular para tiempo real </td> <td>- Dependencia de conectividad celular (aunque extensa, no es 100% global)<br>- Costo inicial significativo de dispositivos<br>- Presencia menor en mercados emergentes vs Europa<br>- Requiere integración con sistemas del cliente </td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>- Crecimiento del mercado de monitoreo de cadena de frío (CAGR 12.6% hasta 2030)<br>- Necesidad creciente en regiones en desarrollo post-pandemia<br>- Inversión global en infraestructura de salud y vacunación<br>- Alianzas con ministerios de salud y ONGs internacionales<br>- Expansión a alimentos perecederos y órganos para trasplantes<br>- Desarrollo de funcionalidades predictivas con IA</td> <td>- Consolidación como líder indiscutible post-adquisición de Berlinger<br>- Expansión en segmento de salud global y mercados emergentes<br>- Desarrollo de soluciones más asequibles para competir con startups<br>- Integración con plataformas de sostenibilidad </td> <td>- Expansión en mercados de América Latina y Asia-Pacífico<br>- Desarrollo de versiones más económicas para competir en segmento medio<br>- Alianzas con fabricantes de vacunas para monitoreo integrado<br>- Crecimiento en monitoreo ambiental de laboratorios </td> <td>- Expansión geográfica a mercados emergentes donde CryoGuard puede competir<br>- Desarrollo de soluciones para pequeños proveedores farmacéuticos<br>- Integración con blockchain para trazabilidad inmutable<br>- Liderazgo en métricas de sostenibilidad como diferenciador </td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>- Competidores establecidos (Sensitech, ELPRO, Controlant) expandiéndose a segmento de bajo costo<br>- Commoditización de sensores IoT reduciendo barreras de entrada<br>- Dificultad para obtener certificaciones regulatorias sin historial<br>- Preferencia de compradores institucionales por marcas con trayectoria<br>- Posible entrada de gigantes tecnológicos (Amazon, Google) al sector salud</td> <td>- Startups ágiles con modelos freemium disruptivos (como CryoGuard)<br>- Presiones de precio por parte de grandes compradores (gobiernos, ONGs)<br>- Cambios en regulaciones internacionales de cadena de frío<br>- Competencia de soluciones open-source IoT de bajo costo </td> <td>- Startups con soluciones más económicas y ágiles en mercados emergentes<br>- Soluciones integradas de fabricantes de vacunas con monitoreo propio<br>- Plataformas logísticas con soluciones nativas (Uber Health, Amazon Pharmacy)<br>- Requisitos regulatorios cada vez más estrictos</td> <td>- Competidores directos con soluciones similares pero mayor respaldo (Sensitech, ELPRO)<br>- Startups locales en mercados emergentes con ventaja de precio significativa<br>- Commoditización de tecnología IoT reduciendo diferenciación<br>- Concentración del mercado en pocos grandes jugadores </td>
   </tr>
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualizacion de ubicacion en mapa</strong></p>
-      <ul>
-        <li>Dado que el contenedor tiene conexion a internet,</li>
-        <li>Cuando el supervisor accede al dashboard web,</li>
-        <li>Entonces puede ver la ubicacion exacta del contenedor en un mapa interactivo,</li>
-        <li>Y validar que este dentro de la ruta esperada.</li>
-      </ul>
-      <p><strong>Escenario 02: Actualizacion de ubicacion en intervalos regulares</strong></p>
-      <ul>
-        <li>Dado que el contenedor esta en movimiento,</li>
-        <li>Cuando el sistema recibe datos GPS,</li>
-        <li>Entonces actualiza la posicion en el mapa cada 30 segundos o segun intervalo configurado,</li>
-        <li>Y mantiene trazabilidad continua del trayecto.</li>
-      </ul>
-    </td>
-  </tr>
 </table>
 
-<!-- US05 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US05</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
-  </tr>
+### 2.1.2. Estrategias y tácticas frente a competidores
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Activar enfriamiento automatico (Peltier)</td>
-  </tr>
+#### Estrategias generales de posicionamiento
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero que el sistema active automaticamente el enfriamiento (Peltier) cuando la temperatura supere el rango permitido, para proteger los productos sin intervencion manual.
-    </td>
-  </tr>
+**1. Especialización en entornos con conectividad limitada**
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Activacion automatica de enfriamiento</strong></p>
-      <ul>
-        <li>Dado que la temperatura supera el rango permitido en mas de 1 C,</li>
-        <li>Cuando el sistema detecta la condicion,</li>
-        <li>Entonces activa el modulo Peltier, disipador y ventilador automaticamente,</li>
-        <li>Y protege la integridad de los productos durante el traslado.</li>
-      </ul>
-      <p><strong>Escenario 02: Desactivacion al normalizar temperatura</strong></p>
-      <ul>
-        <li>Dado que el enfriamiento esta activo y la temperatura vuelve al rango permitido,</li>
-        <li>Cuando se mantiene estable dentro del rango por 2 minutos,</li>
-        <li>Entonces el sistema desactiva automaticamente el enfriamiento,</li>
-        <li>Y vuelve al modo de monitoreo normal.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**Objetivo:** Diferenciarnos como la única solución IoT que opera de manera confiable en zonas rurales y regiones en desarrollo sin dependencia de conectividad continua.
 
-<!-- US06 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US06</td>
-    <td>Administrador</td>
-    <td>Media</td>
-    <td>EP01 - Monitoreo y Control del Contenedor Inteligente</td>
-  </tr>
+**Tácticas:**
+- Desarrollar capacidades exclusivas de procesamiento edge computing para operación offline total.
+- Optimizar el almacenamiento local con capacidad extendida para trayectos de hasta 7 días sin sincronización.
+- Implementar sincronización inteligente por lotes al recuperar conectividad.
+- Diseñar una interfaz de usuario que funcione completamente sin internet (modo avión nativo).
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Bloquear apertura del contenedor (Servo)</td>
-  </tr>
+**1. Enfoque en simplicidad y bajo costo para ONGs y centros de salud rurales**
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como administrador, quiero que el sistema bloquee automaticamente la apertura del contenedor cuando se detecte una condicion critica, para evitar que se acceda a productos en estado vulnerable.
-    </td>
-  </tr>
+**Objetivo:** Ofrecer la solución más accesible y fácil de usar del mercado para organizaciones con recursos técnicos y financieros limitados.
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Bloqueo automatico por condicion critica</strong></p>
-      <ul>
-        <li>Dado que se detecta un flag critico (temperatura extrema o apertura no autorizada),</li>
-        <li>Cuando el sistema activa la alerta,</li>
-        <li>Entonces el servo bloquea fisicamente la apertura del contenedor,</li>
-        <li>Y se restringe el acceso hasta autorizacion valida.</li>
-      </ul>
-      <p><strong>Escenario 02: Desbloqueo por override autorizado</strong></p>
-      <ul>
-        <li>Dado que el contenedor esta bloqueado por condicion critica,</li>
-        <li>Cuando un usuario autorizado ejecuta override mediante boton fisico o app,</li>
-        <li>Entonces el sistema desbloquea el contenedor y registra la accion en el log,</li>
-        <li>Y deja trazabilidad del evento de desbloqueo.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**Tácticas:**
+- Crear un sistema de onboarding visual con tutoriales en video offline (sin necesidad de streaming).
+- Desarrollar alertas interpretables universalmente (códigos de color, iconos y sonidos).
+- Implementar configuración plug-and-play sin necesidad de calibración técnica.
+- Diseñar dashboards preconfigurados por tipo de institución (centro de salud, ONG u operador logístico).
 
-<!-- US07 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US07</td>
-    <td>Operador de transporte</td>
-    <td>Alta</td>
-    <td>EP02 - Alertas y Notificaciones</td>
-  </tr>
+**3. Posicionamiento en sostenibilidad y reducción de pérdidas**
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Recibir alerta visual mediante LED</td>
-  </tr>
+**Objetivo:** Diferenciarnos como la solución con mayor impacto documentado en reducción de pérdidas de medicamentos y huella de carbono.
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero recibir alertas visuales mediante LEDs de colores, para identificar rapidamente el estado del contenedor sin necesidad de mirar una pantalla.
-    </td>
-  </tr>
+**Tácticas:**
+- Calcular y publicar métricas de reducción de desperdicio por dispositivo implementado.
+- Desarrollar reportes automáticos de sostenibilidad para donantes y financiadores de ONGs.
+- Crear la certificación CryoGuard Verified para envíos que mantuvieron cadena de frío completa.
+- Establecer alianzas con organizaciones ambientales para validar la reducción de emisiones por medicamentos no desperdiciados.
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: LED verde para estado normal</strong></p>
-      <ul>
-        <li>Dado que todas las variables estan dentro del rango permitido,</li>
-        <li>Cuando el sistema evalua las condiciones,</li>
-        <li>Entonces el LED se mantiene en color verde fijo,</li>
-        <li>Y el operador identifica que no hay riesgo actual.</li>
-      </ul>
-      <p><strong>Escenario 02: LED rojo para condicion critica</strong></p>
-      <ul>
-        <li>Dado que al menos una variable critica esta fuera del rango permitido,</li>
-        <li>Cuando el sistema detecta la condicion,</li>
-        <li>Entonces el LED parpadea en color rojo,</li>
-        <li>Y se indica una accion inmediata del operador.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+#### Estrategias ofensivas frente a competidores
 
-<!-- US08 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US08</td>
-    <td>Operador de transporte</td>
-    <td>Alta</td>
-    <td>EP02 - Alertas y Notificaciones</td>
-  </tr>
+**1. Contra Sensitech (Carrier)**
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Recibir alerta sonora mediante Buzzer</td>
-  </tr>
+**Debilidad a explotar:** Dependencia de conectividad celular continua y alto costo de implementación en regiones en desarrollo.
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero recibir alertas sonoras cuando se detecte una condicion critica, para actuar inmediatamente incluso si no estoy mirando el contenedor.
-    </td>
-  </tr>
+**Tácticas:**
+- Lanzar campañas comparativas destacando capacidad offline frente a la dependencia de conectividad de Sensitech.
+- Implementar un programa de migración asistida para organizaciones que buscan reducir costos operativos.
+- Ofrecer precios significativamente más competitivos (40-60% menos) para el segmento de salud pública.
+- Construir mensajería centrada en monitoreo que funciona donde la señal no llega.
+- Documentar casos de éxito en zonas rurales de Latinoamérica y África subsahariana.
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Activacion de buzzer en condicion critica</strong></p>
-      <ul>
-        <li>Dado que se detecta un flag critico,</li>
-        <li>Cuando el sistema activa las alertas,</li>
-        <li>Entonces el buzzer emite un sonido intermitente,</li>
-        <li>Y el operador es advertido incluso sin contacto visual.</li>
-      </ul>
-      <p><strong>Escenario 02: Desactivacion manual del buzzer</strong></p>
-      <ul>
-        <li>Dado que el buzzer esta activo por una condicion critica,</li>
-        <li>Cuando el operador presiona el boton fisico de silencio o confirma la alerta en app,</li>
-        <li>Entonces el buzzer se desactiva pero el LED rojo continua parpadeando,</li>
-        <li>Y la condicion permanece visible hasta normalizarse.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**2. Contra ELPRO-BUCHS AG**
 
-<!-- US09 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US09</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP02 - Alertas y Notificaciones</td>
-  </tr>
+**Debilidad a explotar:** Alto costo inicial de hardware y software de validación, y complejidad técnica para personal no especializado.
 
+**Tácticas:**
+- Posicionarnos como ELPRO para el resto del mundo: misma calidad, menor precio.
+- Ofrecer un modelo freemium que permita prueba gratuita sin inversión inicial.
+- Eliminar costos ocultos de calibración y consultoría.
+- Diseñar una interfaz enfocada en personal de salud sin formación técnica.
+- Aplicar certificaciones progresivas que reduzcan barreras regulatorias iniciales.
+
+ **3. Contra Controlant Ehf**
+
+**Debilidad a explotar:** Dependencia de red Vodafone (no disponible en todas las regiones) y enfoque en grandes farmacéuticas.
+
+**Tácticas:**
+- Posicionarnos como una solución independiente de operador de telecomunicaciones.
+- Incorporar almacenamiento local como respaldo cuando la red no está disponible.
+- Dirigir campañas a mercados donde Vodafone tiene presencia limitada (por ejemplo, partes de Latinoamérica y Sudeste Asiático).
+- Definir precios accesibles para volúmenes pequeños y medianos frente al enfoque enterprise de Controlant.
+- Desarrollar versiones desechables de bajo costo para campañas de vacunación masiva.
+
+**4. Contra Temptime Corporation**
+
+**Debilidad a explotar:** Sin alertas en tiempo real, monitoreo post-evento e indicadores desechables que generan residuos.
+
+**Tácticas:**
+- Desarrollar mensajería centrada en saber antes de que sea demasiado tarde frente a saber después de que el daño está hecho.
+- Ejecutar campañas de sostenibilidad que destaquen la reutilización de dispositivos frente a residuos de indicadores desechables.
+- Desarrollar una versión económica de CryoGuard para competir directamente en precio con Temptime.
+- Crear alianzas con organizaciones ambientales para posicionar CryoGuard como opción ecológica.
+- Ofrecer dashboard comparativo en tiempo real frente a informe post-evento.
+
+#### Estrategias defensivas
+
+**1. Ante posible comoditización de sensores IoT**
+
+**Tácticas:**
+- Desarrollar continuamente funcionalidades diferenciadoras (IA predictiva, blockchain para trazabilidad inmutable e integración con sistemas de salud nacionales).
+- Crear un programa de actualización tecnológica para clientes existentes con precios preferenciales.
+- Construir una comunidad de usuarios para co-crear funcionalidades específicas por región.
+- Desarrollar integraciones exclusivas con proveedores locales de logística médica en cada mercado.
+
+ **2. Protección frente a entrada de grandes competidores (Amazon Pharmacy, Uber Health y gigantes tecnológicos)**
+
+**Tácticas:**
+- Formar alianzas estratégicas con ministerios de salud y ONGs internacionales (UNICEF, OMS y GAVI).
+- Negociar contratos a largo plazo con precios congelados para organizaciones de salud pública.
+- Desarrollar especialización vertical por tipo de producto (vacunas pediátricas, insulina y órganos para trasplantes).
+- Fortalecer un branding centrado en tecnología para salud pública y no solo en tecnología para ganancias.
+- Buscar certificaciones regulatorias tempranas (ISO 13485 y certificación OMS) como barrera de entrada.
+
+**3. Protección frente a competidores locales de bajo costo en mercados emergentes**
+
+**Tácticas:**
+- Aplicar un modelo freemium que permita adopción gratuita mientras se monetizan funcionalidades premium.
+- Incluir programa de capacitación y soporte técnico como valor agregado que competidores locales no ofrecen.
+- Desarrollar versiones específicas por país con integraciones a sistemas nacionales de salud.
+- Establecer alianzas con universidades locales para investigación y validación de eficacia.
+- Definir precios adaptados por región (sin precio único global).
+
+**4. Ante posible consolidación del mercado (adquisiciones de startups por grandes players)**
+
+**Tácticas:**
+- Mantener la independencia como valor diferencial: no somos parte de una corporación, somos parte de tu misión de salud.
+- Construir una comunidad de usuarios leales que valore el enfoque humanitario sobre el corporativo.
+- Diversificar fuentes de financiamiento (grants de fundaciones de salud e inversión de impacto social).
+- Desarrollar tecnología propietaria difícil de replicar (edge computing con algoritmos específicos para cadena de frío).
+
+
+</div>
+
+<div class="page"/>
+
+<div class="chap2">
+
+
+## 2.2. Entrevistas
+La finalidad de realizar entrevistas es obtener un alcance más completo sobre las experiencias, perspectivas y opiniones de los segmentos de mercado definidos. Nuestro objetivo es recolectar información valiosa que nos permita conocer mejor a nuestro público objetivo.
+
+### 2.2.1. Diseño de entrevistas
+
+**Segmento 1: Centros de salud rurales o urbanos**
+
+**Perfil de entrevistados:** Operadores y supervisores responsables del transporte de vacunas y medicamentos sensibles a temperatura.
+
+**Preguntas principales:**
+1. ¿Podrías contarme cómo realizan actualmente el monitoreo de temperatura durante el transporte de vacunas y medicamentos desde tu centro de salud?
+2. ¿Cuáles son los mayores retos que enfrentas al momento de transportar productos que requieren cadena de frío?
+3. ¿Has tenido pérdidas o incidentes por rompimiento de la cadena de frío durante el transporte? ¿Cómo lo detectaron y cómo lo resolvieron?
+4. ¿Qué tan importante es para ti recibir alertas en tiempo real cuando la temperatura del contenedor se sale del rango permitido?
+5. ¿Utilizas algún sistema o herramienta tecnológica para monitorear las condiciones del transporte? ¿Cuál y cómo te va con ella?
+
+**Preguntas complementarias:**
+1. ¿Cómo te enteras actualmente si una vacuna o medicamento se ha dañado durante el traslado? ¿Lo descubres al llegar o durante el trayecto?
+2. ¿Qué tipo de información o reportes te gustaría tener al finalizar cada envío para respaldar que los productos llegaron en buen estado?
+3. ¿Qué dispositivos tecnológicos utilizas en tu trabajo diario (laptop, celular, tablet, termómetros digitales, dataloggers)?
+4. ¿Qué tan frecuente es el problema de falta de conexión a internet durante las rutas de transporte en tu zona?
+5. ¿Cómo crees que una solución tecnológica de monitoreo podría ayudarte a reducir pérdidas y mejorar la seguridad de los medicamentos que transportas?
+6. ¿Qué factores son más importantes para ti al evaluar una solución de monitoreo: precio, facilidad de uso, confiabilidad, duración de batería o capacidad de funcionar sin internet?
+
+**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+
+**Perfil de entrevistados:** Administradores y planificadores de rutas, responsables de garantizar que los productos lleguen intactos a comunidades de difícil acceso.
+
+**Preguntas principales:**
+1. ¿Cómo gestionan actualmente la trazabilidad y el monitoreo de las condiciones ambientales en los envíos de vacunas y medicamentos que coordinan?
+2. ¿En qué momentos del proceso logístico has identificado mayores riesgos de rompimiento de la cadena de frío?
+3. ¿Cómo manejan la supervisión de múltiples envíos simultáneos que se distribuyen a diferentes regiones, especialmente aquellas con conectividad limitada?
+4. ¿Qué funcionalidades consideras indispensables en una solución de monitoreo IoT para cadena de frío en contextos humanitarios?
+5. ¿Has trabajado con proveedores de soluciones de monitoreo? ¿Cuáles han sido tus principales dificultades o frustraciones con ellas?
+
+**Preguntas complementarias:**
+1. ¿Qué porcentaje aproximado de pérdidas por rompimiento de cadena de frío estimas en tus operaciones actuales? ¿Cómo impacta esto en tu presupuesto y planificación?
+2. ¿Qué tipo de reportes o dashboards necesitas para rendir cuentas a donantes, financiadores o entidades reguladoras sobre la integridad de los productos transportados?
+3. ¿Cómo gestionas la capacitación del personal en terreno que no siempre tiene formación técnica especializada?
+4. ¿Qué tan relevante es para tu organización la sostenibilidad ambiental de los dispositivos de monitoreo (reutilización vs desechables)?
+5. ¿Qué rango de precio por dispositivo o por envío consideras aceptable para una solución que garantice monitoreo confiable en tiempo real?
+6. ¿Qué integraciones con sistemas existentes (SIGA, plataformas gubernamentales, sistemas de donantes) serían necesarias para adoptar una nueva solución de monitoreo?
+7. ¿Cómo manejas actualmente la verificación de que los productos han sido transportados bajo condiciones adecuadas cuando no hay conectividad durante el trayecto?
+
+### 2.2.2. Registro de entrevistas
+
+**Segmento 1: Centros de salud rurales o urbanos**
+
+<table border="1">
   <tr>
-    <th>Title</th>
-    <td colspan="3">Detectar salida de geocerca</td>
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
     <td>Gabriel</td>
   </tr>
-
   <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero recibir una alerta cuando el contenedor salga de la ruta o geocerca definida, para identificar desviaciones no planificadas.
     <th>Edad</th>
     <td>24</td>
     <th>Distrito</th>
@@ -880,26 +868,7 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
       La entrevistada, trabajadora de un centro de salud encargada del manejo de vacunas y cadena de frío, explicó que el transporte se realiza manteniendo una temperatura entre 2 y 8 °C mediante termos porta vacunas, paquetes fríos, termómetros y dispositivos como dataloggers para monitorear la temperatura. Señala que el mayor reto está en el transporte hacia zonas frías o rurales, donde los paquetes tardan más en descongelarse y se requiere una mejor preparación previa. Indica que no ha tenido pérdidas importantes por ruptura de cadena de frío, pero considera fundamental recibir alertas en tiempo real cuando la temperatura sale del rango permitido para activar el plan de contingencia, como trasladar las vacunas a otro contenedor seguro. Además, destaca que una solución tecnológica de monitoreo ayudaría a mejorar la seguridad, el control y la conservación adecuada de las vacunas durante todo el proceso.
     </td>
   </tr>
-
   <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Alerta por salida de geocerca</strong></p>
-      <ul>
-        <li>Dado que se ha definido una geocerca para la ruta del envio,</li>
-        <li>Cuando el GPS del contenedor detecta que la ubicacion esta fuera de la geocerca,</li>
-        <li>Entonces el sistema genera un flag preventivo y envia una notificacion al supervisor,</li>
-        <li>Y se activa seguimiento reforzado del trayecto.</li>
-      </ul>
-      <p><strong>Escenario 02: Registro de desviacion en el log</strong></p>
-      <ul>
-        <li>Dado que se detecto una salida de geocerca,</li>
-        <li>Cuando el supervisor revisa el historial del envio,</li>
-        <li>Entonces puede ver el punto exacto de desviacion con timestamp y duracion,</li>
-        <li>Y usar la evidencia para analisis posterior.</li>
-      </ul>
     <th>URL de la grabación</th>
     <td colspan="3">
       <a href="https://drive.google.com/drive/folders/1iQFGaorB6bw4b1EpuBW3llKa8cVtb8wm?usp=sharing">
@@ -915,36 +884,16 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
   </tr>
 </table>
 
-<!-- US10 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US10</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP02 - Alertas y Notificaciones</td>
-  </tr>
+**Segmento 2: ONGs y gestores de logística sanitaria**
 
+<table border="1">
   <tr>
-    <th>Title</th>
-    <td colspan="3">Detectar apertura no autorizada del contenedor</td>
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
     <td>Isabel</td>
   </tr>
-
   <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero recibir una alerta cuando el contenedor se abra sin autorizacion, para identificar posibles manipulaciones indebidas de los productos.
     <th>Edad</th>
     <td>27</td>
     <th>Distrito</th>
@@ -956,26 +905,7 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
         La entrevistada señala que el principal problema es la falta de monitoreo en tiempo real, ya que la trazabilidad se basa en registros manuales y dataloggers revisados al final. Además, la conectividad limitada y los riesgos en transbordos y retrasos dificultan el control de la cadena de frío. En general, necesita una solución confiable, simple y con capacidad offline que permita alertas inmediatas, trazabilidad completa y reduzca pérdidas.
     </td>
   </tr>
-
   <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Alerta por apertura no autorizada</strong></p>
-      <ul>
-        <li>Dado que el contenedor esta cerrado y el sistema en modo de transporte,</li>
-        <li>Cuando se detecta la apertura del contenedor sin un override previo,</li>
-        <li>Entonces se activa flag critico, LED rojo, buzzer y notificacion remota,</li>
-        <li>Y se registra un evento de seguridad en el sistema.</li>
-      </ul>
-      <p><strong>Escenario 02: Registro de apertura autorizada</strong></p>
-      <ul>
-        <li>Dado que un usuario autorizado ejecuta override antes de abrir,</li>
-        <li>Cuando se detecta la apertura del contenedor,</li>
-        <li>Entonces se registra como apertura autorizada y no se activan alertas,</li>
-        <li>Y se conserva la trazabilidad de la autorizacion.</li>
-      </ul>
     <th>URL de la grabación</th>
     <td colspan="3">
       <a href="https://drive.google.com/file/d/1xWDeuagEcSr8o8BPUqwS3ZJFU_zf5NOd/view?usp=sharing">
@@ -1026,34 +956,6 @@ Nos enfocamos en organizaciones dedicadas a la planificación y ejecución de ca
   </tr>
 </table>
 
-<!-- US11 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US11</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP03 - Dashboard Web y Aplicacion Movil</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Visualizar dashboard con mapa de envios activos</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero visualizar un dashboard web con un mapa que muestre todos los envios activos, para supervisar su ubicacion y estado de manera centralizada.
-    </td>
-  </tr>
 ### 2.2.3. Análisis de entrevistas
 En base a la recopilación de datos obtenida mediante las entrevistas, se ha realizado el siguiente análisis cualitativo y cuantitativo. Los hallazgos estadísticos sobre sus comportamientos, herramientas actuales, dolores (pains) y necesidades (gains) servirán como fundamento directo para la construcción de los arquetipos (User Personas).
 
@@ -1067,1338 +969,141 @@ En este segmento, las entrevistas muestran que el mayor reto está en la falta d
 
 </div>
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Mapa con todos los envios activos</strong></p>
-      <ul>
-        <li>Dado que hay multiples envios en curso,</li>
-        <li>Cuando el supervisor accede al dashboard,</li>
-        <li>Entonces ve un mapa con marcadores de cada contenedor activo y su estado (verde/normal, amarillo/preventivo, rojo/critico),</li>
-        <li>Y puede priorizar acciones sobre los envios criticos.</li>
-      </ul>
-      <p><strong>Escenario 02: Filtros por region y estado</strong></p>
-      <ul>
-        <li>Dado que el supervisor quiere enfocarse en una region especifica,</li>
-        <li>Cuando aplica filtros por region o estado,</li>
-        <li>Entonces el mapa muestra solo los envios que cumplen con los criterios seleccionados,</li>
-        <li>Y mejora la supervision operativa por segmento.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div class="page"/>
 
-<!-- US12 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US12</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP03 - Dashboard Web y Aplicacion Movil</td>
-  </tr>
+<div class="chap2">
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Consultar logs historicos de envios</td>
-  </tr>
+## 2.3. Needfinding
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero consultar los logs historicos de envios anteriores, para analizar incidentes pasados y mejorar rutas futuras.
-    </td>
-  </tr>
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualizacion de historial por envio</strong></p>
-      <ul>
-        <li>Dado que el supervisor selecciona un envio completado,</li>
-        <li>Cuando accede a los detalles del envio,</li>
-        <li>Entonces puede ver el log completo de temperatura, humedad, vibracion, ubicacion y eventos de apertura,</li>
-        <li>Y analizar incidentes con contexto completo.</li>
-      </ul>
-      <p><strong>Escenario 02: Exportacion de logs</strong></p>
-      <ul>
-        <li>Dado que el supervisor necesita compartir los logs con un auditor,</li>
-        <li>Cuando selecciona la opcion de exportacion,</li>
-        <li>Entonces el sistema genera un archivo CSV o PDF con todos los datos del envio,</li>
-        <li>Y facilita auditoria y cumplimiento documental.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### 2.3.1. User Personas
 
-<!-- US13 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US13</td>
-    <td>Operador de transporte</td>
-    <td>Alta</td>
-    <td>EP03 - Dashboard Web y Aplicacion Movil</td>
-  </tr>
+**Segmento 1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-2/Luis Mendoza.png" alt="User persona - segmento 1" width="600"/>
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Recibir notificaciones push en app movil</td>
-  </tr>
+_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
 
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero recibir notificaciones push en mi aplicacion movil cuando se detecte una condicion critica, para actuar rapidamente incluso si no estoy cerca del contenedor.
-    </td>
-  </tr>
+**Segmento 2: ONGs y gestores de logística sanitaria**
+<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
 
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Notificacion push por flag critico</strong></p>
-      <ul>
-        <li>Dado que se detecta un flag critico en el contenedor,</li>
-        <li>Cuando el sistema procesa el evento,</li>
-        <li>Entonces envia una notificacion push a la app movil del operador asignado al envio,</li>
-        <li>Y permite reaccion inmediata ante el incidente.</li>
-      </ul>
-      <p><strong>Escenario 02: Contenido de la notificacion</strong></p>
-      <ul>
-        <li>Dado que el operador recibe la notificacion,</li>
-        <li>Cuando abre la app,</li>
-        <li>Entonces puede ver que variable causo el flag, el valor registrado y la accion recomendada,</li>
-        <li>Y decidir la respuesta operativa adecuada.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US14 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US14</td>
-    <td>Administrador</td>
-    <td>Media</td>
-    <td>EP03 - Dashboard Web y Aplicacion Movil</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Gestionar usuarios y roles desde dashboard</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como administrador, quiero gestionar usuarios y asignar roles desde el dashboard web, para controlar quien tiene acceso a que funcionalidades del sistema.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Crear nuevo usuario</strong></p>
-      <ul>
-        <li>Dado que el administrador esta en el panel de gestion de usuarios,</li>
-        <li>Cuando ingresa nombre, correo y selecciona un rol (Operador, Supervisor, ONG),</li>
-        <li>Entonces el sistema crea el usuario y envia un correo con instrucciones de acceso,</li>
-        <li>Y deja el registro de alta en el sistema.</li>
-      </ul>
-      <p><strong>Escenario 02: Modificar rol de usuario existente</strong></p>
-      <ul>
-        <li>Dado que un usuario cambia de puesto o responsabilidades,</li>
-        <li>Cuando el administrador modifica su rol,</li>
-        <li>Entonces el sistema actualiza los permisos del usuario sin afectar sus datos historicos,</li>
-        <li>Y aplica la nueva politica de acceso de inmediato.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US15 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US15</td>
-    <td>Operador de transporte</td>
-    <td>Alta</td>
-    <td>EP04 - Almacenamiento y Sincronizacion de Datos</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Almacenar datos localmente durante transporte offline</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador de transporte, quiero que el sistema almacene todos los datos de sensores localmente cuando no hay conexion a internet, para no perder informacion durante trayectos en zonas sin cobertura.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Almacenamiento automatico en tarjeta SD</strong></p>
-      <ul>
-        <li>Dado que el contenedor esta en una zona sin conectividad,</li>
-        <li>Cuando los sensores capturan datos,</li>
-        <li>Entonces el sistema guarda toda la informacion en la memoria interna o tarjeta SD,</li>
-        <li>Y evita perdida de datos durante el trayecto.</li>
-      </ul>
-      <p><strong>Escenario 02: Capacidad de almacenamiento suficiente</strong></p>
-      <ul>
-        <li>Dado que el trayecto dura hasta 7 dias sin conectividad,</li>
-        <li>Cuando el sistema almacena datos continuamente,</li>
-        <li>Entonces la tarjeta SD tiene capacidad suficiente para retener todos los datos sin sobrescribir,</li>
-        <li>Y conserva la trazabilidad completa del envio.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US16 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US16</td>
-    <td>Supervisor de logistica</td>
-    <td>Alta</td>
-    <td>EP04 - Almacenamiento y Sincronizacion de Datos</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Sincronizar datos con la nube automaticamente</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero que los datos almacenados localmente se sincronicen automaticamente con la nube cuando haya conectividad disponible, para tener trazabilidad completa y respaldo de la informacion.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Sincronizacion automatica al detectar WiFi</strong></p>
-      <ul>
-        <li>Dado que el contenedor regresa a una zona con conexion a internet,</li>
-        <li>Cuando el sistema detecta una red WiFi configurada o datos moviles,</li>
-        <li>Entonces inicia automaticamente la sincronizacion de datos pendientes con la nube,</li>
-        <li>Y mantiene actualizado el historial centralizado.</li>
-      </ul>
-      <p><strong>Escenario 02: Resumen de sincronizacion</strong></p>
-      <ul>
-        <li>Dado que la sincronizacion ha finalizado,</li>
-        <li>Cuando el supervisor revisa el dashboard,</li>
-        <li>Entonces puede ver un resumen de los datos sincronizados y confirmar que no hubo perdida de informacion,</li>
-        <li>Y valida la integridad del respaldo en nube.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US17 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US17</td>
-    <td>Administrador de ONG</td>
-    <td>Alta</td>
-    <td>EP04 - Almacenamiento y Sincronizacion de Datos</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Generar reporte de trazabilidad para donantes</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como administrador de ONG, quiero generar un reporte de trazabilidad completo de un envio o proyecto, para presentar evidencia a donantes internacionales sobre el uso adecuado de los recursos.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Generacion de reporte por envio</strong></p>
-      <ul>
-        <li>Dado que un envio ha sido completado y sincronizado,</li>
-        <li>Cuando el administrador selecciona el envio y la opcion "Generar reporte",</li>
-        <li>Entonces el sistema crea un documento PDF con graficos de temperatura, mapa de ruta, incidentes y estado final,</li>
-        <li>Y deja evidencia formal para auditoria de donantes.</li>
-      </ul>
-      <p><strong>Escenario 02: Reporte consolidado por proyecto</strong></p>
-      <ul>
-        <li>Dado que un proyecto incluye multiples envios,</li>
-        <li>Cuando el administrador selecciona el proyecto y un rango de fechas,</li>
-        <li>Entonces el sistema genera un reporte consolidado con resumen de todos los envios y estadisticas agregadas,</li>
-        <li>Y facilita la rendicion de cuentas del proyecto.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US18 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US18</td>
-    <td>Administrador</td>
-    <td>Media</td>
-    <td>EP05 - Gestion de Usuarios y Roles</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Ejecutar override manual mediante boton fisico</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como operador autorizado, quiero ejecutar override manual mediante botones fisicos en el contenedor, para desbloquear la caja o silenciar alertas en situaciones de emergencia cuando no tengo acceso a la app.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Desbloqueo por override fisico</strong></p>
-      <ul>
-        <li>Dado que el contenedor esta bloqueado por una condicion critica,</li>
-        <li>Cuando el operador autorizado presiona el boton de override y ingresa su codigo,</li>
-        <li>Entonces el servo desbloquea el contenedor y se registra la accion con el ID del operador,</li>
-        <li>Y queda constancia para seguimiento posterior.</li>
-      </ul>
-      <p><strong>Escenario 02: Silenciar buzzer mediante boton fisico</strong></p>
-      <ul>
-        <li>Dado que el buzzer esta activo por una alerta,</li>
-        <li>Cuando el operador presiona el boton de silencio,</li>
-        <li>Entonces el buzzer se desactiva pero el LED rojo continua parpadeando,</li>
-        <li>Y la alerta visual se mantiene hasta resolver la condicion.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US19 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US19</td>
-    <td>Supervisor de logistica</td>
-    <td>Media</td>
-    <td>EP05 - Gestion de Usuarios y Roles</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Ejecutar override remoto desde app o web</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como supervisor de logistica, quiero ejecutar override remoto desde la app o web, para autorizar el desbloqueo del contenedor a distancia sin necesidad de que el operador este fisicamente presente.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Override remoto por supervisor</strong></p>
-      <ul>
-        <li>Dado que el operador solicita autorizacion para abrir el contenedor en una zona remota,</li>
-        <li>Cuando el supervisor recibe la solicitud en la app y la aprueba,</li>
-        <li>Entonces el sistema envia una senal al contenedor para desbloquear el servo temporalmente,</li>
-        <li>Y habilita la apertura bajo control remoto autorizado.</li>
-      </ul>
-      <p><strong>Escenario 02: Registro de override remoto</strong></p>
-      <ul>
-        <li>Dado que se ejecuto un override remoto,</li>
-        <li>Cuando se revisa el log del envio,</li>
-        <li>Entonces se registra quien autorizo, desde que dispositivo, en que momento y la duracion del desbloqueo,</li>
-        <li>Y se conserva trazabilidad completa de la aprobacion.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US20 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US20</td>
-    <td>Administrador</td>
-    <td>Alta</td>
-    <td>EP05 - Gestion de Usuarios y Roles</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Configurar rangos permitidos por tipo de producto</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como administrador, quiero configurar los rangos permitidos de temperatura, humedad y vibracion segun el tipo de producto (vacunas, insulina, sangre), para que el sistema evalue correctamente las condiciones segun los requerimientos especificos de cada producto.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Seleccion de producto predefinido</strong></p>
-      <ul>
-        <li>Dado que el administrador esta configurando un nuevo envio,</li>
-        <li>Cuando selecciona un tipo de producto de la lista predefinida (ej. Vacuna Pfizer, Insulina),</li>
-        <li>Entonces el sistema carga automaticamente los rangos permitidos recomendados por el fabricante,</li>
-        <li>Y aplica los parametros al envio configurado.</li>
-      </ul>
-      <p><strong>Escenario 02: Configuracion manual de rangos personalizados</strong></p>
-      <ul>
-        <li>Dado que el producto no esta en la lista predefinida,</li>
-        <li>Cuando el administrador ingresa valores manuales para temperatura minima, maxima y otros parametros,</li>
-        <li>Entonces el sistema guarda la configuracion y la aplica a todos los envios de ese producto,</li>
-        <li>Y conserva la plantilla para futuras operaciones.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-## **Technical Stories**
-En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, supervisar el sistema, generar reportes, entre otros.
-
-<!-- TS01 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS01</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>EP06 - Backend y API</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">API Sincronización de datos desde dispositivo IoT</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito exponer un endpoint para que el dispositivo CryoGuard sincronice los datos almacenados localmente (temperatura, humedad, vibración, GPS, eventos de apertura) con la nube cuando haya conectividad disponible, asegurando la integridad y trazabilidad de la información.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Sincronización exitosa de datos</strong></p>
-      <ul>
-        <li>Dado que el dispositivo tiene datos pendientes en su almacenamiento local (tarjeta SD),</li>
-        <li>Cuando detecta conexión a internet y envía los datos al endpoint de sincronización,</li>
-        <li>Entonces el backend recibe, valida y almacena los datos en la base de datos,</li>
-        <li>Y retorna código 201 con confirmación de recepción.</li>
-      </ul>
-      <p><strong>Escenario 02: Datos duplicados o ya sincronizados</strong></p>
-      <ul>
-        <li>Dado que el dispositivo envía un lote de datos ya sincronizados previamente,</li>
-        <li>Cuando el endpoint recibe datos con IDs duplicados,</li>
-        <li>Entonces el backend responde con código 200 indicando que ya existen,</li>
-        <li>Y no duplica registros en la base de datos.</li>
-      </ul>
-      <p><strong>Escenario 03: Error de conexión durante sincronización</strong></p>
-      <ul>
-        <li>Dado que el dispositivo está enviando datos y la conexión se interrumpe,</li>
-        <li>Cuando el endpoint no recibe el lote completo,</li>
-        <li>Entonces el backend no almacena datos parciales,</li>
-        <li>Y el dispositivo reintenta el envío completo en la siguiente sincronización.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS02 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS02</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>EP06 - Backend y API</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">API Gestión de flags y alertas</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito exponer endpoints para que el dispositivo IoT envíe flags generados localmente (edge computing) y para que la web/app consulten alertas activas, permitiendo la supervisión en tiempo real de condiciones críticas.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Recepción de flag crítico desde dispositivo</strong></p>
-      <ul>
-        <li>Dado que el dispositivo detecta una condición fuera de rango (ej. temperatura &gt; 8°C),</li>
-        <li>Cuando envía el flag al endpoint correspondiente,</li>
-        <li>Entonces el backend registra el flag con timestamp, tipo, valor y ubicación GPS,</li>
-        <li>Y activa el proceso de notificaciones push a usuarios suscritos al envío.</li>
-      </ul>
-      <p><strong>Escenario 02: Consulta de flags activos por usuario</strong></p>
-      <ul>
-        <li>Dado que un supervisor accede al dashboard,</li>
-        <li>Cuando consume el endpoint GET /flags?estado=activo,</li>
-        <li>Entonces el backend retorna la lista de flags activos ordenados por prioridad,</li>
-        <li>Y solo incluye envíos asociados al usuario (por región o rol).</li>
-      </ul>
-      <p><strong>Escenario 03: Confirmación de flag (override)</strong></p>
-      <ul>
-        <li>Dado que un usuario autorizado confirma un flag desde la app,</li>
-        <li>Cuando consume el endpoint PUT /flags/{id}/confirmar,</li>
-        <li>Entonces el backend actualiza el estado del flag a confirmado,</li>
-        <li>Y registra quién lo confirmó, desde qué dispositivo y en qué momento.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS03 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS03</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>EP06 - Backend y API</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">API Gestión de usuarios y roles</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito exponer endpoints para gestionar usuarios (crear, modificar, eliminar) y asignar roles (Operador, Supervisor, Administrador, ONG), asegurando autenticación segura y control de acceso basado en permisos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro exitoso de usuario</strong></p>
-      <ul>
-        <li>Dado que el administrador o el registro público está disponible,</li>
-        <li>Cuando el usuario envía email, contraseña válida y datos básicos,</li>
-        <li>Entonces el backend crea la cuenta en la base de datos y retorna token JWT o código 201,</li>
-        <li>Y la contraseña se almacena hasheada (bcrypt/argon2).</li>
-      </ul>
-      <p><strong>Escenario 02: Registro con email duplicado o datos inválidos</strong></p>
-      <ul>
-        <li>Dado que el endpoint de registro recibe datos,</li>
-        <li>Cuando el email ya existe o la contraseña no cumple requisitos,</li>
-        <li>Entonces el backend responde con código 409 (duplicado) o 400 (validación),</li>
-        <li>Y retorna un mensaje claro con el error específico.</li>
-      </ul>
-      <p><strong>Escenario 03: Autenticación de usuario (login)</strong></p>
-      <ul>
-        <li>Dado que un usuario tiene una cuenta activa,</li>
-        <li>Cuando envía sus credenciales al endpoint /auth/login,</li>
-        <li>Entonces el backend valida credenciales y retorna JWT con expiración configurada,</li>
-        <li>Y el rol/permisos del usuario quedan codificados en el token.</li>
-      </ul>
-      <p><strong>Escenario 04: Asignación de rol por administrador</strong></p>
-      <ul>
-        <li>Dado que un administrador gestiona usuarios desde el dashboard,</li>
-        <li>Cuando asigna o modifica el rol de un usuario,</li>
-        <li>Entonces el backend actualiza permisos del usuario,</li>
-        <li>Y registra la acción en un log de auditoría.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS04 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS04</td>
-    <td>Developer</td>
-    <td>Media</td>
-    <td>EP06 - Backend y API</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">API Generación de reportes de trazabilidad</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito exponer endpoints para generar reportes de trazabilidad (por envío, por proyecto o por rango de fechas) en formatos PDF y Excel, para que supervisores y ONGs presenten evidencia a donantes y entes reguladores.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Generación de reporte por ID de envío</strong></p>
-      <ul>
-        <li>Dado que un supervisor selecciona un envío completado,</li>
-        <li>Cuando consume GET /reportes/envio/{id}?formato=pdf,</li>
-        <li>Entonces el backend genera un PDF con gráficos, mapa de ruta, incidentes y estado final,</li>
-        <li>Y retorna el archivo para descarga.</li>
-      </ul>
-      <p><strong>Escenario 02: Generación de reporte consolidado por proyecto</strong></p>
-      <ul>
-        <li>Dado que una ONG necesita reportar múltiples envíos de un proyecto,</li>
-        <li>Cuando consume POST /reportes/proyecto con rango de fechas y lista de envíos,</li>
-        <li>Entonces el backend genera un consolidado con resumen estadístico y porcentaje de éxito,</li>
-        <li>Y retorna el archivo en formato PDF o Excel.</li>
-      </ul>
-      <p><strong>Escenario 03: Cache de reportes para evitar regeneración</strong></p>
-      <ul>
-        <li>Dado que el mismo reporte se solicita múltiples veces sin cambios de datos,</li>
-        <li>Cuando el backend recibe una solicitud idéntica (mismos parámetros),</li>
-        <li>Entonces retorna el reporte en caché sin regenerar documento,</li>
-        <li>Y reduce tiempo de respuesta y carga del servidor.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS05 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS05</td>
-    <td>Embedded Developer</td>
-    <td>Alta</td>
-    <td>EP07 - Dispositivo IoT y Edge Computing</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar lectura de sensores (temp, humedad, vibración, GPS, apertura)</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador embedded, necesito implementar la lectura de todos los sensores del dispositivo CryoGuard, asegurando captura de datos en intervalos configurables y almacenamiento local en tarjeta SD.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Lectura periódica de sensores</strong></p>
-      <ul>
-        <li>Dado que el dispositivo está encendido y en modo operación,</li>
-        <li>Cuando el temporizador alcanza el intervalo configurado (ej. cada 30 segundos),</li>
-        <li>Entonces el sistema lee todos los sensores,</li>
-        <li>Y almacena datos en tarjeta SD con timestamp y GPS actual.</li>
-      </ul>
-      <p><strong>Escenario 02: Almacenamiento local en tarjeta SD</strong></p>
-      <ul>
-        <li>Dado que el dispositivo está en zona sin conectividad,</li>
-        <li>Cuando los sensores capturan datos,</li>
-        <li>Entonces los datos se escriben en la tarjeta SD en formato CSV o JSON,</li>
-        <li>Y se mantienen hasta la siguiente sincronización exitosa.</li>
-      </ul>
-      <p><strong>Escenario 03: Detección de fallo de sensor</strong></p>
-      <ul>
-        <li>Dado que un sensor no responde o envía datos inválidos,</li>
-        <li>Cuando el sistema intenta leerlo,</li>
-        <li>Entonces registra un error interno y continúa con los sensores restantes,</li>
-        <li>Y genera un flag de mantenimiento para el supervisor.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS06 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS06</td>
-    <td>Embedded Developer</td>
-    <td>Alta</td>
-    <td>EP07 - Dispositivo IoT y Edge Computing</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar reglas de edge computing para generación de flags</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador embedded, necesito implementar un motor de reglas que evalúe localmente los datos de sensores y genere flags preventivos o críticos cuando las variables salgan de rango, activando actuadores automáticamente.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Evaluación de temperatura fuera de rango</strong></p>
-      <ul>
-        <li>Dado que el rango permitido es 2°C a 8°C,</li>
-        <li>Cuando el sensor registra 9°C durante más de 30 segundos,</li>
-        <li>Entonces el sistema genera un flag crítico,</li>
-        <li>Y activa LED rojo, buzzer y Peltier automáticamente.</li>
-      </ul>
-      <p><strong>Escenario 02: Evaluación de temperatura cercana al límite</strong></p>
-      <ul>
-        <li>Dado que el rango permitido es 2°C a 8°C,</li>
-        <li>Cuando el sensor registra 7.5°C cercano al límite superior,</li>
-        <li>Entonces el sistema genera un flag preventivo,</li>
-        <li>Y activa LED amarillo sin buzzer.</li>
-      </ul>
-      <p><strong>Escenario 03: Evaluación de vibración excesiva</strong></p>
-      <ul>
-        <li>Dado que existe un umbral máximo de vibración configurado,</li>
-        <li>Cuando el sensor registra un valor superior al umbral,</li>
-        <li>Entonces el sistema genera un flag de vibración,</li>
-        <li>Y registra el evento sin activar enfriamiento.</li>
-      </ul>
-      <p><strong>Escenario 04: Evaluación de apertura no autorizada</strong></p>
-      <ul>
-        <li>Dado que el contenedor está cerrado y no hay override activo,</li>
-        <li>Cuando el sensor de apertura detecta que la caja se abrió,</li>
-        <li>Entonces el sistema genera un flag crítico de apertura no autorizada,</li>
-        <li>Y activa LED rojo, buzzer y bloqueo de servo.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS07 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS07</td>
-    <td>Embedded Developer</td>
-    <td>Alta</td>
-    <td>EP07 - Dispositivo IoT y Edge Computing</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar control de actuadores (Peltier, Servo, LED, Buzzer)</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador embedded, necesito implementar el control de actuadores del dispositivo por reglas automáticas y por comandos manuales (botones físicos o remotos).</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Activación automática de Peltier por temperatura alta</strong></p>
-      <ul>
-        <li>Dado que se detectó un flag crítico por temperatura alta,</li>
-        <li>Cuando el sistema evalúa la regla correspondiente,</li>
-        <li>Entonces activa módulo Peltier, disipador y ventilador,</li>
-        <li>Y mantiene enfriamiento hasta normalización sostenida por 2 minutos.</li>
-      </ul>
-      <p><strong>Escenario 02: Activación de servo para bloqueo de apertura</strong></p>
-      <ul>
-        <li>Dado que se detectó un flag crítico o apertura no autorizada,</li>
-        <li>Cuando el sistema activa el bloqueo,</li>
-        <li>Entonces el servo bloquea físicamente la apertura del contenedor,</li>
-        <li>Y solo se desbloquea con override autorizado.</li>
-      </ul>
-      <p><strong>Escenario 03: Control de LEDs según estado</strong></p>
-      <ul>
-        <li>Dado que no hay flags activos, cuando se evalúa estado normal, entonces LED verde fijo.</li>
-        <li>Dado que hay flag preventivo activo, cuando la condición es cercana al límite, entonces LED amarillo fijo.</li>
-        <li>Dado que hay flag crítico activo, cuando la condición está fuera de rango, entonces LED rojo parpadeante.</li>
-        <li>Y el patrón visual refleja de forma inmediata la severidad actual.</li>
-      </ul>
-      <p><strong>Escenario 04: Control de buzzer para alertas sonoras</strong></p>
-      <ul>
-        <li>Dado que hay un flag crítico activo,</li>
-        <li>Cuando se activa la alerta sonora,</li>
-        <li>Entonces el buzzer emite pitido intermitente y puede silenciarse por botón físico,</li>
-        <li>Pero el LED rojo continúa parpadeando hasta normalizar la condición.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS08 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS08</td>
-    <td>Embedded Developer</td>
-    <td>Media</td>
-    <td>EP07 - Dispositivo IoT y Edge Computing</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar botones físicos para override y control manual</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador embedded, necesito implementar lectura de botones físicos (override, silencio, prueba de LEDs, reset) para permitir acciones manuales sin depender de app o web.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Override manual mediante botón físico</strong></p>
-      <ul>
-        <li>Dado que el contenedor está bloqueado por un flag crítico,</li>
-        <li>Cuando el operador autorizado presiona el botón de override por 3 segundos,</li>
-        <li>Entonces el sistema desbloquea el servo por 30 segundos,</li>
-        <li>Y registra la acción en el log con timestamp e identificador.</li>
-      </ul>
-      <p><strong>Escenario 02: Silencio de buzzer mediante botón físico</strong></p>
-      <ul>
-        <li>Dado que el buzzer está activo por un flag crítico,</li>
-        <li>Cuando el operador presiona el botón de silencio,</li>
-        <li>Entonces el buzzer se desactiva inmediatamente,</li>
-        <li>Pero el LED rojo continúa parpadeando hasta normalizar la condición.</li>
-      </ul>
-      <p><strong>Escenario 03: Prueba de LEDs y buzzer</strong></p>
-      <ul>
-        <li>Dado que el operador quiere verificar actuadores,</li>
-        <li>Cuando presiona el botón de prueba,</li>
-        <li>Entonces el sistema enciende LED rojo, amarillo y verde en secuencia,</li>
-        <li>Y activa el buzzer por 1 segundo.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS09 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS09</td>
-    <td>Frontend Developer</td>
-    <td>Alta</td>
-    <td>EP08 - Dashboard Web</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar dashboard con mapa interactivo de envíos activos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador frontend, necesito implementar un dashboard web con mapa interactivo para visualizar contenedores activos y su estado en tiempo real.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Carga inicial del mapa con envíos activos</strong></p>
-      <ul>
-        <li>Dado que un supervisor autenticado accede al dashboard,</li>
-        <li>Cuando la página se carga,</li>
-        <li>Entonces el frontend consume GET /envios/activos y renderiza marcadores activos,</li>
-        <li>Y cada marcador muestra color según estado del envío.</li>
-      </ul>
-      <p><strong>Escenario 02: Actualización en tiempo real de posiciones</strong></p>
-      <ul>
-        <li>Dado que el dashboard está abierto y hay envíos en movimiento,</li>
-        <li>Cuando el backend recibe nuevos datos de ubicación,</li>
-        <li>Entonces el frontend actualiza posiciones sin recargar la página,</li>
-        <li>Mediante WebSockets o polling cada 10 segundos.</li>
-      </ul>
-      <p><strong>Escenario 03: Click en marcador para ver detalles del envío</strong></p>
-      <ul>
-        <li>Dado que el supervisor hace click en un marcador,</li>
-        <li>Cuando se abre un panel lateral,</li>
-        <li>Entonces muestra ID, producto, temperatura actual, flags activos y último dato de humedad,</li>
-        <li>Y permite supervisión operativa contextual por envío.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS10 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS10</td>
-    <td>Frontend Developer</td>
-    <td>Alta</td>
-    <td>EP08 - Dashboard Web</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar tabla de logs históricos con filtros y exportación</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador frontend, necesito implementar tabla paginada de logs históricos con filtros por fecha/región/producto/estado y exportación a CSV/PDF.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualización de tabla de logs</strong></p>
-      <ul>
-        <li>Dado que un supervisor accede a la sección de historial,</li>
-        <li>Cuando la página se carga,</li>
-        <li>Entonces el frontend consume GET /logs?page=1&amp;limit=50 y renderiza tabla de resultados,</li>
-        <li>Y muestra columnas de envío, fecha, producto, promedio, incidentes y estado final.</li>
-      </ul>
-      <p><strong>Escenario 02: Filtros combinados</strong></p>
-      <ul>
-        <li>Dado que el supervisor aplica filtros combinados,</li>
-        <li>Cuando hace click en Aplicar filtros,</li>
-        <li>Entonces el frontend consume endpoint con parámetros de filtro,</li>
-        <li>Y actualiza la tabla con resultados filtrados.</li>
-      </ul>
-      <p><strong>Escenario 03: Exportación a CSV/PDF</strong></p>
-      <ul>
-        <li>Dado que el supervisor necesita exportar los logs filtrados,</li>
-        <li>Cuando hace click en Exportar y selecciona CSV,</li>
-        <li>Entonces el frontend descarga archivo con los datos de la tabla actual,</li>
-        <li>Y respeta filtros aplicados en la exportación.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS11 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS11</td>
-    <td>Frontend Developer</td>
-    <td>Media</td>
-    <td>EP08 - Dashboard Web</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar panel de administración de usuarios y roles</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador frontend, necesito implementar un panel para crear, modificar, eliminar usuarios y asignar roles (Operador, Supervisor, Administrador, ONG).</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Listado de usuarios con paginación</strong></p>
-      <ul>
-        <li>Dado que un administrador accede al panel de usuarios,</li>
-        <li>Cuando la página se carga,</li>
-        <li>Entonces el frontend consume GET /admin/usuarios y renderiza la tabla,</li>
-        <li>Y muestra nombre, email, rol, fecha y estado.</li>
-      </ul>
-      <p><strong>Escenario 02: Creación de nuevo usuario</strong></p>
-      <ul>
-        <li>Dado que el administrador hace click en Nuevo usuario,</li>
-        <li>Cuando completa formulario y confirma,</li>
-        <li>Entonces el frontend envía POST /admin/usuarios,</li>
-        <li>Y actualiza la tabla con el nuevo registro.</li>
-      </ul>
-      <p><strong>Escenario 03: Edición y eliminación de usuarios</strong></p>
-      <ul>
-        <li>Dado que el administrador selecciona un usuario de la tabla,</li>
-        <li>Cuando edita rol o deshabilita cuenta,</li>
-        <li>Entonces el frontend envía PUT o DELETE según corresponda,</li>
-        <li>Y refresca la tabla reflejando los cambios.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS12 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS12</td>
-    <td>Mobile Developer</td>
-    <td>Alta</td>
-    <td>EP09 - Aplicación Móvil</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar autenticación y pantalla de inicio en app móvil</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador móvil (iOS/Android), necesito implementar login/registro y pantalla de inicio para que operadores y supervisores accedan y vean sus envíos asignados.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Login con email y contraseña</strong></p>
-      <ul>
-        <li>Dado que el usuario tiene una cuenta activa,</li>
-        <li>Cuando ingresa credenciales y presiona Iniciar sesión,</li>
-        <li>Entonces la app consume POST /auth/login y almacena JWT de forma segura,</li>
-        <li>Y navega a la pantalla de inicio.</li>
-      </ul>
-      <p><strong>Escenario 02: Almacenamiento seguro de token</strong></p>
-      <ul>
-        <li>Dado que el usuario cierra y abre nuevamente la app,</li>
-        <li>Cuando el token aún no ha expirado,</li>
-        <li>Entonces la app restaura sesión automáticamente,</li>
-        <li>Y evita solicitar login nuevamente.</li>
-      </ul>
-      <p><strong>Escenario 03: Pantalla de inicio con resumen de envíos</strong></p>
-      <ul>
-        <li>Dado que el usuario está autenticado y tiene envíos asignados,</li>
-        <li>Cuando la app carga la pantalla de inicio,</li>
-        <li>Entonces consume GET /envios/asignados y muestra lista de envíos activos,</li>
-        <li>Y presenta ID, destino, temperatura y estado.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS13 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS13</td>
-    <td>Mobile Developer</td>
-    <td>Alta</td>
-    <td>EP09 - Aplicación Móvil</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar recepción de notificaciones push</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador móvil, necesito implementar recepción de notificaciones push (FCM/APNs) para alertas en tiempo real por flags críticos de envíos asignados.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro del dispositivo para notificaciones push</strong></p>
-      <ul>
-        <li>Dado que el usuario inicia sesión por primera vez,</li>
-        <li>Cuando la app solicita permisos y el usuario los acepta,</li>
-        <li>Entonces la app obtiene el token push y lo envía al backend,</li>
-        <li>Y queda asociado al usuario autenticado.</li>
-      </ul>
-      <p><strong>Escenario 02: Recepción de notificación por flag crítico</strong></p>
-      <ul>
-        <li>Dado que el usuario tiene sesión activa o app en segundo plano,</li>
-        <li>Cuando backend envía notificación por flag crítico asignado,</li>
-        <li>Entonces la app muestra notificación en el centro del dispositivo,</li>
-        <li>Y al tocarla abre detalle del envío.</li>
-      </ul>
-      <p><strong>Escenario 03: Contenido de la notificación</strong></p>
-      <ul>
-        <li>Dado que el usuario recibe una notificación push,</li>
-        <li>Cuando la visualiza,</li>
-        <li>Entonces el título indica Alerta CryoGuard - Flag Crítico,</li>
-        <li>Y el cuerpo muestra tipo de flag, valor e ID de envío.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- TS14 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS14</td>
-    <td>Mobile Developer</td>
-    <td>Media</td>
-    <td>EP09 - Aplicación Móvil</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Implementar override remoto desde app móvil</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador móvil, necesito implementar override remoto para que supervisores autorizados desbloqueen contenedor a distancia o gestionen alertas cuando lo solicite el operador.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Solicitud de override por operador</strong></p>
-      <ul>
-        <li>Dado que el contenedor está bloqueado y el operador necesita abrirlo,</li>
-        <li>Cuando el operador solicita autorización desde app o por comunicación externa,</li>
-        <li>Entonces el supervisor recibe una notificación push con la solicitud,</li>
-        <li>Y puede revisar contexto del envío antes de aprobar.</li>
-      </ul>
-      <p><strong>Escenario 02: Aprobación de override por supervisor</strong></p>
-      <ul>
-        <li>Dado que el supervisor recibe la solicitud de override,</li>
-        <li>Cuando abre la app, selecciona envío y presiona Autorizar desbloqueo,</li>
-        <li>Entonces la app consume POST /envios/{id}/override-remoto y backend envía comando al IoT,</li>
-        <li>Y registra la acción en el log con ID del supervisor.</li>
-      </ul>
-      <p><strong>Escenario 03: Confirmación de override exitoso</strong></p>
-      <ul>
-        <li>Dado que el comando de override fue enviado exitosamente,</li>
-        <li>Cuando el dispositivo confirma la recepción,</li>
-        <li>Entonces la app muestra mensaje Contenedor desbloqueado temporalmente,</li>
-        <li>Y el operador puede abrir la caja.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-## 3.2. Impact Mapping
-
-El siguiente mapa de impacto conecta el objetivo de negocio con actores, impactos deseados y entregables del producto.
-
-**Segmento #1: Centros de salud rurales o urbanos**
-<img src="assets/Chapter-3/Impact map CryoGuard (1).png" alt="Impact Mapping - segmento 1" width="600"/>
-
-_Imagen (N°8). Elaboración propia. Realizado en UXPressia_
-
-**Segmento #2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
-<img src="assets/Chapter-3/Impact map CryoGuard (2).png" alt="Impact Mapping - segmento 2" width="600"/>
-
-_Imagen (N°9). Elaboración propia. Realizado en UXPressia_
+_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
-  
-## 3.3. Product Backlog
 
-Backlog inicial priorizado para la implementación incremental de CryoGuard.
+### 2.3.2. User Task Matrix
 
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Prioridad</th>
-    <th>User Story ID</th>
-    <th>Título</th>
-    <th>Story Points</th>
-  </tr>
-  <tr><td>1</td><td>US01</td><td>Monitorear temperatura en tiempo real</td><td>5</td></tr>
-  <tr><td>2</td><td>US04</td><td>Geolocalizar contenedor en tiempo real</td><td>5</td></tr>
-  <tr><td>3</td><td>US05</td><td>Activar enfriamiento automático (Peltier)</td><td>5</td></tr>
-  <tr><td>4</td><td>US07</td><td>Recibir alerta visual mediante LED</td><td>5</td></tr>
-  <tr><td>5</td><td>US08</td><td>Recibir alerta sonora mediante Buzzer</td><td>5</td></tr>
-  <tr><td>6</td><td>US15</td><td>Almacenar datos localmente durante transporte offline</td><td>5</td></tr>
-  <tr><td>7</td><td>TS01</td><td>API Sincronización de datos desde dispositivo IoT</td><td>5</td></tr>
-  <tr><td>8</td><td>TS05</td><td>Implementar lectura de sensores (temp, humedad, vibración, GPS, apertura)</td><td>5</td></tr>
-  <tr><td>9</td><td>TS06</td><td>Implementar reglas de edge computing para generación de flags</td><td>5</td></tr>
-  <tr><td>10</td><td>TS07</td><td>Implementar control de actuadores (Peltier, Servo, LED, Buzzer)</td><td>5</td></tr>
-  <tr><td>11</td><td>US02</td><td>Monitorear humedad del contenedor</td><td>4</td></tr>
-  <tr><td>12</td><td>US10</td><td>Detectar apertura no autorizada del contenedor</td><td>4</td></tr>
-  <tr><td>13</td><td>US11</td><td>Visualizar dashboard con mapa de envíos activos</td><td>4</td></tr>
-  <tr><td>14</td><td>US13</td><td>Recibir notificaciones push en app móvil</td><td>4</td></tr>
-  <tr><td>15</td><td>US16</td><td>Sincronizar datos con la nube automáticamente</td><td>4</td></tr>
-  <tr><td>16</td><td>US20</td><td>Configurar rangos permitidos por tipo de producto</td><td>4</td></tr>
-  <tr><td>17</td><td>TS02</td><td>API Gestión de flags y alertas</td><td>4</td></tr>
-  <tr><td>18</td><td>TS03</td><td>API Gestión de usuarios y roles</td><td>4</td></tr>
-  <tr><td>19</td><td>TS09</td><td>Implementar dashboard con mapa interactivo de envíos activos</td><td>4</td></tr>
-  <tr><td>20</td><td>TS12</td><td>Implementar autenticación y pantalla de inicio en app móvil</td><td>4</td></tr>
-  <tr><td>21</td><td>US03</td><td>Detectar vibraciones o impactos</td><td>3</td></tr>
-  <tr><td>22</td><td>US06</td><td>Bloquear apertura del contenedor (Servo)</td><td>3</td></tr>
-  <tr><td>23</td><td>US09</td><td>Detectar salida de geocerca</td><td>3</td></tr>
-  <tr><td>24</td><td>US12</td><td>Consultar logs históricos de envíos</td><td>3</td></tr>
-  <tr><td>25</td><td>US17</td><td>Generar reporte de trazabilidad para donantes</td><td>3</td></tr>
-  <tr><td>26</td><td>US18</td><td>Ejecutar override manual mediante botón físico</td><td>3</td></tr>
-  <tr><td>27</td><td>TS04</td><td>API Generación de reportes de trazabilidad</td><td>3</td></tr>
-  <tr><td>28</td><td>TS08</td><td>Implementar botones físicos para override y control manual</td><td>3</td></tr>
-  <tr><td>29</td><td>TS10</td><td>Implementar tabla de logs históricos con filtros y exportación</td><td>3</td></tr>
-  <tr><td>30</td><td>TS13</td><td>Implementar recepción de notificaciones push</td><td>3</td></tr>
-  <tr><td>31</td><td>US14</td><td>Gestionar usuarios y roles desde dashboard</td><td>2</td></tr>
-  <tr><td>32</td><td>US19</td><td>Ejecutar override remoto desde app o web</td><td>2</td></tr>
-  <tr><td>33</td><td>TS11</td><td>Implementar panel de administración de usuarios y roles</td><td>2</td></tr>
-  <tr><td>34</td><td>TS14</td><td>Implementar override remoto desde app móvil</td><td>2</td></tr>
-</table>
+**Segmento 1: Centros de salud rurales o urbanos**
+
+| Tarea del usuario | Frecuencia | Importancia |
+| --- | --- | --- |
+| Monitorear temperatura del contenedor durante el transporte | Alta | Alta |
+| Verificar humedad dentro del rango permitido | Media | Alta |
+| Detectar vibraciones o impactos que puedan dañar los productos | Media | Media |
+| Conocer ubicación GPS del transporte en tiempo real | Alta | Alta |
+| Recibir alertas cuando se abre el contenedor sin autorización | Baja | Alta |
+| Activar respuesta ante condición crítica (alerta visual/sonora) | Baja | Alta |
+| Revisar historial de condiciones al finalizar el trayecto | Media | Media |
+| Generar reporte de trazabilidad para auditoría | Baja | Alta |
+| Configurar rangos permitidos de temperatura y humedad | Baja | Media |
+| Sincronizar datos con la nube cuando hay conectividad | Media | Media |
+| Almacenar datos localmente durante trayectos sin internet | Alta | Alta |
+| Capacitar personal nuevo en uso del dispositivo | Baja | Alta |
+
+**Segmento 2: ONGs y gestores de logística sanitaria**
+
+| Tarea del usuario | Frecuencia | Importancia |
+| --- | --- | --- |
+| Supervisar múltiples envíos simultáneos en dashboard centralizado | Alta | Alta |
+| Identificar envíos con condiciones críticas en tiempo real | Alta | Alta |
+| Visualizar ubicación geográfica de todos los contenedores activos | Alta | Alta |
+| Recibir notificaciones remotas ante incidentes en cualquier envío | Media | Alta |
+| Consolidar reportes de trazabilidad para donantes internacionales | Media | Alta |
+| Analizar datos históricos para identificar patrones de falla en rutas | Media | Media |
+| Planificar rutas óptimas basadas en datos de incidentes previos | Media | Media |
+| Integrar datos de CryoGuard con sistemas existentes (SIGA, plataformas gubernamentales) | Baja | Alta |
+| Validar que socios locales estén usando correctamente los dispositivos | Media | Alta |
+| Generar evidencia documentada para auditorías externas | Baja | Alta |
+| Evaluar costo-beneficio de la solución para futuros proyectos | Baja | Media |
+| Capacitar a equipos locales en terreno sobre uso del dispositivo | Media | Alta |
+
+### 2.3.3. User Journey Mapping
+
+**Segmento 1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-2/Customer journey map 1.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°4). Elaboración propia. Realizado en UXPressia_
+
+**Segmento 2: ONGs y gestores de logística sanitaria)**
+<img src="assets/Chapter-2/Customer journey map 2.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°5). Elaboración propia. Realizado en UXPressia_
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+### 2.3.4. Empathy Mapping
+
+**Segmento 1: Centros de salud rurales o urbanos**
+<img src="assets/Chapter-2/Empathy Mapping1.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°6). Elaboración propia. Realizado en UXPressia_
+
+**Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
+<img src="assets/Chapter-2/Empathy Mapping2.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°7). Elaboración propia. Realizado en UXPressia_
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 </div>
+
+<div class="page"/>
+
+<div class="chap2">
+
+## 2.4. Big Picture EventStorming
+
+</div>
+
+<div class="page"/>
+
+<div class="chap2">
+
+
+
+## 2.5. Ubiquitous Language
+
+El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto CryoGuard. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no técnicos) compartan una comprensión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
+
+| Término | Descripción |
+| --- | --- |
+| Contenedor Inteligente | Caja o unidad de transporte equipada con sensores, actuadores y sistema de control para monitorear y proteger productos biomédicos durante el traslado. |
+| Sensor | Dispositivo físico que mide variables ambientales como temperatura, humedad, vibración, ubicación GPS y estado de apertura del contenedor. |
+| Variable Crítica | Parámetro ambiental monitoreado (temperatura, humedad, vibración, ubicación, apertura) cuyo incumplimiento puede afectar la calidad del producto transportado. |
+| Rango Permitido | Valores mínimo y máximo definidos por el usuario para cada variable crítica, dentro de los cuales el producto se considera seguro. |
+| Flag | Indicador o marca generada por el sistema cuando una variable crítica sale del rango permitido, activando alertas y acciones automáticas. |
+| Edge Computing | Procesamiento de datos realizado directamente en el dispositivo (en el borde) sin depender de conectividad a internet, permitiendo análisis y respuesta en tiempo real. |
+| Controlador Central | Unidad de procesamiento principal del dispositivo CryoGuard que recibe datos de sensores, ejecuta reglas de evaluación y activa actuadores. |
+| Actuador | Componente físico que ejecuta una acción automática, como activar enfriamiento (Peltier), bloquear acceso (servo), encender LEDs o activar buzzer. |
+| Peltier | Módulo termoeléctrico utilizado para enfriamiento activo del contenedor cuando la temperatura supera el rango permitido, complementado con disipador y ventilador. |
+| Servo | Mecanismo que bloquea físicamente la apertura del contenedor cuando se detecta una condición crítica o apertura no autorizada. |
+| LED | Indicador visual luminoso (generalmente rojo, amarillo o verde) que alerta al usuario sobre el estado del sistema o condiciones críticas. |
+| Buzzer | Alerta sonora que se activa automáticamente cuando se detecta una condición crítica, llamando la atención del operador. |
+| Botón Físico | Mecanismo de control manual en el dispositivo que permite al usuario autorizado realizar override, desbloqueo, pruebas de alertas o reset del sistema. |
+| Override | Acción manual realizada por personal autorizado para anular un flag crítico, desbloquear el contenedor o desactivar alertas cuando la condición ya fue controlada. |
+| Almacenamiento Local | Memoria interna o tarjeta SD donde se guardan todos los datos de sensores y eventos durante el transporte, garantizando operación offline en zonas sin conectividad. |
+| Sincronización | Proceso de transferencia de datos almacenados localmente hacia la nube cuando se detecta disponibilidad de conexión a internet. |
+| Dashboards | Interfaz web centralizada que visualiza mapa de envíos, flags activos, logs históricos, gestión de usuarios y rutas, y modo manual remoto. |
+| Aplicación Móvil (App) | Interfaz para dispositivos móviles que permite recibir alertas en tiempo real, confirmar flags y ejecutar override manual limitado según rol del usuario. |
+| Pantalla Local | Display físico en el contenedor inteligente que muestra estado inmediato: temperatura actual, flag activo, acción recomendada y estado de LEDs/Buzzer. |
+| Geolocalización | Ubicación geográfica del contenedor obtenida mediante GPS, utilizada para monitoreo de ruta y detección de salidas de geocerca. |
+| Flag Crítico | Flag de máxima prioridad que indica una condición potencialmente dañina para los productos, activando todas las alertas y bloqueo automático del contenedor. |
+| Flag Preventivo | Flag de prioridad media que advierte sobre una condición cercana al límite permitido, permitiendo acción correctiva antes de que se vuelva crítica. |
+| ONG (Usuario Humanitario) | Perfil de usuario perteneciente a organizaciones no gubernamentales, con necesidades específicas de reportes para donantes y trazabilidad en zonas de difícil acceso. |
+| Reporte de Trazabilidad | Documento generado automáticamente que resume las condiciones del envío, flags activados, acciones tomadas y estado final de los productos. |
+| MVP (Producto Mínimo Viable) | Versión inicial de CryoGuard con funcionalidades mínimas (monitoreo de temperatura, alertas LED/buzzer, almacenamiento local) para validar hipótesis clave con usuarios reales en entornos controlados. |
+
+</div>
+
+
+
+
+
+
