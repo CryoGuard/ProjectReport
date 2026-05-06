@@ -259,7 +259,7 @@ ABET – EAC - Student Outcome 4
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
         <p><b>Hallasi Saravia, Miguel</b></p>
-        <p><b>AV1: </b> </p>
+        <p><b>AV1: </b>urante el desarrollo de los bounded contexts de Control y Actuación, Operaciones/Flags, Notificaciones y Seguridad/Roles, identifiqué que cada decisión de diseño tiene consecuencias directas sobre la vida de pacientes que dependen de vacunas y medicamentos termosensibles. Para ello, incorporé bloqueos de seguridad que impiden acciones manuales que puedan comprometer los productos, y generé registros auditables de cada override realizado, asegurando que las decisiones queden documentadas y sean rastreables.</p>
         <p><b>TB1: </b> </p>
         <p><b>AV2: </b> </p>
         <p><b>TB2: </b> </p>
