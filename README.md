@@ -637,14 +637,15 @@ Sistema basado en múltiplos de 8px (8, 16, 24, 32, 48, 64).
 
 **Tono de comunicación**
 
-Aspecto	Decisión
-Estilo general	Profesional, claro, orientado a acción médica y seguridad.
-Formalidad	Formal pero directo. Debe transmitir urgencia sin alarmismo.
-Para administradores (Web)	Tono preciso, orientado a datos, eficiencia y cumplimiento normativo. Uso de términos como "monitoreo", "trazabilidad", "flag crítico", "reporte", "auditoría", "cumplimiento".
-Para operadores (App / Pantalla local)	Tono claro, simple, accionable. Uso de términos como "revisar contenedor", "temperatura alta", "abrir caja", "silenciar alerta".
-Comunicación de errores/alertas	Clara, urgente pero no alarmista. Acción recomendada siempre presente. Uso de color rojo (#F85741) para flags críticos.
-Mensajes de éxito	Positivos, breves, reforzantes. Uso de color verde (#2E7D32).
-Mensajes preventivos	Informativos, con acción sugerida. Uso de color ámbar (#F39708).
+| Aspecto | Decisión |
+| --- | --- |
+| Estilo general | Profesional, claro, orientado a acción médica y seguridad. |
+| Formalidad | Formal pero directo. Debe transmitir urgencia sin alarmismo. |
+| Para administradores (Web) | Tono preciso, orientado a datos, eficiencia y cumplimiento normativo. Uso de términos como "monitoreo", "trazabilidad", "flag crítico", "reporte", "auditoría", "cumplimiento". |
+| Para operadores (App / Pantalla local) | Tono claro, simple, accionable. Uso de términos como "revisar contenedor", "temperatura alta", "abrir caja", "silenciar alerta". |
+| Comunicación de errores/alertas | Clara, urgente pero no alarmista. Acción recomendada siempre presente. Uso de color rojo (#F85741) para flags críticos. |
+| Mensajes de éxito | Positivos, breves, reforzantes. Uso de color verde (#2E7D32). |
+| Mensajes preventivos | Informativos, con acción sugerida. Uso de color ámbar (#F39708). |
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
@@ -896,7 +897,19 @@ SEO (Search Engine Optimization) Tags son elementos HTML que permiten a los moto
 
 ### 5.3.1. Landing Page Wireframe
 
+**Desktop Web Browser**
+![Landing Wireframe Desktop](assets/Chapter-5/Wireframe-Desktop.png)
+
+**Mobile Web Browser**
+![Landing Wireframe Mobile](assets/Chapter-5/Mobile%20Web%20Browser.png)
+
 ### 5.3.2. Landing Page Mock-up
+
+**Desktop Web Browser**
+![Landing Wireframe Desktop](assets/images/chapter-06/landing-wireframe-desktop.png)
+
+**Mobile Web Browser**
+![Landing Wireframe Mobile](assets/images/chapter-06/landing-wireframe-mobile.png)
 
 ## 5.4. Applications UX/UI Design.
 
