@@ -692,8 +692,35 @@ Basado en los estilos generales, se aplican las siguientes particularidades para
 | Consumo energético | Pantalla se apaga después de 30 segundos sin interacción. Se activa con botón o al detectar flag crítico. |
 
 ## 5.2. Information Architecture.
+La arquitectura de la información, también conocida como Information Architecture (IA), implica la organización de la información de manera clara y lógica, de modo que los usuarios puedan comprender su ubicación, lo que han descubierto, qué pueden esperar y qué está disponible a su alrededor. Esto tiene como objetivo permitir a los usuarios encontrar con facilidad lo que están buscando, y a los clientes, comprender las capacidades de la plataforma. Además, la arquitectura de la información posibilita la incorporación de nuevas funciones y la expansión del producto sin generar una estructura compleja o de difícil comprensión (Rosenfeld, Morville & Arango 2015).
 
 ### 5.2.1. Organization Systems
+La arquitectura de organización de CryoGuard está diseñada siguiendo principios de agrupación funcional, monitoreo en tiempo real y priorización de eventos críticos, permitiendo a los usuarios acceder rápidamente a la información y acciones necesarias según su rol (operador de transporte, supervisor logístico, administrador u ONG) y el contexto operativo de la cadena de frío biomédica.
+
+**Estructura organizacional principal**
+
+**Plataforma Web (Supervisores y Administradores)**
+
+| Módulo | Descripción | Funciones Principales | Acceso por Rol |
+| --- | --- | --- | --- |
+| Dashboard General | Vista consolidada del estado operativo de la cadena de frío | KPIs en tiempo real; estado de envíos; resumen de alertas; dispositivos conectados; sincronización de datos | Supervisor, Administrador |
+| Mapa en Tiempo Real | Monitoreo geográfico de contenedores activos | Geolocalización GPS; rutas activas; estado por color; seguimiento en vivo; geocercas | Supervisor |
+| Gestión de Envíos | Administración de envíos biomédicos | Crear envío; asignar producto; configurar rangos; monitoreo individual; estado del contenedor | Supervisor, Administrador |
+| Alertas e Incidentes | Gestión de eventos críticos y preventivos | Alertas por temperatura; humedad; vibración; apertura no autorizada; salida de geocerca; historial de incidentes | Supervisor |
+| Reportes y Trazabilidad | Generación y exportación de información histórica | Reportes PDF/CSV; estadísticas; gráficos; auditoría logística; reportes para donantes | Supervisor, ONG, Administrador |
+| Usuarios y Roles | Administración de accesos y permisos | Crear usuarios; modificar roles; gestión de permisos; control de accesos | Administrador |
+| Configuración del Sistema | Parámetros operativos del sistema | Configuración de sensores; límites críticos; sincronización; redes; notificaciones | Administrador |
+
+**Aplicación Móvil (Operadores de Transporte)**
+
+| Módulo | Descripción | Funciones Principales | Acceso por Rol |
+| --- | --- | --- | --- |
+| Estado del Contenedor | Monitoreo rápido del estado actual | Temperatura; humedad; alertas visuales; estado crítico; sincronización | Operador |
+| Alertas Push | Recepción de eventos críticos | Notificaciones en tiempo real; acciones recomendadas; confirmación de alertas | Operador |
+| Seguimiento GPS | Visualización del trayecto del envío | Ruta activa; ubicación actual; geocercas; tiempo estimado | Operador |
+| Override y Control | Gestión de desbloqueo y silenciamiento | Override remoto; desbloqueo autorizado; silenciar buzzer; confirmación manual | Operador autorizado |
+| Historial de Eventos | Registro de acciones y alertas | Logs del envío; eventos recientes; acciones ejecutadas; incidentes | Operador |
+| Perfil | Gestión de cuenta y preferencias | Configuración personal; notificaciones; cerrar sesión | Operador |
 
 ### 5.2.2. Labeling Systems
 
