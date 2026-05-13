@@ -228,16 +228,16 @@ Abril 2026
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
-    - [6.2.X. Sprint n](#62x-sprint-n)
-      - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-      - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-      - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-      - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-      - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-      - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-      - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-      - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-      - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
+    - [6.2.1. Sprint n](#621-sprint-n)
+      - [6.2.1.1. Sprint Planning n](#6211-sprint-planning-n)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog n](#6213-sprint-backlog-n)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews.](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -574,7 +574,83 @@ La CryoGuard Platform detecta que hay conexión disponible y lo comunica a IoT M
 
 ### 5.1.1. General Style Guidelines
 
+A continuación, se definen las decisiones de diseño visual y comunicacional que guiarán la construcción de la interfaz de usuario de CryoGuard, tanto para la plataforma web (administradores y ONGs) como para la aplicación móvil (operadores en ruta) y la pantalla local del dispositivo.
+
+**Branding**
+
+| Elemento | Decisión |
+| --- | --- |
+| Nombre del producto | CryoGuard |
+| Tagline | Cold Chain IoT Monitoring |
+| Propuesta visual | Confianza, precisión, tecnología médica, seguridad. Transmite control predictivo y protección de la cadena de frío. |
+
+**Logotipo:**
+<p align="center">
+  <img src="assets/Chapter-5/Logo de CryoGuard_ tecnología de monitoreo.png" width="650"/>
+</p>
+
+**Typography**
+La elección tipográfica para CryoGuard es un componente esencial que complementa la identidad visual de la marca. Se ha seleccionado una familia tipográfica que ofrece versatilidad y coherencia, asegurando que la comunicación sea clara y efectiva tanto en web como en dispositivos móviles y pantalla local.
+
+| Elemento | Decisión |
+| --- | --- |
+| Fuente primaria | Inter (sans-serif) - Limpia, moderna, altamente legible en pantallas de escritorio, móviles y pantallas pequeñas del dispositivo. |
+| Fuente secundaria | Inter (misma familia) para consistencia, variando pesos (Regular 400, Medium 500, Bold 700). |
+| Escala tipográfica | Tamaños basados en progresión 1.25 (major third) |
+| Títulos principales (H1) | Web (Desktop): 32px / 40px — Móvil / Pantalla local: 24px / 32px |
+| Subtítulos (H2) | Web (Desktop): 24px / 32px — Móvil / Pantalla local: 20px / 28px |
+| Encabezados de sección (H3) | Web (Desktop): 20px / 28px — Móvil / Pantalla local: 18px / 24px |
+| Texto base (Body) | 16px / 24px |
+| Texto pequeño (Caption) | 14px / 20px |
+| Texto auxiliar (Helper) | 12px / 16px |
+
+**Colors**
+<p align="center">
+  <img src="assets/Chapter-5/colores.png" width="650"/>
+</p>
+
+| Token | Color | Uso Principal |
+| --- | --- | --- |
+| Primary | #0E9094 (Teal) | Botones principales, encabezados, enlaces, elementos de navegación activos. Transmite confianza, tecnología médica y precisión. |
+| Secondary | #1E1801 (Dark Olive) | Fondos secundarios, bordes, elementos de soporte, íconos no principales. |
+| Accent 1 | #DACDAC (Beige claro) | Fondos de secciones alternas, tarjetas destacadas, modales informativos. |
+| Accent 2 | #F39708 (Ámbar) | Alertas preventivas, advertencias de temperatura cercana al límite, atención. |
+| Alert / Critical | #F85741 (Rojo coral) | Flags críticos, alertas de temperatura fuera de rango, emergencias, notificaciones de alta prioridad. |
+| Success | #2E7D32 (Verde) | Estados de éxito, confirmaciones, temperatura dentro del rango permitido, operación normal. |
+| Warning | #F39708 (Ámbar) | Advertencias, vibración excesiva, apertura no autorizada, atención preventiva. |
+| Neutral Gray | #6C757D (Gris) | Texto secundario, placeholders, deshabilitados, separadores. |
+| Dark / Text | #1E1801 (Dark Olive) | Texto principal sobre fondos claros, elementos de alto contraste. |
+| White | #FFFFFF (Blanco) | Fondos principales, tarjetas, contenedores de contenido. |
+
+**Spacing**
+Sistema basado en múltiplos de 8px (8, 16, 24, 32, 48, 64).
+
+| Token | Valor | Uso |
+| --- | ---: | --- |
+| spacing-1 | 4px | Espaciado mínimo entre elementos muy cercanos |
+| spacing-2 | 8px | Espaciado interno de componentes pequeños (padding) |
+| spacing-3 | 16px | Espaciado estándar entre elementos relacionados |
+| spacing-4 | 24px | Margen entre secciones, padding de tarjetas |
+| spacing-5 | 32px | Separación entre bloques funcionales |
+| spacing-6 | 48px | Separación entre secciones principales |
+| spacing-7 | 64px | Separación entre pantallas o grandes bloques |
+
+**Tono de comunicación**
+
+Aspecto	Decisión
+Estilo general	Profesional, claro, orientado a acción médica y seguridad.
+Formalidad	Formal pero directo. Debe transmitir urgencia sin alarmismo.
+Para administradores (Web)	Tono preciso, orientado a datos, eficiencia y cumplimiento normativo. Uso de términos como "monitoreo", "trazabilidad", "flag crítico", "reporte", "auditoría", "cumplimiento".
+Para operadores (App / Pantalla local)	Tono claro, simple, accionable. Uso de términos como "revisar contenedor", "temperatura alta", "abrir caja", "silenciar alerta".
+Comunicación de errores/alertas	Clara, urgente pero no alarmista. Acción recomendada siempre presente. Uso de color rojo (#F85741) para flags críticos.
+Mensajes de éxito	Positivos, breves, reforzantes. Uso de color verde (#2E7D32).
+Mensajes preventivos	Informativos, con acción sugerida. Uso de color ámbar (#F39708).
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+A continuación, se definen los estilos particulares para cada plataforma, considerando los diferentes contextos de uso, dispositivos y necesidades de cada segmento objetivo.
+
+
 
 ## 5.2. Information Architecture.
 
@@ -622,25 +698,25 @@ La CryoGuard Platform detecta que hay conexión disponible y lo comunica a IoT M
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
-### 6.2.X. Sprint n
+### 6.2.1. Sprint n
 
-#### 6.2.X.1. Sprint Planning n
+#### 6.2.1.1. Sprint Planning n
 
-#### 6.2.X.2. Aspect Leaders and Collaborators
+#### 6.2.1.2. Aspect Leaders and Collaborators
 
-#### 6.2.X.3. Sprint Backlog n
+#### 6.2.1.3. Sprint Backlog n
 
-#### 6.2.X.4. Development Evidence for Sprint Review
+#### 6.2.1.4. Development Evidence for Sprint Review
 
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-#### 6.2.X.6. Execution Evidence for Sprint Review
+#### 6.2.1.6. Execution Evidence for Sprint Review
 
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-#### 6.2.X.9. Team Collaboration Insights during Sprint
+#### 6.2.1.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews.
 
