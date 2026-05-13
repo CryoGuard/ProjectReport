@@ -650,7 +650,46 @@ Mensajes preventivos	Informativos, con acción sugerida. Uso de color ámbar (#F
 
 A continuación, se definen los estilos particulares para cada plataforma, considerando los diferentes contextos de uso, dispositivos y necesidades de cada segmento objetivo.
 
+**Web (Dashboard - Administradores y ONGs)**
 
+Basado en los estilos generales, se aplican las siguientes particularidades para la versión web:
+
+| Elemento | Decisión |
+| --- | --- |
+| Layout | Sidebar lateral izquierdo + contenido principal. Sidebar colapsable. |
+| Header | Fijo en la parte superior, con selector de proyecto/región, notificaciones y perfil de usuario. |
+| Mapa interactivo | Ocupa el área principal. Marcadores con códigos de color según estado del envío (verde, amarillo, rojo). |
+| Tarjetas de envío | Diseño en grid (3-4 columnas). Muestran: ID, destino, temperatura actual, estado. |
+| Tablas (logs) | Scroll horizontal en pantallas pequeñas. Filas con hover highlight. |
+| Botones de acción | Primary: fondo #0E9094. Secondary: outline #0E9094. Danger: fondo #F85741. |
+
+**Mobile (App - Operadores en ruta)**
+
+Basado en los estilos generales, se aplican las siguientes particularidades para la aplicación móvil:
+
+| Elemento | Decisión |
+| --- | --- |
+| Layout | Navegación inferior (Bottom Navigation) con 4-5 íconos: Inicio, Mis Envíos, Alertas, Perfil. |
+| Header | Simple con título de pantalla y botón de notificaciones. |
+| Lista de envíos | Tarjetas verticales apiladas. Muestran: ID, destino, temperatura actual, estado (ícono + color). |
+| Detalle del envío | Pantalla con mapa pequeño, datos de sensores, historial de alertas. |
+| Notificaciones push | Aparecen en centro de notificaciones del sistema. Al tocarlas, abren el detalle del envío. |
+| Botones de acción | Grandes, fáciles de presionar (altura mínima 48px). Contraste alto para lectura en exteriores. |
+| Modo offline | Indicador visual de "sin conexión". Datos cargados desde caché local. |
+
+**IoT (Pantalla Local del Dispositivo)**
+
+| Elemento | Decisión |
+| --- | --- |
+| Tecnología de pantalla | LCD o OLED monocromático o de bajo consumo. Fondo oscuro, texto claro para legibilidad en exteriores. |
+| Resolución | 128x64px mínimo. Información jerarquizada en 2-3 líneas. |
+| Formato de información | Pantalla de inicio: temperatura actual + estado (LED simulado). Al presionar botón: humedad, vibración, GPS. |
+| Códigos de estado | Ícono + palabra: "NORMAL" (verde), "PREVENCIÓN" (amarillo), "CRÍTICO" (rojo invertido). |
+| Alertas visuales | La pantalla puede parpadear o mostrar mensaje completo cuando hay flag crítico. |
+| Botones físicos asociados | Navegación simple: botón "Siguiente" para rotar vistas, botón "Silencio" para desactivar buzzer. |
+| Mensajes típicos | "Temp: 4.2°C OK", "ALERTA: 9.5°C", "GPS: 12 satélites", "Abierto: 14:32". |
+| Legibilidad | Contraste alto, tamaño de fuente grande para lectura desde distancia (0.5-1 metro). |
+| Consumo energético | Pantalla se apaga después de 30 segundos sin interacción. Se activa con botón o al detectar flag crítico. |
 
 ## 5.2. Information Architecture.
 
