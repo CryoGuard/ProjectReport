@@ -723,6 +723,94 @@ La arquitectura de organización de CryoGuard está diseñada siguiendo principi
 | Perfil | Gestión de cuenta y preferencias | Configuración personal; notificaciones; cerrar sesión | Operador |
 
 ### 5.2.2. Labeling Systems
+El sistema de etiquetado en CryoGuard sigue principios de claridad, precisión operativa y consistencia visual, asegurando que los usuarios comprendan rápidamente el estado de los contenedores, sensores y envíos biomédicos. El sistema adapta ligeramente las etiquetas entre la plataforma web (supervisores y administradores) y la aplicación móvil (operadores de transporte), manteniendo una terminología uniforme en toda la solución.
+
+**Sistema de Iconografía**
+
+**Acciones Principales (Web y Móvil)**
+
+| Acción | Etiqueta | Icono sugerido |
+| --- | --- | --- |
+| Crear/Registrar | “Nuevo envío” / “Registrar” | ➕ |
+| Editar | “Editar” / “Modificar” | ✏️ |
+| Eliminar | “Eliminar” | 🗑️ |
+| Buscar | “Buscar” / “Filtrar” | 🔍 |
+| Confirmar | “Confirmar” / “Aceptar” | ✓ |
+| Cancelar | “Cancelar” | ✖️ |
+| Exportar | “Exportar PDF” / “Exportar CSV” | ⬇️ |
+| Actualizar | “Actualizar” / “Sincronizar” | 🔄 |
+| Ver detalles | “Ver detalles” | 👁️ |
+| Monitorear | “Monitorear” | 📡 |
+| Ubicación | “Ver ruta” / “Mapa” | 📍 |
+| Alertas | “Alertas” / “Incidentes” | 🚨 |
+| Override | “Desbloquear” / “Override” | 🔓 |
+
+**Etiquetas por Módulo y Plataforma**
+
+**Plataforma Web (Supervisores y Administradores)**
+
+| Módulo | Etiquetas principales |
+| --- | --- |
+| Navegación principal | Dashboard / Envíos / Mapa en tiempo real / Alertas / Reportes / Usuarios / Configuración |
+| Dashboard General | Envíos activos / Alertas críticas / Preventivas / Dispositivos online / Última sincronización / Estado del sistema |
+| Mapa en Tiempo Real | Ruta activa / Geocerca / Contenedor / Última ubicación / Tiempo estimado / Señal GPS / Estado del envío |
+| Gestión de Envíos | Nuevo envío / Producto biomédico / Rango permitido / Estado / Supervisor asignado / Contenedor activo |
+| Alertas e Incidentes | Alertas críticas / Preventivas / Apertura no autorizada / Vibración detectada / Temperatura fuera de rango / Resolver incidente |
+| Reportes | Generar reporte / Exportar PDF / Exportar CSV / Historial / Trazabilidad / Estadísticas / Proyecto |
+| Usuarios y Roles | Crear usuario / Rol / Permisos / Supervisor / Operador / ONG / Administrador |
+| Configuración | Límites críticos / Configuración IoT / Sincronización / Notificaciones / Redes / Sensores |
+
+**Aplicación Móvil (Operadores de Transporte)**
+
+| Módulo | Etiquetas principales |
+| --- | --- |
+| Navegación principal | Inicio / Alertas / Ruta / Historial / Perfil |
+| Estado del Contenedor | Temperatura actual / Humedad / Vibración / Estado crítico / Enfriamiento activo |
+| Alertas Push | Alerta crítica / Acción requerida / Temperatura elevada / Apertura detectada / Geocerca excedida |
+| Seguimiento GPS | Ubicación actual / Ruta activa / Tiempo restante / Señal GPS |
+| Override y Control | Solicitar override / Desbloquear contenedor / Silenciar buzzer / Confirmar acción |
+| Historial | Eventos recientes / Incidentes / Registro del envío / Fecha / Hora |
+| Perfil | Mi cuenta / Notificaciones / Configuración / Cerrar sesión |
+
+**Estados del Sistema**
+
+| Estado | Etiqueta | Color asociado | Uso |
+| --- | --- | --- | --- |
+| Correcto | “Normal” / “Operativo” | Verde (#75C9A3) | Variables dentro del rango permitido |
+| Preventivo | “Advertencia” / “Preventivo” | Amarillo (#F7EFA2) | Valores próximos al límite permitido |
+| Crítico | “Crítico” / “Alerta crítica” | Rojo (#D64545) | Riesgo para la cadena de frío |
+| Procesando | “Sincronizando” / “Actualizando” | Azul (#4A90E2) | Transferencia o actualización de datos |
+| Información | “Info” / “Detalle” | Gris (#6B7280) | Mensajes informativos o de ayuda |
+| Inactivo | “Sin conexión” / “Offline” | Gris claro (#D1D5DB) | Sensor o dispositivo desconectado |
+
+**Estados de Contenedores y Sensores**
+
+| Entidad | Estado | Etiqueta | Color |
+| --- | --- | --- | --- |
+| Contenedor | Operativo | “Normal” / “Protegido” | Verde |
+| Contenedor | Preventivo | “Atención” / “Preventivo” | Amarillo |
+| Contenedor | Crítico | “CRÍTICO” / “Riesgo detectado” | Rojo |
+| Sensor de temperatura | Dentro del rango | “Temperatura estable” | Verde |
+| Sensor de temperatura | Fuera del rango | “Temp. crítica” | Rojo |
+| Sensor de humedad | Normal | “Humedad estable” | Verde |
+| Sensor de humedad | Riesgo | “Humedad fuera de rango” | Amarillo |
+| Sensor de vibración | Normal | “Sin impactos” | Verde |
+| Sensor de vibración | Impacto detectado | “Vibración anormal” | Naranja |
+| GPS | Conectado | “GPS activo” | Verde |
+| GPS | Sin señal | “GPS sin conexión” | Gris |
+| Peltier | Encendido | “Enfriamiento activo” | Azul |
+| Peltier | Apagado | “En espera” | Gris |
+| Servo | Bloqueado | “Contenedor bloqueado” | Rojo |
+| Servo | Desbloqueado | “Acceso autorizado” | Verde |
+
+**Etiquetado de Prioridad de Alertas**
+
+| Prioridad | Etiqueta | Color | Uso |
+| --- | --- | --- | --- |
+| Baja | “Info” | Gris | Eventos no críticos |
+| Media | “Preventiva” | Amarillo | Riesgos potenciales |
+| Alta | “Crítica” | Rojo | Riesgo inmediato para el producto |
+| Urgente | “Acción inmediata” | Rojo pulsante | Eventos que requieren intervención inmediata |
 
 ### 5.2.3. SEO Tags and Meta Tags
 
