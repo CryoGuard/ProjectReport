@@ -611,52 +611,327 @@ La CryoGuard Platform detecta que hay conexión disponible y lo comunica a IoT M
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
+El objetivo de esta sección es asegurar que todos los miembros del equipo CryoGuard utilicen las mismas herramientas, convenciones y procesos para desarrollar código, realizar pruebas, desplegar versiones y documentar el software del producto CryoGuard Pro.
 
 ### 6.1.1. Software Development Environment Configuration
+| Categoría | Herramienta / Producto | Propósito en el proyecto | Tipo | Ruta / Enlace de referencia |
+|---|---|---|---|---|
+| UX/UI Design | Figma | Herramienta de diseño y prototipado de interfaces que permite trabajo colaborativo en tiempo real y asegura consistencia visual en la interfaz del proyecto. | SaaS | https://www.figma.com/ |
+| Source Code Management | Git & GitHub | Git gestiona el control de versiones y ramas, mientras GitHub permite alojar el repositorio y facilitar la colaboración en el desarrollo del código. | SaaS / Local | https://github.com/CryoGuard |
+| Frontend Development | React 18.3.1 + Vite 6.3.5 | Librería para construir interfaces de usuario en la Landing Page y Aplicación Web, con bundler Vite para builds rápidos y HMR durante desarrollo. | Local | https://react.dev/ |
+| Frontend Development | Tailwind CSS 4.1.12 | Framework de utilidades CSS para estilizar componentes de la Aplicación Web de forma consistente y responsiva. | Local | https://tailwindcss.com/ |
+| Frontend Components | MUI 7.3.5 | Librería de componentes UI para React que proporciona elementos pre-estilizados y accesibles para la construcción de interfaces. | Local | https://mui.com/ |
+| Frontend State | Zustand | Librería ligera de gestión de estado en React para mantener sesión, datos de contenedores y alertas en la Aplicación Web. | Local | https://github.com/pmndrs/zustand |
+| Frontend Routing | React Router 7.13.0 | Librería para gestión de rutas en la aplicación web SPA de CryoGuard. | Local | https://reactrouter.com/ |
+| Frontend Charts | Recharts 2.15.2 | Librería para gráficos y visualizaciones de datos de monitoreo en el dashboard. | Local | https://recharts.org/ |
+| Backend Development | Java 21 + Spring Boot 4.0.6 | Runtime y framework para construir el servidor REST de CryoGuard, organizado bajo Clean Architecture por bounded contexts (iam, monitoring, logistics, evaluation). | Local | https://spring.io/projects/spring-boot |
+| Backend API | Spring Web | Módulo de Spring Boot para construir servicios RESTful con anotaciones @RestController. | Local | https://spring.io/guides/gs/restful/ |
+| Backend Data | Spring Data JPA | Módulo para acceso a datos con JPA y repositorios para la base de datos H2 en memoria. | Local | https://spring.io/guides/gs/accessing-data-jpa/ |
+| Backend Security | Spring Security | Framework para autenticación y autorización, configurado con JWT para proteger endpoints REST. | Local | https://spring.io/guides/gs/securing-web/ |
+| Backend Validation | Spring Validation | Módulo para validación de datos de entrada con anotaciones como @Valid y @NotBlank. | Local | https://spring.io/guides/gs/validating-form-input/ |
+| Authentication | JWT (jjwt 0.12.6) | Estándar para emitir y validar tokens de acceso y refresh tokens en los endpoints protegidos del backend. | Local | https://jwt.io/ |
+| API Documentation | springdoc-openapi-starter-webmvc-ui 2.8.4 | Interfaz interactiva para visualizar la especificación OpenAPI del backend, accesible en /swagger-ui.html. | Local | https://springdoc.org/ |
+| Database | H2 Database | Base de datos en memoria utilizada en desarrollo para pruebas y validación del sistema CryoGuard. | Local | https://www.h2database.com/ |
+| Software Deployment | Vercel | Plataforma de hosting con despliegue continuo desde GitHub utilizada para publicar la Landing Page y la Aplicación Web en producción. | SaaS | https://vercel.com/ |
+| Software Documentation | Markdown | Lenguaje de marcado ligero utilizado para la documentación técnica del proyecto como README, manuales y guías de instalación. | Local | https://www.markdownguide.org/ |
 
+---
 ### 6.1.2. Source Code Management
+Para garantizar la eficiencia y evitar conflictos en el desarrollo de las soluciones, los proyectos de CryoGuard se gestionaron en una organización de GitHub.
 
+Dentro de esta organización, se encuentran los repositorios correspondientes a cada componente del proyecto.
+
+Aquí están los enlaces a los repositorios principales:
+
+- **Organización principal:** https://github.com/CryoGuard
+- **Report:** https://github.com/CryoGuard/ProjectReport/tree/main
+- **Web:** https://github.com/CryoGuard/frontend
+- **Backend:** https://github.com/CryoGuard/backend
+
+En cuanto al manejo del Gitflow, fue de la siguiente forma: En el desarrollo de CryoGuard, cada cambio que se realizó en los archivos se marcó con un mensaje con el formato “Conventional Commits”. Esta práctica facilitó la identificación de los cambios realizados en cada commit, y permitió un seguimiento más eficiente del proyecto.
+
+Además, este modelo incluye la rama `develop` y `main`, que contenían las versiones finales y estables del proyecto. Para mantener una organización clara del proyecto, se creó una rama específica para cada integrante del equipo. Esto permitió un seguimiento más detallado y una mejor organización del código para los desarrolladores frontend, backend y embebidos.
+
+---
 ### 6.1.3. Source Code Style Guide & Conventions
+
+Se detallan las convenciones de codificación y nomenclatura que el equipo adoptará para los lenguajes, frameworks y herramientas utilizadas en la solución CryoGuard Pro. Todas las convenciones se aplicarán en idioma inglés con el objetivo de mantener consistencia, legibilidad y estandarización en el código desarrollado por todos los integrantes del equipo.
+
+#### Java (Backend - Spring Boot)
+
+https://google.github.io/styleguide/javaguide.html
+
+#### Convenciones
+
+- Utilizar camelCase para nombres de variables y métodos.
+- Utilizar PascalCase para nombres de clases e interfaces.
+- Declarar constantes en UPPER_CASE con guiones bajos.
+- Priorizar final para variables inmutables.
+- Utilizar @Slf4j de Lombok para logging.
+- Aplicar indentación de 4 espacios.
+- Limitar la longitud de línea a 120 caracteres.
+- Utilizar Optional para retornos que pueden ser nulos.
+- Aplicar Inyección de dependencias por constructor.
+
+#### TypeScript (Frontend - React)
+https://google.github.io/styleguide/tsguide.html
+
+#### Convenciones
+Utilizar camelCase para variables, funciones y métodos.
+Utilizar PascalCase para nombres de componentes, clases y tipos.
+Declarar constantes en UPPER_CASE con guiones bajos.
+Priorizar el uso de const y let sobre var.
+Utilizar arrow functions para componentes funcionales.
+Definir interfaces TypeScript para tipos de datos.
+Aplicar indentación de 2 espacios.
+Limitar la longitud de línea a 100 caracteres.
 
 ### 6.1.4. Software Deployment Configuration
 
+Se utiliza Vercel como plataforma principal de despliegue continuo para los productos frontend de CryoGuard. Vercel se integra directamente con los repositorios alojados en GitHub, ejecutando builds automáticos ante cada push en las ramas configuradas.
+
+#### Landing Page & Frontend
+
+La Landing Page y Frontend desarrollados con React + Vite se despliegan en Vercel conectados al repositorio. Cada cambio confirmado en la rama `main` desencadena un nuevo build y despliegue automático hacia producción.
+
+- **Repositorio:** https://github.com/CryoGuard/frontend
+- **URL en producción:** https://iot-cryoguard.vercel.app/
+
+#### Backend Services
+
+El backend desarrollado en Java + Spring Boot con persistencia en H2 Database se despliega en una VPS de Hostinger utilizando Dokploy como plataforma de orquestación de contenedores Docker.
+
+El contenedor Docker incluye la aplicación Spring Boot y sus dependencias, mientras que Dokploy gestiona el ciclo de vida del contenedor, balanceo de carga y certificados SSL.
+
+El backend expone los endpoints REST bajo el prefijo `/api/v1/` y publica la documentación interactiva de Swagger UI en la ruta `/swagger-ui.html`.
+
+- **Repositorio:** https://github.com/CryoGuard/backend
+- **Swagger UI:** `/swagger-ui.html`
+
+
 ## 6.2. Landing Page, Services & Applications Implementation.
 
-### 6.2.X. Sprint n
+### 6.2.1. Sprint 1  
+Durante el primer sprint, el equipo organizó sesiones de coordinación para identificar las fortalezas de cada integrante y distribuir las tareas de implementación. Como resultado, se desarrolló un Landing Page funcional que respeta las heurísticas de usabilidad establecidas en el diseño previo.
 
-#### 6.2.X.1. Sprint Planning n
+#### 6.2.1.1. Sprint Planning 1  
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
 
-#### 6.2.X.2. Aspect Leaders and Collaborators
+| Sprint #| Sprint 1|
+| -- | -- |
+| *Sprint Planning Background*||
+| *Date*| 13/05/2026|
+| *Time*| 12:00 AM|
+| *Location*| Discord (Reunión virtual)|
+| *Prepared By*| Miranda Ayasta, Rogger Faryd|
+| *Attendees (to planning meeting)* | Arias Segil Marllely Anahi, Hallasi Saravia Miguel, Miranda Ayasta Rogger Faryd, Sanchez Rios Camila, Vargas Javier Jose Enrique|
+| *Sprint 1 – 1 Review Summary* |Al ser el primer sprint, no se cuenta con un sprint anterior.|
+| *Sprint 1 – 1 Retrospective Summary* |Al ser el primer sprint, no se cuenta con una retrospectiva previa.|
+| *Sprint Goal & User Stories*||
+| *Sprint 1 Goal*| Desarrollar e implementar el Landing Page completo y avanzar en el frontend del Dashboard Web con mapa interactivo, tabla de logs y gestión de usuarios. Desplegar ambos en producción. |
+| *Sprint 1 Velocity*| 15 |
+| *Sum of Story Points*| 15 |  
 
-#### 6.2.X.3. Sprint Backlog n
+#### 6.2.1.2. Aspect Leaders and Collaborators  
+Esta sección presenta la *Leadership-and-Collaboration Matrix (LACX)*, un artefacto que organiza los roles de cada integrante durante el Sprint. Para cada ámbito funcional del proyecto — como Frontend, Backend, UI/UX o Deploy — se indica quién cumple el rol de líder (L) y quiénes actúan como colaboradores (C). La asignación se realizó considerando las habilidades técnicas de cada miembro y fue coordinada por el Team Leader, responsable de integrar y revisar los entregables finales.
 
-#### 6.2.X.4. Development Evidence for Sprint Review
+A continuación, se presenta la matriz correspondiente al Sprint actual:
 
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review
+| *Team Member (Last Name, First Name)* | *GitHub Username* | *UI/UX Design* | *Frontend Development* | *Backend Development* | *Database Management* | *Deployment & Documentation* |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| *Miranda Ayasta, Rogger Faryd*    | r0ggdev            | C                | C                        | L                        | C                        | L                             |
+| *Arias Segil, Marllely Anahi*       | kuwuk0             | C                | L                        | C                        | C                        | C                             |
+| *Hallasi Saravia, Miguel*         | flendoh             | C                | C                        | L                        | C                        | C                             |
+| *Sanchez Rios, Camila*         | C4m174             | L                | L                        | C                        | C                        | C                             |
+| *Vargas Javier, Jose Enrique*      | KenRi7            | C                | C                        | C                        | L                        | C                             |
 
-#### 6.2.X.6. Execution Evidence for Sprint Review
+Cada integrante asumió responsabilidades acordes a su dominio técnico, lo que permitió un desarrollo coordinado y eficiente. El Team Leader, *Miranda Ayasta, Rogger Faryd*, tuvo a su cargo la supervisión de la integración entre los distintos módulos del proyecto, asegurando la coherencia del producto final.
 
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review
+#### 6.2.1.3. Sprint Backlog 1
 
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review
+Durante este sprint se desarrollaron las funcionalidades principales asociadas a la Landing Page, frontend y backend del sistema CryoGuard.
 
-#### 6.2.X.9. Team Collaboration Insights during Sprint
+| User Story Id | User Story Title | Task Id | Task Title | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|
+| US01 | Monitoreo de temperatura | T01 | Implementar página de Monitoreo de temperatura | 4 | Hallasi Miguel | Done |
+| US02 | Monitoreo de humedad | T02 | Implementar página de Monitoreo de humedad | 4 | Hallasi Miguel | Done |
+| US03 | Detección de vibraciones | T03 | Implementar detección de vibraciones en Monitoring | 3 | Hallasi Miguel | Done |
+| US04 | Geolocalización GPS | T04 | Implementar GPS geolocation en Routes | 4 | Miranda Rogger | Done |
+| US09 | Detección de salida de geofence | T09 | Implementar geofence exit detection en Alerts | 4 | Sanchez Camila | Done |
+| US10 | Detección de apertura no autorizada | T10 | Implementar unauthorized opening detection | 3 | Sanchez Camila | Done |
+| US11 | Dashboard con mapa | T11 | Implementar dashboard con mapa en DashboardHome | 5 | Arias Marllely | Done |
+| US12 | Logs históricos | T12 | Implementar historical logs en AuditLogs y Reports | 4 | Vargas Javier | Done |
+| US14 | Gestión de usuarios | T14 | Implementar gestión de usuarios en Users | 4 | Vargas Javier | Done |
+| US20 | Configuración de rangos | T20 | Implementar configuración de rangos en Settings | 3 | Arias Marllely | Done |
 
-## 6.3. Validation Interviews.
+---
 
-### 6.3.1. Diseño de Entrevistas
+#### 6.2.1.4. Development Evidence for Sprint Review
 
-### 6.3.2. Registro de Entrevistas
+Durante el sprint, en la Landing Page, Frontend y Backend Services del proyecto CryoGuard Pro desarrollado por la startup CryoGuard, se estableció la base funcional del sistema. Se implementaron las principales vistas de la plataforma, integración frontend-backend mock, autenticación JWT, APIs REST y la estructura arquitectónica basada en bounded contexts (`iam`, `monitoring`, `logistics`, `evaluation`) bajo principios de Domain-Driven Design (DDD).
 
-### 6.3.3. Evaluaciones según heurísticas
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-## 6.4. Video About-the-Product
+Durante este sprint se incorporó validación manual de los endpoints REST del Backend Services utilizando Swagger para pruebas de contratos HTTP.
+
+| Endpoint | Método | Descripción |
+|---|---|---|
+| /api/v1/auth/login | POST | Autenticación de usuario con JWT |
+| /api/v1/monitoring/temperature | GET | Obtención de lecturas de temperatura |
+| /api/v1/monitoring/humidity | GET | Obtención de lecturas de humedad |
+| /api/v1/monitoring/vibration | GET | Obtención de datos de vibración |
+| /api/v1/logistics/containers | GET, POST | Gestión de contenedores |
+| /api/v1/logistics/routes | GET | Obtención de rutas GPS |
+| /api/v1/evaluation/alerts | GET | Obtención de alertas |
+| /api/v1/evaluation/geofence | POST | Configuración de geofence |
+
+---
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+Durante este sprint se alcanzó la implementación funcional de CryoGuard Pro: la Landing Page, la Aplicación Web y los Backend Services, cumpliendo con los objetivos planteados en el alcance del sprint.
+
+La landing fue desarrollada con React y Vite, orientada a comunicar la propuesta de valor de CryoGuard Pro, sus funcionalidades principales y un formulario de contacto.
+
+La aplicación web fue construida con React 18, Tailwind CSS, MUI para componentes, Zustand para gestión de estado y Recharts para visualizaciones analíticas.
+
+El backend fue desarrollado en Java con Spring Boot, expone APIs REST organizadas por bounded contexts (`iam`, `monitoring`, `logistics`, `evaluation`) bajo arquitectura DDD y cuenta con documentación generada mediante Swagger UI.
+
+## Principales resultados obtenidos
+
+### Landing Page
+
+![Landing Page](img/landing-page.png)
+
+### Web Application - Dashboard Home
+
+![Dashboard Home](img/dashboard.png)
+
+### Web Application - Monitoring
+
+![Monitoring](img/monitoring.png)
+
+### Web Application - Routes
+
+![Routes](img/routes1.png)
+
+### Web Application - Alerts
+
+![Alerts](img/alerts1.png)
+
+### Web Application - Settings
+
+![Settings](img/settings.png)
+
+### Web Application - Audit Logs
+
+![Audit Logs](img/audit-logs.png)
+
+---
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se implementó la documentación de los Web Services mediante Swagger UI, integrada directamente en el backend desarrollado en Java con Spring Boot.
+
+La especificación cubre todos los endpoints REST de CryoGuard Pro, organizados por bounded contexts de acuerdo con la arquitectura DDD adoptada, detallando métodos HTTP, parámetros, cuerpos de solicitud y respuestas esperadas.
+
+| Bounded Context | Endpoints principales | Métodos HTTP |
+|---|---|---|
+| IAM – Authentication | /api/v1/auth/login, /api/v1/auth/sign-up | POST |
+| IAM – Users | /api/v1/users, /api/v1/users/{userId} | GET, PUT, DELETE |
+| Monitoring – Containers | /api/v1/containers, /api/v1/containers/{id} | GET, POST, PUT, DELETE |
+| Monitoring – Telemetry | /api/v1/containers/{id}/telemetry | GET, POST |
+| Logistics – Routes | /api/v1/routes, /api/v1/routes/{id} | GET, POST, PUT, DELETE |
+| Logistics – Route History | /api/v1/routes/{id}/history, /api/v1/routes/{id}/location | GET, POST |
+| Logistics – Geofences | /api/v1/geofences, /api/v1/geofences/{id} | GET, POST, PUT, DELETE |
+| Evaluation – Alerts | /api/v1/alerts, /api/v1/alerts/{id} | GET, PUT |
+| Evaluation – Monitoring Rules | /api/v1/monitoring-rules | GET, PUT |
+
+## Evidencias
+
+### Authentication
+
+![Authentication](img/authentication.png)
+
+### Users
+
+![Users](img/users.png)
+
+### Containers
+
+![Containers](img/containers.png)
+
+### Routes
+
+![Routes](img/routes.png)
+
+### Geofences
+
+![Geofences](img/geofences.png)
+
+### Alerts
+
+![Alerts](img/alerts.png)
+
+### Monitoring Rules
+
+![Monitoring Rules]( img/rules.png)
+
+---
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+Durante este sprint se realizaron los despliegues de los productos digitales de CryoGuard Pro: la Landing Page, la Aplicación Web y el Backend. El proceso incluyó la configuración de entornos de hosting e integración con servicios de despliegue continuo.
+
+## Despliegue de la Landing Page & Frontend
+
+La Landing Page y Frontend fueron desplegados en Vercel conectando directamente el repositorio desde GitHub. Vercel detecta automáticamente el framework React + Vite y ejecuta el build correspondiente ante cada push en `main`, publicando la nueva versión de forma automática.
+
+![Deployment Frontend](img/deployment-frontend.png)
+
+## Despliegue del Backend
+
+El backend en Java + Spring Boot fue desplegado en una VPS de Hostinger utilizando Dokploy como plataforma de orquestación de contenedores Docker.
+
+![Deployment Backend](img/deployment-backend.png)
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+Durante este sprint, el equipo de desarrollo trabajó de forma colaborativa en la implementación de las principales funcionalidades correspondientes al alcance definido: la Landing Page, la Aplicación Web y el Backend de CryoGuard Pro.
+
+A lo largo del proceso se mantuvo comunicación constante a través de GitHub y los canales del equipo, asegurando una adecuada distribución de tareas.
+
+![Deployment Backend](img/img.png)
+
+![Deployment Backend](img/img1.png)
+---
 # Conclusiones
-## Conclusiones y recomendaciones.
-# Video About-the-Team.
-# Bibliografía
-# Anexos
 
+## TB1
+
+La entrega del Sprint 1 del proyecto CryoGuard Pro ha permitido completar exitosamente los entregables de implementación del producto.
+
+Se desarrolló la Landing Page moderna, la Aplicación Web con 10 páginas funcionales (`Login`, `DashboardHome`, `Monitoring`, `Routes`, `Alerts`, `AuditLogs`, `Reports`, `Containers`, `Users`, `Settings`) y el Backend Services con Spring Boot 4.0.6 implementando los bounded contexts de `iam`, `monitoring`, `logistics` y `evaluation`.
+
+Se configuró la arquitectura DDD en el backend, se implementó autenticación JWT, se documentó la API con Swagger UI en `/swagger-ui.html`, se estableció el despliegue continuo de los productos frontend mediante Vercel y el backend se desplegó en VPS de Hostinger gestionado por Dokploy con Docker.
+
+---
+
+# Bibliografía
+
+- IBM Design Thinking. (s.f.). *As-is scenario map: Build a better understanding of your users' current experience.* IBM. https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map
+
+- IBM Design Thinking. (s.f.). *Empathy map: Build empathy for your users through a conversation informed by your team's observations.* IBM. https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map
+
+- Nielsen Norman Group. (s.f.). *Empathy mapping: The first step in design thinking.* https://www.nngroup.com/articles/empathy-mapping/
+
+- The Markdown Guide. (s.f.). *The Markdown Guide.* https://www.markdownguide.org/
+
+- Fowler, M. (2006, 31 de octubre). *Ubiquitous language.* MartinFowler.com. https://martinfowler.com/bliki/UbiquitousLanguage.html
+
+- Open Practice Library. (s.f.). *Ubiquitous language: Unambiguously define the term and concepts of a business domain.* https://openpracticelibrary.com/practice/ubiquitous-language/
+
+- Spring Boot. (s.f.). *Spring Boot Reference Documentation.* https://spring.io/projects/spring-boot
+
+- React. (s.f.). *React Documentation.* https://react.dev/
+
+- Tailwind CSS. (s.f.). *Tailwind CSS Documentation.* https://tailwindcss.com/
 
 
 
