@@ -74,7 +74,11 @@
     <th>TB1</th>
     <td>14/05/2026</td>
     <td>Todos</td>
+<<<<<<< HEAD
     <td>Capítulo V: Solution UI/UX Design y Capítulo VI: Product Implementation, Validation & Deployment.</td>
+=======
+    <td>Se desarrollo el avance del tb1</td>
+>>>>>>> 3cce3d2 (actualizacion README)
   </tr>
     <tr>
     <th>AV2</th>
@@ -219,7 +223,9 @@
       - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
         - [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
-
+- [Concluciones](#concluciones)
+- [Recomendaciones](#recomendaciones)
+- [Bibliografia](#bibliografia)
 </div>
 
 <div class="page"/>
@@ -240,39 +246,51 @@ ABET – EAC - Student Outcome 4
   </tr>
   <tbody>
     <tr>
-      <td><b>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</b></td>
+      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta</b></td>
       <td>
-        <p><b>Miranda Ayasta, Rogger Faryd</b></p>
-        <p><b>AV1: </b> </p>
-        <p><b>TB1: </b> </p>
-        <p><b>AV2: </b> </p>
-        <p><b>TB2: </b> </p>
-        <p><b>Vargas Javier, Jose Enrique</b></p>
-        <p><b>AV1: </b> </p>
-        <p><b>TB1: </b> </p>
-        <p><b>AV2: </b> </p>
-        <p><b>TB2: </b> </p>
-        <p><b>Sanchez Rios, Camila</b></p>
-        <p><b>AV1: </b>Para esta entrega colabore en la realizacion de los capitulos Capítulo II: Requirements Elicitation & Analysis y Capítulo III: Requirements Specification. Del mismo modo, de elaborar la presentacion para darle un enfoque visual al proyecto.  </p>
-        <p><b>TB1: </b> </p>
-        <p><b>AV2: </b> </p>
-        <p><b>TB2: </b> </p>
         <p><b>Arias Segil, Marllely Anahi</b></p>
-        <p><b>AV1: </b>Al diseñar la arquitectura y los modelos como el EventStorming o el Context Mapping, traté de asegurar que el sistema sea confiable, que permita monitoreo en tiempo real y que reduzca errores humanos. También consideré aspectos como la disponibilidad, la precisión de los datos y la capacidad de funcionar incluso sin conexión.</p>
-        <p><b>TB1: </b> </p>
-        <p><b>AV2: </b> </p>
-        <p><b>TB2: </b> </p>
+        <p><b>AV1: </b> Participé activamente en el liderazgo compartido del proyecto mediante el desarrollo del diseño de software basado en Domain-Driven Design y la elaboración de diagramas de arquitectura del sistema. Mi trabajo implicó coordinar con los demás integrantes para identificar bounded contexts, modelar flujos de dominio y mantener coherencia entre la arquitectura propuesta y los requerimientos definidos previamente. </p>
+        <p><b>TB1: </b> Me encargué del Sprint Planning 1 (sección 6.2.1.1) y la definición de colaboradores por aspecto (sección 6.2.1.2). Estas actividades requirieron organizar la comunicación entre los integrantes del equipo para distribuir las responsabilidades de manera equitativa, considerando las fortalezas y disponibilidad de cada miembro. </p>
         <p><b>Hallasi Saravia, Miguel</b></p>
-        <p><b>AV1: </b>urante el desarrollo de los bounded contexts de Control y Actuación, Operaciones/Flags, Notificaciones y Seguridad/Roles, identifiqué que cada decisión de diseño tiene consecuencias directas sobre la vida de pacientes que dependen de vacunas y medicamentos termosensibles. Para ello, incorporé bloqueos de seguridad que impiden acciones manuales que puedan comprometer los productos, y generé registros auditables de cada override realizado, asegurando que las decisiones queden documentadas y sean rastreables.</p>
-        <p><b>TB1: </b> </p>
-        <p><b>AV2: </b> </p>
-        <p><b>TB2: </b> </p>
+        <p><b>AV1: </b>Participé activamente en el trabajo colaborativo mediante el desarrollo de los bounded contexts y la documentación de las capas de arquitectura relacionadas con el sistema. Mi participación requirió coordinar constantemente con Rogger para definir correctamente los diagramas de componentes, diagramas de clases y el diseño de base de datos, asegurando que cada elemento estuviera alineado con la arquitectura general del proyecto. </p>
+        <p><b>TB1: </b>Contribuí con el equipo mediante la documentación de las evidencias de desarrollo y pruebas del sprint (secciones 6.2.1.4 y 6.2.1.5). Estas secciones son críticas para la Sprint Review, ya que consolidan el trabajo técnico de todo el equipo. Para elaborarlas correctamente, coordiné con mis compañeros la recopilación de evidencias de sus propios avances </p>
+        <p><b>Miranda Ayasta, Rogger Faryd</b></p>
+        <p><b>AV1: </b>Durante el desarrollo del proyecto participé de manera colaborativa en la elaboración de los bounded contexts y en el diseño de las diferentes capas de arquitectura del sistema, incluyendo Domain Layer, Interface Layer, Application Layer e Infrastructure Layer. Mi responsabilidad implicó coordinar con Miguel y con los demás integrantes para asegurar que los diagramas y componentes mantuvieran coherencia con la arquitectura general propuesta. </p>
+        <p><b>TB1: </b>Durante el desarrollo del sprint, me encargué de la documentación de evidencias de servicios para la Sprint Review (sección 6.2.1.7). Esta tarea requirió coordinar con los demás integrantes para recopilar información actualizada sobre los servicios implementados, asegurándome de que los avances individuales quedarán correctamente registrados. </p>
+        <p><b>Sanchez Rios, Camila</b></p>
+        <p><b>AV1: </b>Durante el proyecto trabajé de manera colaborativa en el análisis de requerimientos, participando en actividades como entrevistas, análisis competitivo, needfinding y elaboración de historias de usuario. Mi participación requirió coordinar constantemente con el equipo para validar necesidades reales de los usuarios y transformar esa información en requerimientos funcionales para el sistema. </p>
+        <p><b>TB1: </b>Mi participación fue avanzar el Capítulo V de UI/UX Design, esta sección implicó articular criterios de diseño con los demás integrantes que desarrollaban componentes técnicos, asegurando coherencia entre la interfaz y la implementación de nuestro proyecto. </p>
+        <p><b>Vargas Javier, Jose Enrique</b></p>
+        <p><b>AV1: </b>Durante el desarrollo del proyecto participé activamente en el trabajo colaborativo mediante la elaboración de la introducción del proyecto, el perfil de la startup y el desarrollo del proceso Lean UX. Mi responsabilidad implicó coordinar con el equipo para recopilar información relacionada con la problemática, los segmentos objetivo y las hipótesis planteadas para la solución. </p>
+        <p><b>TB1: </b>Avance la sección 6.1.3 y la gestión del repositorio (sección 6.1.2). Estas decisiones impactaron directamente en cómo todo el equipo organizó y nombró sus contribuciones, por lo que requirieron comunicación constante con los demás integrantes. </p>
       </td>
-      <td></td>
+      <td>En conclusión, durante el desarrollo del proyecto se evidenció un trabajo en equipo constante, donde cada integrante asumió responsabilidades específicas y colaboró activamente en la toma de decisiones y coordinación de actividades. La comunicación continua, la organización conjunta y el apoyo entre los miembros permitieron mantener coherencia entre los requerimientos, el diseño y la arquitectura del sistema. </td>
+      <tr>
+  <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</b></td>
+  <td>
+    <p><b>Arias Segil, Marllely Anahi</b></p>
+    <p><b>AV1: </b>Organicé las actividades relacionadas con el modelado de bounded contexts, context mapping y diagramas arquitectónicos, permitiendo que el equipo tuviera una referencia técnica clara durante el desarrollo.</p>
+    <p><b>TB1: </b>Durante el Sprint Planning 1 y las correcciones del AV1, me encargué de establecer las metas del sprint junto con el equipo, definir los criterios de aceptación de las tareas y distribuir el trabajo de acuerdo con la disponibilidad y capacidad de cada integrante del equipo.</p>
+    <p><b>Hallasi Saravia, Miguel</b></p>
+    <p><b>AV1: </b>Organicé junto a mi compañero las tareas relacionadas con diagramas de código, componentes y base de datos, permitiendo avanzar de forma ordenada en el diseño técnico del sistema. Asimismo, participé en la validación de la estructura propuesta para asegurar que las diferentes capas del sistema estuvieran correctamente integradas.</p>
+    <p><b>TB1: </b>Para cumplir con la sección de Testing Suite Evidence (6.2.1.5), establecí criterios de validación que el equipo debía considerar al desarrollar sus módulos, de modo que las pruebas pudieran realizarse de manera organizada. Esta planificación permitió que la documentación de desarrollo y pruebas se presentara de forma ordenada y dentro de los plazos establecidos por el equipo.</p>
+    <p><b>Miranda Ayasta, Rogger Faryd</b></p>
+    <p><b>AV1: </b>Para cumplir los objetivos del proyecto, coordiné continuamente con Miguel la distribución de tareas relacionadas con diagramas de componentes, clases y diseño de base de datos. Asimismo, mantuve seguimiento sobre la coherencia entre las distintas capas de arquitectura para facilitar el trabajo de implementación del equipo.</p>
+    <p><b>TB1: </b>Me encargué del despliegue de la primera versión del Landing Page y de documentar toda la evidencia de despliegue en la sección 6.2.1.8. Para cumplir este objetivo, planifiqué las tareas de publicación con anticipación, verifiqué que el entorno de despliegue estuviera correctamente configurado y comuniqué los resultados al equipo una vez finalizado el proceso.</p>
+    <p><b>Sanchez Rios, Camila</b></p>
+    <p><b>AV1: </b>Cumplí los objetivos establecidos, planifiqué la documentación de entrevistas, el análisis de competidores y la elaboración de artefactos UX que ayudaron a definir las necesidades de los usuarios. También coordiné con el equipo la validación de historias de usuario y del Product Backlog para mantener coherencia entre los requerimientos y el alcance del sistema.</p>
+    <p><b>TB1: </b>Definí y documenté el entorno de desarrollo de software en la sección 6.1.1, lo que implicó investigar, seleccionar y describir las herramientas que todo el equipo utilizaría durante el proyecto.</p>
+    <p><b>Vargas Javier, Jose Enrique</b></p>
+    <p><b>AV1: </b>Contribuí a crear un entorno colaborativo e inclusivo mediante la planificación y documentación de los apartados iniciales del proyecto, especialmente los relacionados con el enfoque Lean UX y la definición de la problemática.</p>
+    <p><b>TB1: </b>Me encargué de la configuración de despliegue del software (sección 6.1.4) y del Sprint Backlog (sección 6.2.1.3, incluyendo correcciones del AV1). Para ello, planifiqué las tareas de configuración con detalle, establecí los parámetros de despliegue que el equipo debía respetar, y actualicé el backlog incorporando la retroalimentación recibida.</p>
+  </td>
+  <td>
+    El desarrollo del proyecto permitió crear un entorno colaborativo e inclusivo mediante la planificación y organización constante de las actividades asignadas a cada integrante. A través de la definición de metas, la distribución adecuada de tareas, la documentación técnica y la coordinación continua, el equipo logró mantener un trabajo ordenado y alineado con los objetivos del proyecto.
+  </td>
+</tr>
     </tr>
   </tbody>
 </table>
-
 </div>
 
 <div class="page"/>
@@ -308,6 +326,7 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
     </th>
     <td valign="top">
       <p><b>Jose Enrique Vargas Javier</b></p>
+      <p><b>(Ing. Software)</b></p>
       <p>Me considero una persona proactiva, responsable y orientada a la mejora continua. Decidí optar por esta carrera porque siempre me ha motivado comprender cómo funcionan los sistemas y, sobre todo, cómo protegerlos frente a amenazas cada vez más sofisticadas.</p>
     </td>
   </tr>
@@ -317,6 +336,7 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
     </th>
     <td valign="top">
       <p><b>Miranda Ayasta, Rogger Faryd</b></p>
+      <p><b>(Ing. Software)</b></p>
       <p>Soy estudiante de Ingeniería de Software, actualmente curso el 6.º ciclo de la carrera.
       A lo largo de mi formación he aprendido diversos lenguajes de programación, como C++, Python, JavaScript, HTML y CSS Me destaco por mi responsabilidad, mis habilidades para el trabajo en equipo y mi motivación constante por seguir aprendiendo.</p>
     </td>
@@ -327,6 +347,7 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
     </th>
     <td valign="top">
       <p><b>Camila Sanchez Rios</b></p>
+      <p><b>(Ing. Software)</b></p>
       <p>Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el octavo ciclo. Me gusta escuchar música y leer en los ratos libres y aprender más sobre la carrera.</p>
     </td>
   </tr>
@@ -336,6 +357,7 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
     </th>
     <td valign="top">
       <p><b>Miguel Angel Hallasi</b></p>
+      <p><b>(Ing. Software)</b></p>
       <p>Estudiante del séptimo ciclo, motivado por el aprendizaje continuo y la adquisición de nuevas experiencias en desarrollo móvil, diseño de interfaces y trabajo colaborativo.</p>
     </td>
   </tr>
@@ -345,7 +367,8 @@ Nuestra misión es blindar la cadena de frío del sector salud transformando dat
     </th>
     <td valign="top">
       <p><b>Marllely Anahi Arias Segil</b></p>
-      <p>Hola, mi nombre es Marllely Arias Segil. Soy estudiante 
+      <p><b>(Ing. Software)</b></p>
+      <p>Hola, mi nombre es Marllely. Soy estudiante 
       de Ingeniería de Software en la Universidad Peruana de 
       Ciencias Aplicadas (UPC), una persona empática, 
       responsable y comprometida con mi crecimiento 
@@ -3432,6 +3455,8 @@ El bounded context Seguridad / Roles se encarga de la identidad, autenticación,
 
 ![db-security](./assets/Chapter-4/seguridad_roles_db.png)
 
-
+# Concluciones
+# Recomendaciones
+# Bibliografia
 
 
