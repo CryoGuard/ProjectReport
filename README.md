@@ -1,44 +1,53 @@
-﻿<div class="cover" align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/><br>
-  <p><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
-  <p>
-  Ingeniería de Software <br><br>
-  Periodo: 202610 <br><br>
-  1ASI0572 Desarrollo de Soluciones IOT <br><br>
-  NCR: 6772 <br><br>
-  Docente: Marco Antonio Leon Baca <br><br>
-  Informe de Trabajo Final <br><br>
-  StartUp: CryoGuard <br><br>
-  Producto: CryoGuard Pro <br><br>
-  </p>
-  <table align="center">
-    <tr>
-      <th>Member</th>
-      <th>Code</th>
-    </tr>
-    <tr>
-      <td>Arias Segil, Marllely Anahi</td>
-      <td>U202223984</td>
-    </tr>
-    <tr>
-      <td>Hallasi Saravia, Miguel</td>
-      <td>U202312391</td>
-    </tr>
-    <tr>
-      <td>Miranda Ayasta, Rogger Faryd</td>
-      <td>U202319239</td>
-    </tr>
-    <tr>
-      <td>Sanchez Rios, Camila</td>
-      <td>U202210973</td>
-    </tr>
-    <tr>
-      <td>Vargas Javier, Jose Enrique</td>
-      <td>U20221F693</td>
-    </tr>
-  </table>
-  <br><br>
-Abril 2026
+﻿﻿<div class="cover" style="font-family: 'Times New Roman', Times, serif; text-align:center; margin-top:40px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" style="width:120px;" alt="UPC logo"/>
+  <h2 style="margin:8px 0 0;">Universidad Peruana de Ciencias Aplicadas</h2>
+  <h3 style="margin:4px 0;">Facultad de Ingeniería</h3>
+
+  <div style="margin-top:24px; text-align:left; display:inline-block; width:60%;">
+    <p style="margin:4px 0;"><strong>Curso:</strong> 1ASI0572 - Desarrollo de Soluciones IOT</p>
+    <p style="margin:4px 0;"><strong>Periodo:</strong> 202610</p>
+    <p style="margin:4px 0;"><strong>NCR:</strong> 6772</p>
+    <p style="margin:4px 0;"><strong>Docente:</strong> Marco Antonio León Baca</p>
+  </div>
+
+  <h1 style="margin-top:28px; font-size:28px;">“Informe del Trabajo Final”</h1>
+
+  <div style="margin-top:14px;">
+    <p style="margin:4px 0;"><strong>StartUp:</strong> CryoGuard</p>
+    <p style="margin:4px 0;"><strong>Producto:</strong> CryoGuard Pro</p>
+  </div>
+
+  <div style="margin:28px auto; width:72%; text-align:left;">
+    <p style="margin:6px 0;"><strong>Integrantes:</strong></p>
+    <table style="width:100%; border-collapse:collapse; border:1px solid #000;">
+      <tr>
+        <th style="border:1px solid #000; padding:8px; background:#f5f5f5; text-align:left;">Código</th>
+        <th style="border:1px solid #000; padding:8px; background:#f5f5f5; text-align:left;">Apellidos y Nombres</th>
+      </tr>
+      <tr>
+        <td style="border:1px solid #000; padding:8px;">U202223984</td>
+        <td style="border:1px solid #000; padding:8px;">Arias Segil, Marllely Anahi</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #000; padding:8px;">U202312391</td>
+        <td style="border:1px solid #000; padding:8px;">Hallasi Saravia, Miguel</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #000; padding:8px;">U202319239</td>
+        <td style="border:1px solid #000; padding:8px;">Miranda Ayasta, Rogger Faryd</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #000; padding:8px;">U202210973</td>
+        <td style="border:1px solid #000; padding:8px;">Sanchez Rios, Camila</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #000; padding:8px;">U20221F693</td>
+        <td style="border:1px solid #000; padding:8px;">Vargas Javier, Jose Enrique</td>
+      </tr>
+    </table>
+  </div>
+
+  <p style="margin-top:28px;">Lima - Mayo 2026</p>
 </div>
 
 <div class="page"/>
@@ -63,9 +72,9 @@ Abril 2026
   </tr>
     <tr>
     <th>TB1</th>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>14/05/2026</td>
+    <td>Todos</td>
+    <td>Capítulo V: Solution UI/UX Design y Capítulo VI: Product Implementation, Validation & Deployment.</td>
   </tr>
     <tr>
     <th>AV2</th>
@@ -96,20 +105,15 @@ Abril 2026
       <tr>
       <td>Link de los repositorios de la organización</td>
       <td>https://github.com/CryoGuard</td>
-    </tr>
-      <tr>
-      <td>Link del Event Storming</td>
-      <td></td>
-    </tr>
   </table>
 
   <br>
 
   <h6> Evidencias AV1 </h6>
-<img src="img/" alt="User persona - segmento 1" width="600"/>
-
+<img src="img/evidencias av.png" alt="User persona - segmento 1" width="600"/>
 
   <h6> Evidencias TB1 </h6>
+  <img src="img/evidencias tb.png" alt="User persona - segmento 1" width="600"/>
   <h6> Evidencias AV2 </h6>
   <h6> Evidencias TB2 </h6>
 
