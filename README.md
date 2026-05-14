@@ -74,11 +74,7 @@
     <th>TB1</th>
     <td>14/05/2026</td>
     <td>Todos</td>
-<<<<<<< HEAD
     <td>Capítulo V: Solution UI/UX Design y Capítulo VI: Product Implementation, Validation & Deployment.</td>
-=======
-    <td>Se desarrollo el avance del tb1</td>
->>>>>>> 3cce3d2 (actualizacion README)
   </tr>
     <tr>
     <th>AV2</th>
@@ -185,7 +181,11 @@
       - [**Bounded Context: Notification Management**](#bounded-context-notification-management)
       - [**Bounded Context: IAM**](#bounded-context-iam)
     - [4.1.2 Context Mapping.](#412-context-mapping)
-    - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams.](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
     - [4.2.4. Bounded Context: Control y Actuación](#424-bounded-context-control-y-actuación)
       - [4.2.4.1. Domain Layer](#4241-domain-layer)
@@ -1093,12 +1093,14 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 ### 2.3.1. User Personas
 
 **Segmento 1: Centros de salud rurales o urbanos**
-<img src="assets/Chapter-2/Luis Mendoza.png" alt="User persona - segmento 1" width="600"/>
+
+<img src="assets/Chapter-2/Luis Mendoza.png" alt="User persona - segmento 1" width="400"/>
 
 _Imagen (N°2). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: ONGs y gestores de logística sanitaria**
-<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="600"/>
+
+<img src="assets/Chapter-2/Elena Quispe.png" alt="User persona - segmento 2" width="400"/>
 
 _Imagen (N°3). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
@@ -1142,12 +1144,14 @@ _Imagen (N°3). Elaboración propia. Realizado en UXPressia_
 ### 2.3.3. User Journey Mapping
 
 **Segmento 1: Centros de salud rurales o urbanos**
-<img src="assets/Chapter-2/Customer journey map 1.png" alt="User persona - segmento 2" width="600"/>
+
+<img src="assets/Chapter-2/Customer journey map 1.png" alt="User persona - segmento 2" width="400"/>
 
 _Imagen (N°4). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: ONGs y gestores de logística sanitaria)**
-<img src="assets/Chapter-2/Customer journey map 2.png" alt="User persona - segmento 2" width="600"/>
+
+<img src="assets/Chapter-2/Customer journey map 2.png" alt="User persona - segmento 2" width="400"/>
 
 _Imagen (N°5). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
@@ -1155,12 +1159,14 @@ _Imagen (N°5). Elaboración propia. Realizado en UXPressia_
 ### 2.3.4. Empathy Mapping
 
 **Segmento 1: Centros de salud rurales o urbanos**
-<img src="assets/Chapter-2/Empathy Mapping1.png" alt="User persona - segmento 2" width="600"/>
+
+<img src="assets/Chapter-2/Empathy Mapping1.png" alt="User persona - segmento 2" width="400"/>
 
 _Imagen (N°6). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
-<img src="assets/Chapter-2/Empathy Mapping2.png" alt="User persona - segmento 2" width="600"/>
+
+<img src="assets/Chapter-2/Empathy Mapping2.png" alt="User persona - segmento 2" width="400"/>
 
 _Imagen (N°7). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
@@ -2975,12 +2981,14 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 El siguiente mapa de impacto conecta el objetivo de negocio con actores, impactos deseados y entregables del producto.
 
 **Segmento #1: Centros de salud rurales o urbanos**
-<img src="assets/Chapter-3/Impact map CryoGuard (1).png" alt="Impact Mapping - segmento 1" width="600"/>
+
+<img src="assets/Chapter-3/Impact map CryoGuard (1).png" alt="Impact Mapping - segmento 1" width="400"/>
 
 _Imagen (N°8). Elaboración propia. Realizado en UXPressia_
 
 **Segmento #2: ONGs y gestores de logística sanitaria (ej. UNICEF, MINSA, OPS, Cruz Roja)**
-<img src="assets/Chapter-3/Impact map CryoGuard (2).png" alt="Impact Mapping - segmento 2" width="600"/>
+
+<img src="assets/Chapter-3/Impact map CryoGuard (2).png" alt="Impact Mapping - segmento 2" width="400"/>
 
 _Imagen (N°9). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
@@ -3175,8 +3183,31 @@ Finalmente, se seleccionó la aproximación más adecuada en función de la mant
   <img src="assets/Chapter-4/contextMapping.jpg" width="650"/>
 </p>
 
-### 4.1.3.1 Software Architecture System Landscape Diagram
+### 4.1.3. Software Architecture 
 
+#### 4.1.3.1 Software Architecture System Landscape Diagram
+
+<p align="center">
+  <img src="assets/Chapter-4/landscape diagram.png" width="650"/>
+</p>
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams.
+
+<p align="center">
+  <img src="assets/Chapter-4/cap2.png" width="650"/>
+</p>
+
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+
+<p align="center">
+  <img src="assets/Chapter-4/container.png" width="650"/>
+</p>
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+
+<p align="center">
+  <img src="assets/Chapter-4/cap4 3.png" width="650"/>
+</p>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
